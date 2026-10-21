@@ -26,3 +26,9 @@ Filtros F1–F8 definidos en `00_CRITERIOS.md`. ✅ pasa · ❌ no pasa · ⚠�
 
 ## Actualización Día 2 (2026-10-20)
 Ver `04_DEMANDA_Y_COMPETENCIA.md`. L10 descartada. Prioridad provisional: L5 > L1+L7 > (L11 | L2). L3 baja por competencia gratuita experta. L8 se integra como bonus de L1.
+
+## Actualización Día 3 (2026-10-21)
+Ver `05_SENALES_BUSQUEDA_Y_TAM.md`.
+- **L13 (nueva): planificador de estudio para opositores** → PASA el filtro (F5 ⚠️). Detectada por el autocompletado: "oposiciones" aparece en 3 de 5 familias de búsqueda de estudio.
+- **L5 se estrecha a un vertical:** las búsquedas por oficio genérico no tienen autocompletado; **inmobiliarias** sí (10 variantes), y estética después.
+- Prioridad provisional: **L13 ≈ L5-inmobiliarias > L1+L7** (L7 como motor común de L1 y L13). L2, L3 y L11 quedan en reserva.

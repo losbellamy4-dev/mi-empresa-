@@ -47,3 +47,25 @@ Diario del proyecto. Una entrada por sesión. Fecha límite de entrega: 15 de ma
 **Bloqueos**: ninguno que requiera al humano.
 
 **Primera tarea de mañana**: buscar volúmenes de búsqueda reales (Trends, autocompletado, artículos SEO) para "plantillas instagram [oficio]" y "planner estudiante"; identificar los verticales de plantillas para negocios que más venden.
+
+---
+
+## Día 3 — 2026-10-21 (Fase 1: Investigación)
+
+**Avances**
+- Continuidad: esta sesión arrancó con el estado del Día 1. Encontré el Día 2 en otra rama (`claude/confident-tesla-lauy9y`) y lo integré. Añadí una nota de continuidad al `README.md`.
+- `investigacion/05_SENALES_BUSQUEDA_Y_TAM.md`: medí demanda con el autocompletado de Google (script reproducible y datos brutos en `investigacion/datos/`).
+- Primer TAM/SAM/SOM: L5-inmobiliarias 112–559 €, L1+L7 71–355 €, L13 265–795 € (SOM en 7–12 meses, supuestos conservadores marcados [E]).
+- Licencia de Canva verificada: se pueden vender plantillas propias; con elementos Pro, solo como enlace de plantilla.
+
+**Decisiones**
+- **Nueva idea L13: planificador de estudio para opositores.** El comprador es un adulto con dinero, la necesidad dura años, hay competencia escasa en 10–20 € y comparte motor con L7.
+- **L5 se estrecha a inmobiliarias.** Ninguna búsqueda "plantillas instagram [oficio]" tiene autocompletado; "plantillas inmobiliarias" tiene 10 variantes.
+
+**Aprendizaje honesto**
+- La demanda de estudiantes está muy orientada a "gratis": encaja mejor como imán de tráfico que como fuente de ingresos.
+- Ninguna idea llega a 500 € en su rango bajo. El parámetro decisivo será la tasa de captura, y el simulador debe tratarla como distribución.
+
+**Bloqueos**: ninguno que requiera al humano.
+
+**Primera tarea de mañana**: buscar datos reales para los % de SAM (uso de herramientas digitales entre opositores, inmobiliarias en Instagram) y hacer la puntuación formal P1–P6 de las tres candidatas.
