@@ -7,9 +7,17 @@
   "decision_pendiente": "Elegir idea entre las finalistas A (opositores, recomendada), B (inmobiliarias) o C (estudiantes). Ver investigacion/FINALISTAS.md y 🔴_ACCION_REQUERIDA.md. Responder en negocio/RESPUESTA_HUMANO.md.",
   "ultima_sesion": "2026-10-23",
   "hecho_ultima_sesion": "Día 4: datos reales de opositores (OpositaTest 2025/2026), competencia profunda de L13 y L5-inmobiliarias, puntuación P1–P6, FINALISTAS.md v1 (criterio de salida de Fase 1 cumplido), vista previa Monte Carlo de las 3 finalistas (simulador/sim_preview.py).",
-  "siguiente_tarea": "Si hay RESPUESTA_HUMANO.md: registrar la elección y pasar a Fase 2. Si no: preparar Fase 2 para las 3 ideas — investigar benchmarks reales de tráfico (SEO de herramientas gratuitas, Etsy/Pinterest), conversión de Etsy y de landings de productos digitales; empezar modelo/modelo.md y el simulador completo con análisis de sensibilidad.",
-  "finalistas": {"A": "L13+L7 opositores", "B": "L5 inmobiliarias", "C": "L1+L7 estudiantes"},
+  "siguiente_tarea": "Comprobar RESPUESTA_HUMANO.md en todas las ramas. Si no hay: Fase 2 para las 3 ideas — escribir modelo/modelo.md con embudo de dos etapas (visita→generador→compra) y retraso SEO de 3–5 meses (ver investigacion/06_BENCHMARKS_FASE2.md); buscar datos de Pinterest/Etsy para recién llegados y CTR por posición en Google; luego el simulador completo con sensibilidad.",
+  "finalistas": {
+    "A": "L13+L7 opositores",
+    "B": "L5 inmobiliarias",
+    "C": "L1+L7 estudiantes"
+  },
   "recomendacion": "A",
-  "preview_prob_500": {"A": 0.42, "B": 0.35, "C": 0.23},
+  "preview_prob_500": {
+    "A": 0.42,
+    "B": 0.35,
+    "C": 0.23
+  },
   "nota_ramas": "Día 2 en lauy9y, Día 3 en ise0l1; integrados por fast-forward en claude/confident-tesla-fnmjjw el Día 4."
 }

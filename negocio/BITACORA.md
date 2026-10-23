@@ -91,4 +91,6 @@ Diario del proyecto. Una entrada por sesión. Fecha límite de entrega: 15 de ma
 
 **Bloqueos**: elección de idea (🔴 humano). No impide trabajar.
 
-**Primera tarea de mañana**: comprobar `RESPUESTA_HUMANO.md` en todas las ramas; si no hay, buscar benchmarks reales de tráfico y conversión para el simulador de la Fase 2.
+- Extra: `investigacion/06_BENCHMARKS_FASE2.md` con conversión en Etsy (1–3 %), embudo gratis→pago (≈0,35 % de visita a pago) y retraso del SEO (4–6 meses). **La vista previa probablemente sobreestima A y C**: lo corregirá el simulador de Fase 2.
+
+**Primera tarea de mañana**: comprobar `RESPUESTA_HUMANO.md` en todas las ramas; si no hay, escribir `modelo/modelo.md` (embudo de dos etapas y retraso SEO) para las tres ideas.
