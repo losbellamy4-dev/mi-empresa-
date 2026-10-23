@@ -1,14 +1,15 @@
 {
   "fase": 1,
-  "dia_global": 4,
+  "dia_global": 5,
   "idea_elegida": null,
   "checkpoints": [],
   "bloqueado_por_humano": false,
-  "decision_pendiente": null,
-  "ultima_sesion": "2026-10-21",
-  "hecho_ultima_sesion": "Día 3: señales de búsqueda vía autocompletado de Google (05_SENALES_BUSQUEDA_Y_TAM.md + datos/); nueva idea L13 (planificador para opositores); L5 estrechada a inmobiliarias; primer TAM/SAM/SOM de L5, L1+L7, L13; licencia de Canva verificada.",
-  "siguiente_tarea": "Sustituir supuestos de SAM por datos reales (opositores que usan herramientas digitales/academias online; inmobiliarias activas en Instagram); competencia profunda de L13 (Redopositor, apps de oposiciones); puntuación formal P1–P6 de L13, L5-inmobiliarias y L1+L7; borrador de FINALISTAS.md.",
-  "ideas_vivas": ["L13", "L5-inmobiliarias", "L1+L7", "L11", "L2", "L3"],
-  "ranking_provisional": ["L13", "L5-inmobiliarias", "L1+L7"],
-  "nota_ramas": "Día 2 estaba en origin/claude/confident-tesla-lauy9y; integrado por fast-forward en claude/confident-tesla-ise0l1 el Día 3."
+  "decision_pendiente": "Elegir idea entre las finalistas A (opositores, recomendada), B (inmobiliarias) o C (estudiantes). Ver investigacion/FINALISTAS.md y 🔴_ACCION_REQUERIDA.md. Responder en negocio/RESPUESTA_HUMANO.md.",
+  "ultima_sesion": "2026-10-23",
+  "hecho_ultima_sesion": "Día 4: datos reales de opositores (OpositaTest 2025/2026), competencia profunda de L13 y L5-inmobiliarias, puntuación P1–P6, FINALISTAS.md v1 (criterio de salida de Fase 1 cumplido), vista previa Monte Carlo de las 3 finalistas (simulador/sim_preview.py).",
+  "siguiente_tarea": "Si hay RESPUESTA_HUMANO.md: registrar la elección y pasar a Fase 2. Si no: preparar Fase 2 para las 3 ideas — investigar benchmarks reales de tráfico (SEO de herramientas gratuitas, Etsy/Pinterest), conversión de Etsy y de landings de productos digitales; empezar modelo/modelo.md y el simulador completo con análisis de sensibilidad.",
+  "finalistas": {"A": "L13+L7 opositores", "B": "L5 inmobiliarias", "C": "L1+L7 estudiantes"},
+  "recomendacion": "A",
+  "preview_prob_500": {"A": 0.42, "B": 0.35, "C": 0.23},
+  "nota_ramas": "Día 2 en lauy9y, Día 3 en ise0l1; integrados por fast-forward en claude/confident-tesla-fnmjjw el Día 4."
 }

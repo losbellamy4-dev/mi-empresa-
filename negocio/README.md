@@ -8,3 +8,4 @@
 
 ## Nota de continuidad (para la tarea programada)
 Cada sesión puede arrancar en una rama `claude/*` distinta, y alguna puede partir de un estado antiguo. **Al iniciar:** `git fetch origin` y comprobar qué rama tiene el `dia_global` más alto en `negocio/ESTADO.json` (`git log --all`); integrar esa rama antes de trabajar.
+- **Respuestas del humano:** al iniciar, buscar `negocio/RESPUESTA_HUMANO.md` en todas las ramas (`git log --all -- negocio/RESPUESTA_HUMANO.md`), no solo en la actual.

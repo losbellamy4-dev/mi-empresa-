@@ -69,3 +69,26 @@ Diario del proyecto. Una entrada por sesión. Fecha límite de entrega: 15 de ma
 **Bloqueos**: ninguno que requiera al humano.
 
 **Primera tarea de mañana**: buscar datos reales para los % de SAM (uso de herramientas digitales entre opositores, inmobiliarias en Instagram) y hacer la puntuación formal P1–P6 de las tres candidatas.
+
+---
+
+## Día 4 — 2026-10-23 (Fase 1 → cierre; esperando elección)
+
+**Avances**
+- Continuidad: arrancó con el estado del Día 1; integré el Día 3 (`ise0l1`, que ya contenía el Día 2) por fast-forward.
+- Datos reales de opositores [S] (OpositaTest 2025/2026): la mitad prepara por libre, gasto medio de 81 €/mes, el 52 % trabaja a jornada completa, el 84 % hace test online y el 27 % usa IA.
+- Competencia de L13: el kit de PreparaOposiciones es **gratis** (cebo para una suscripción), OpoPlan de OpositApp es freemium y Redopositor cuesta 49–79 €. El hueco está en una herramienta de 12–19 € sin suscripción.
+- Competencia de L5-inmobiliarias: pack de 21 posts a 12 $ en Gumroad, kits en Etsy de 11–46 €, plantillas gratis de Canva y SocialPilot. No encontré ningún dato sectorial de uso de redes.
+- **`investigacion/FINALISTAS.md` v1**: A opositores 3,50 · B inmobiliarias 3,35 · C estudiantes 3,05. Recomiendo A.
+- **Vista previa de simulación** (`simulador/sim_preview.py`, solo librería estándar): P(≥ 500 € en 12 meses) ≈ A 42 % · B 35 % · C 23 %. **Las tres medianas quedan por debajo de 500 €.**
+
+**Decisiones**
+- Se cumple el criterio de salida de Fase 1 → 🔴 decisión pendiente del humano (`🔴_ACCION_REQUERIDA.md`). No se bloquea: la Fase 2 se prepara en paralelo.
+- El SAM de L13 baja de 30.000 a 15.000–45.000 al descontar a quienes ya tienen el plan de su academia.
+
+**Aprendizaje honesto**
+- Con supuestos razonables, lo más probable es **no** llegar a 500 €. El tráfico es la variable dominante. La Fase 2 debe acotarla con datos, y el producto tiene que diseñarse para conseguir tráfico (generador gratis, SEO), no solo para vender.
+
+**Bloqueos**: elección de idea (🔴 humano). No impide trabajar.
+
+**Primera tarea de mañana**: comprobar `RESPUESTA_HUMANO.md` en todas las ramas; si no hay, buscar benchmarks reales de tráfico y conversión para el simulador de la Fase 2.
