@@ -18,7 +18,10 @@ Investigado el 2026-10-19. **[V]** = confirmado en fuente oficial; **[S]** = fue
 ## Restricciones de edad (el dueño tiene 14 años)
 - **Stripe** [V]: mínimo 13 años para cuenta Standard; si <18, un tutor legal debe figurar como titular antes de cobrar o transferir fondos. Express/Custom: 18+. ([support.stripe.com](https://support.stripe.com/questions/can-i-use-stripe-if-i-am-under-18))
 - **Fiverr** [V]: 13–17 solo mediante cuenta del padre/madre/tutor.
-- **Etsy, Gumroad, Payhip, Lemon Squeezy**: edad mínima no verificada hoy → asumir 18+ y **cuenta a nombre del adulto**. 🔴 Pendiente de verificar en sus términos oficiales.
+- **Etsy** [V]: titulares 18+; menores de 13 prohibidos; **13–17 solo con cuenta a nombre del padre/madre/tutor**, que es responsable y debe figurar en "Acerca de" de la tienda. ([help.etsy.com](https://help.etsy.com/hc/en-gb/articles/360040983333-Can-Minors-Sell-on-Etsy), [Términos](https://etsy.com/legal/terms)) — verificado 2026-10-24.
+- **Gumroad** [S]: sus términos (copia vista en un producto, no en la página oficial) dicen que **no se permite el uso a menores de 18**. → solo con cuenta del adulto.
+- **Lemon Squeezy** [V]: los términos no fijan edad, pero exigen capacidad para firmar el contrato y "un negocio lícito" (secc. 9.1). → titular adulto. ([lemonsqueezy.com/terms](https://www.lemonsqueezy.com/terms))
+- **Payhip** [V]: los términos no fijan edad; relación "business to business" y exige cuenta activa de PayPal o Stripe (ambas 18+ o tutor). → titular adulto. ([payhip.com/terms](https://payhip.com/terms))
 
 → Implicación de diseño: TODO el cobro va a nombre del adulto responsable. El dueño crea el producto y la web; el adulto es el titular comercial.
 

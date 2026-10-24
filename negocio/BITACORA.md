@@ -24,3 +24,24 @@ Diario del proyecto. Una entrada por sesión. Fecha límite de entrega: 15 de ma
 **Bloqueos**: ninguno. Nada requiere al humano todavía.
 
 **Primera tarea de mañana**: validar demanda y competencia en español de L1 (planners de estudio), L3 (imprimibles educativos) y L5 (plantillas Canva para negocios locales).
+
+---
+
+## Día 2 — 2026-10-24 (Fase 1: Investigación)
+
+**Avances**
+- Nuevo `investigacion/04_DEMANDA_Y_COMPETENCIA.md`: oferta y precios en español para L1 (1–14 €, sobre todo agendas para docentes y Notion), L11 (no se encontraron mazos Anki para la PAU → mayor hueco), L3 (docentes venden a 2–8,50 €), L5 (packs a 10–20 €, pero Canva regala plantillas parecidas).
+- Datos de público: ESO ≈ 2,07 M y Bachillerato ≈ 0,71 M alumnos (previsión del Ministerio 2025-26); ≈ 340.000 hacen la PAU cada año [E].
+- Edad mínima verificada: Etsy (13–17 solo con cuenta del tutor), Lemon Squeezy y Payhip (exigen negocio lícito / PayPal-Stripe → titular adulto), Gumroad 18+ (fuente secundaria). Actualizado `02_PLATAFORMAS_Y_COSTES.md`.
+- L10 (Minecraft) **descartada**: las normas de Mojang no permiten cobrar por add-ons fuera del Marketplace.
+
+**Decisiones**
+- Ranking provisional: L1+L7 (3,4) > L11 (3,1) > L5 (2,8) > L3 (2,4). L2 sin puntuar aún.
+- Nueva candidata a estudiar: **kit de estudio combinado (L1+L7+L11)**, con una herramienta web gratuita como imán de tráfico.
+
+**Limitaciones honestas**
+- Etsy bloquea la lectura automática (403): no he podido contar reseñas en español. Sin acceso a datos de volumen de búsqueda; la demanda se infiere de la oferta existente.
+
+**Bloqueos**: ninguno. Nada requiere al humano todavía.
+
+**Primera tarea de mañana**: investigar L2 (finanzas personales) y los canales de tráfico accesibles a un menor (normas de edad de TikTok/YouTube/Pinterest), para estimar visitas alcanzables (SOM).
