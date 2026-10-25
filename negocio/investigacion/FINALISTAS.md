@@ -16,7 +16,9 @@ Las tres ideas pasan los filtros F1–F8 de `00_CRITERIOS.md` y se puntúan con 
 | B | L5: plantillas Canva para redes de **inmobiliarias** en español | 17 € (pack) | ≈ 12,64 € | ≈ 40 | 3,35 |
 | C | L1 + L7: planner de estudio para ESO/Bachillerato con generador de horario gratis | 7 € | ≈ 5,08 € | ≈ 99 | 3,05 |
 
-**Recomendación: A (opositores).** La razón está al final. **La decisión es tuya** (ver `../🔴_ACCION_REQUERIDA.md`).
+> **Actualización Día 5:** el simulador completo (`../modelo/VEREDICTO.md`) da P(≥ 500 €) A 22 % · B 39 % · C 9 %, y la recomendación pasa a **B**. El texto de abajo es la versión 1 (Día 4).
+
+**Recomendación v1 (Día 4): A (opositores).** La razón está al final. **La decisión es tuya** (ver `../🔴_ACCION_REQUERIDA.md`).
 
 ---
 

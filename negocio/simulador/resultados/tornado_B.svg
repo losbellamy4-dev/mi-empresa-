@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="304" font-family="sans-serif" font-size="12">
+<rect width="100%" height="100%" fill="#fff"/>
+<text x="10" y="20" font-size="14" font-weight="bold">B: sensibilidad (p10 ↔ p90, resto en mediana)</text>
+<text x="114" y="57" text-anchor="end">etsy_max</text>
+<rect x="120.0" y="44" width="490.0" height="20" fill="#457b9d"/>
+<text x="114" y="85" text-anchor="end">p_etsy</text>
+<rect x="145.6" y="72" width="222.5" height="20" fill="#457b9d"/>
+<text x="114" y="113" text-anchor="end">seo_max</text>
+<rect x="189.1" y="100" width="129.9" height="20" fill="#457b9d"/>
+<text x="114" y="141" text-anchor="end">p_directa</text>
+<rect x="188.5" y="128" width="88.2" height="20" fill="#457b9d"/>
+<text x="114" y="169" text-anchor="end">red_base</text>
+<rect x="205.6" y="156" width="54.2" height="20" fill="#457b9d"/>
+<text x="114" y="197" text-anchor="end">tau_etsy</text>
+<rect x="201.1" y="184" width="26.1" height="20" fill="#457b9d"/>
+<text x="114" y="225" text-anchor="end">tau_seo</text>
+<rect x="207.3" y="212" width="18.0" height="20" fill="#457b9d"/>
+<text x="114" y="253" text-anchor="end">retraso_seo</text>
+<rect x="206.1" y="240" width="16.7" height="20" fill="#457b9d"/>
+<line x1="214.1" y1="34" x2="214.1" y2="270" stroke="#000"/>
+<text x="214.1" y="284" text-anchor="middle">base 262 €</text>
+<line x1="356.6" y1="34" x2="356.6" y2="270" stroke="#d62828" stroke-dasharray="4"/>
+<text x="356.6" y="30" text-anchor="middle" fill="#d62828">500 €</text></svg>

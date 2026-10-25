@@ -1,4 +1,4 @@
-# SIGUIENTE: reemplazar este preview por el simulador de Fase 2 (embudo de 2 etapas + retraso SEO; ver investigacion/06_BENCHMARKS_FASE2.md)
+# SUPERADO el Día 5 por simulador.py (se conserva como histórico de la vista previa del Día 4)
 """Vista previa del simulador (preparación de Fase 2, Día 4).
 
 NO es el simulador final. Sirve para comparar las 3 finalistas con el mismo

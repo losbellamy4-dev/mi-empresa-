@@ -94,3 +94,29 @@ Diario del proyecto. Una entrada por sesión. Fecha límite de entrega: 15 de ma
 - Extra: `investigacion/06_BENCHMARKS_FASE2.md` con conversión en Etsy (1–3 %), embudo gratis→pago (≈0,35 % de visita a pago) y retraso del SEO (4–6 meses). **La vista previa probablemente sobreestima A y C**: lo corregirá el simulador de Fase 2.
 
 **Primera tarea de mañana**: comprobar `RESPUESTA_HUMANO.md` en todas las ramas; si no hay, escribir `modelo/modelo.md` (embudo de dos etapas y retraso SEO) para las tres ideas.
+
+---
+
+## Día 5 — 2026-10-25 (Fase 2: modelo y simulador · elección pendiente)
+
+**Avances**
+- Continuidad: la sesión arrancó otra vez desde el Día 1. Integré el Día 4 (`fnmjjw`) por fast-forward. `odi82r` y `kmq0em` son Días 2 duplicados de otras sesiones y los descarté. No hay `RESPUESTA_HUMANO.md` en ninguna rama.
+- `investigacion/07_BENCHMARKS_TRAFICO.md`: CTR por posición (la 1.ª bajó al ≈ 19 % por los resúmenes de IA), anécdotas de Pinterest y de tiendas Etsy nuevas (≈ 380 visitas/mes y 1,5 % de conversión en un caso).
+- `modelo/modelo.md` v1: tres canales (SEO con retraso de 3–6 meses, redes del dueño con abandono, Etsy), embudo de dos etapas, estacionalidad, comisiones e IVA.
+- `simulador/simulador.py` (Python estándar): escenarios, Monte Carlo de 20.000 corridas, tornado, correlación de rangos y gráficas SVG en `simulador/resultados/`. Tarda unos 4 s.
+- `modelo/VEREDICTO.md` v1 (provisional).
+
+**Resultados (estimaciones, no garantías)**
+- P(≥ 500 € en 12 meses): **A 22 % · B 39 % · C 9 %**. Caso base: A 151 €, B 262 €, C 79 €. **Ninguna idea llega en el caso base.**
+- Primera corrida: B 55 % frente a A 7 %, pero la comparación no era justa (A no tenía canal Etsy y el rango de Etsy de B era alto). Corregido: A con Etsy y el rango de B bajado a 20–800 visitas/mes.
+
+**Decisiones**
+- La recomendación cambia de A a **B**, aunque A sigue siendo una alternativa razonable. Actualizado el 🔴.
+- Según la regla de la Fase 2, toca **ajustar la idea** antes de construir, no avanzar a la Fase 3.
+
+**Aprendizaje honesto**
+- La vista previa del Día 4 sobreestimaba A por el doble. El canal que da ventas pronto (Etsy) pesa más que el SEO en un horizonte de 12 meses.
+
+**Bloqueos**: elección de idea (🔴 humano). Recomendado: cambiar la rama por defecto del repo para que cada sesión arranque con el último estado.
+
+**Primera tarea de mañana**: simular los ajustes (ticket más alto, catálogo A+B, producto escalera en Etsy) y escribir el VEREDICTO v2.

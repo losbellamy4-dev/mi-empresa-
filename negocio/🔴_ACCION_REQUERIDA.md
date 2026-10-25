@@ -1,25 +1,27 @@
-# 🔴 ACCIÓN REQUERIDA — Elegir la idea de negocio
+# 🔴 ACCIÓN REQUERIDA (actualizado el Día 5, 2026-10-25)
 
-**Fecha:** 2026-10-23 (Día 4) · **Quién:** Adrián (con un adulto si quiere opinar)
+## 1. Elegir la idea de negocio — ⚠️ la recomendación ha cambiado
+**Quién:** Adrián (con un adulto si quiere opinar)
 
-La Fase 1 tiene ya 3 finalistas. Lee `investigacion/FINALISTAS.md` (10 minutos) y elige una:
+El simulador completo de la Fase 2 (`modelo/VEREDICTO.md`) corrige la vista previa del Día 4:
 
-| | Idea | Nota | P(≥ 500 €) vista previa* |
-|---|---|---|---|
-| **A** | Planificador de estudio para **opositores** + generador de calendario gratis en la web | 3,50 | 42 % |
-| B | Plantillas Canva en español para **inmobiliarias** | 3,35 | 35 % |
-| C | Planner para **estudiantes de ESO/Bachillerato** + generador de horario gratis | 3,05 | 23 % |
+| | Idea | Nota Fase 1 | P(≥ 500 €) Día 4 (vista previa) | **P(≥ 500 €) Día 5 (simulador)** |
+|---|---|---|---|---|
+| A | Planificador para **opositores** + generador gratis | 3,50 | 42 % | **22 %** |
+| **B** | Plantillas Canva para **inmobiliarias** | 3,35 | 35 % | **39 %** |
+| C | Planner para **estudiantes** + generador gratis | 3,05 | 23 % | **9 %** |
 
-\* Estimación de un modelo con supuestos, no una garantía. Ver `simulador/resultados/preview_finalistas.md`.
+\* Estimaciones de un modelo con supuestos conservadores, no garantías. **En el caso base, ninguna llega a 500 €.** Por eso, la idea elegida se ajustará (precio, catálogo, Etsy) antes de construirla.
 
-**Mi recomendación: A.** Usa el mismo motor (el generador) para estudiantes y opositores, el comprador ya gasta dinero en prepararse, y se apoya en construir una herramienta web, no en diseño profesional ni en vender a empresas.
+**Mi recomendación ahora: B**, porque Etsy le da ventas sin esperar a Google. Pero B exige cuidar el diseño y vender a profesionales. **A sigue siendo razonable** si prefieres construir una herramienta web. Detalle: `investigacion/FINALISTAS.md` y `modelo/VEREDICTO.md`.
 
-## Cómo responder
-Crea el archivo `negocio/RESPUESTA_HUMANO.md` en GitHub (en la rama `claude/confident-tesla-fnmjjw` o en cualquier rama del repo; la tarea revisa todas) con una línea, por ejemplo:
-
+### Cómo responder
+Crea `negocio/RESPUESTA_HUMANO.md` en **cualquier rama** del repo (la tarea revisa todas) con:
 ```
-Elijo: A
+Elijo: B
 Comentarios: (opcional)
 ```
 
-Mientras no respondas, el proyecto **no se para**: sigo preparando el simulador de la Fase 2 para las tres ideas.
+## 2. (Recomendado, 2 minutos) Arreglar la continuidad entre sesiones
+Cada sesión diaria arranca desde la rama por defecto del repo (`claude/confident-tesla-2gx72p`), que se quedó en el Día 1. La tarea encuentra el trabajo más reciente en otras ramas y lo integra, pero a veces una sesión repite trabajo (el 25-oct se rehízo un Día 2 en `odi82r`).
+**Solución:** en GitHub → *Settings → General → Default branch*, cambia la rama por defecto a `claude/confident-tesla-bb8zsu` (la más avanzada, Día 5). No cuesta dinero ni requiere datos personales.
