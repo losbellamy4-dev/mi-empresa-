@@ -1,12 +1,14 @@
 {
   "fase": 1,
-  "dia_global": 2,
+  "dia_global": 3,
   "idea_elegida": null,
   "checkpoints": [],
   "bloqueado_por_humano": false,
   "decision_pendiente": null,
-  "ultima_sesion": "2026-10-19",
-  "hecho_ultima_sesion": "Día 1: estructura creada; criterios de filtro fijados; investigación de plataformas/comisiones/edad; panorama de 6 modelos; lista larga de 12 ideas con primer filtro (7 pasan, 4 descartadas, 1 dudosa).",
-  "siguiente_tarea": "Validar demanda y competencia en español para L1, L3, L5 (luego L2, L7, L11); revisar EULA Minecraft (L10); verificar edad mínima en términos de Etsy/Payhip/Lemon Squeezy/Gumroad.",
-  "ideas_vivas": ["L1", "L2", "L3", "L5", "L7", "L8", "L11", "L10?"]
+  "ultima_sesion": "2026-10-25",
+  "hecho_ultima_sesion": "Día 2: edad mínima verificada (Etsy oficial: menores 13-17 solo vía cuenta del tutor); L10 descartada; datos oficiales de matrícula ESO/Bach; demanda y competencia de L1, L2, L3, L5, L7, L11; puntuación preliminar (L1 lidera con 3,85); L13 Notion integrada en L1; esqueleto del simulador funcionando (P(>=500€) ~6 % con supuestos genéricos; la variable dominante es el tráfico).",
+  "siguiente_tarea": "Buscar 2-3 ideas/variantes nuevas de ticket más alto o con canal de tráfico propio para completar 3 finalistas fuertes; cuantificar tráfico realista de Etsy para tienda nueva y de Pinterest/SEO; verificar reglas de TikTok para 13-15 años en la UE; profundizar L5 en un nicho vertical concreto.",
+  "ideas_vivas": ["L1", "L5", "L3", "L7 (canal de L1)", "L8 (bonus de L1)", "L2 (débil)", "L11 (débil)"],
+  "ideas_descartadas": ["L4", "L6", "L9", "L10", "L12"],
+  "puntuacion_preliminar": {"L1": 3.85, "L5": 3.0, "L3": 3.0, "L11": 2.4, "L2": 2.25}
 }

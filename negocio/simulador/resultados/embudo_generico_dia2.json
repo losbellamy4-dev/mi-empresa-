@@ -1,0 +1,214 @@
+{
+  "umbral_eur": 500,
+  "meses": 7,
+  "escenarios": {
+    "pesimista": {
+      "parametros": {
+        "precio": 5.0,
+        "conversion": 0.005,
+        "visitas_iniciales": 50,
+        "crecimiento": 0.15,
+        "techo_visitas": 600,
+        "comision_pct": 0.12,
+        "comision_fija": 0.3,
+        "coste_fijo_mensual": 1.0
+      },
+      "meses": [
+        {
+          "mes": 1,
+          "visitas": 50,
+          "ventas": 0.25,
+          "neto": 0.03,
+          "acumulado": 0.03
+        },
+        {
+          "mes": 2,
+          "visitas": 57,
+          "ventas": 0.29,
+          "neto": 0.18,
+          "acumulado": 0.2
+        },
+        {
+          "mes": 3,
+          "visitas": 66,
+          "ventas": 0.33,
+          "neto": 0.36,
+          "acumulado": 0.56
+        },
+        {
+          "mes": 4,
+          "visitas": 76,
+          "ventas": 0.38,
+          "neto": 0.56,
+          "acumulado": 1.12
+        },
+        {
+          "mes": 5,
+          "visitas": 87,
+          "ventas": 0.44,
+          "neto": 0.79,
+          "acumulado": 1.91
+        },
+        {
+          "mes": 6,
+          "visitas": 101,
+          "ventas": 0.5,
+          "neto": 1.06,
+          "acumulado": 2.97
+        },
+        {
+          "mes": 7,
+          "visitas": 116,
+          "ventas": 0.58,
+          "neto": 1.37,
+          "acumulado": 4.34
+        }
+      ],
+      "total_neto": 4.34
+    },
+    "base": {
+      "parametros": {
+        "precio": 7.0,
+        "conversion": 0.01,
+        "visitas_iniciales": 150,
+        "crecimiento": 0.25,
+        "techo_visitas": 1500,
+        "comision_pct": 0.1,
+        "comision_fija": 0.3,
+        "coste_fijo_mensual": 1.0
+      },
+      "meses": [
+        {
+          "mes": 1,
+          "visitas": 150,
+          "ventas": 1.5,
+          "neto": 8.0,
+          "acumulado": 8.0
+        },
+        {
+          "mes": 2,
+          "visitas": 188,
+          "ventas": 1.88,
+          "neto": 10.25,
+          "acumulado": 18.25
+        },
+        {
+          "mes": 3,
+          "visitas": 234,
+          "ventas": 2.34,
+          "neto": 13.06,
+          "acumulado": 31.31
+        },
+        {
+          "mes": 4,
+          "visitas": 293,
+          "ventas": 2.93,
+          "neto": 16.58,
+          "acumulado": 47.89
+        },
+        {
+          "mes": 5,
+          "visitas": 366,
+          "ventas": 3.66,
+          "neto": 20.97,
+          "acumulado": 68.86
+        },
+        {
+          "mes": 6,
+          "visitas": 458,
+          "ventas": 4.58,
+          "neto": 26.47,
+          "acumulado": 95.33
+        },
+        {
+          "mes": 7,
+          "visitas": 572,
+          "ventas": 5.72,
+          "neto": 33.33,
+          "acumulado": 128.66
+        }
+      ],
+      "total_neto": 128.66
+    },
+    "optimista": {
+      "parametros": {
+        "precio": 9.0,
+        "conversion": 0.03,
+        "visitas_iniciales": 300,
+        "crecimiento": 0.35,
+        "techo_visitas": 4000,
+        "comision_pct": 0.08,
+        "comision_fija": 0.3,
+        "coste_fijo_mensual": 1.0
+      },
+      "meses": [
+        {
+          "mes": 1,
+          "visitas": 300,
+          "ventas": 9.0,
+          "neto": 70.82,
+          "acumulado": 70.82
+        },
+        {
+          "mes": 2,
+          "visitas": 405,
+          "ventas": 12.15,
+          "neto": 95.96,
+          "acumulado": 166.78
+        },
+        {
+          "mes": 3,
+          "visitas": 547,
+          "ventas": 16.4,
+          "neto": 129.89,
+          "acumulado": 296.67
+        },
+        {
+          "mes": 4,
+          "visitas": 738,
+          "ventas": 22.14,
+          "neto": 175.7,
+          "acumulado": 472.37
+        },
+        {
+          "mes": 5,
+          "visitas": 996,
+          "ventas": 29.89,
+          "neto": 237.55,
+          "acumulado": 709.92
+        },
+        {
+          "mes": 6,
+          "visitas": 1345,
+          "ventas": 40.36,
+          "neto": 321.04,
+          "acumulado": 1030.97
+        },
+        {
+          "mes": 7,
+          "visitas": 1816,
+          "ventas": 54.48,
+          "neto": 433.76,
+          "acumulado": 1464.73
+        }
+      ],
+      "total_neto": 1464.73
+    }
+  },
+  "monte_carlo": {
+    "corridas": 5000,
+    "prob_supera_umbral": 0.0646,
+    "p10": 31.26,
+    "mediana": 147.0,
+    "p90": 427.96,
+    "media": 197.14
+  },
+  "sensibilidad_spearman": {
+    "visitas_iniciales": 0.656,
+    "conversion": 0.495,
+    "crecimiento": 0.322,
+    "precio": 0.312,
+    "comision_pct": -0.021,
+    "techo_visitas": -0.002
+  }
+}
