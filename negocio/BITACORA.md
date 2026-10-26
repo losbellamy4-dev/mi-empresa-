@@ -24,3 +24,25 @@ Diario del proyecto. Una entrada por sesión. Fecha límite de entrega: 15 de ma
 **Bloqueos**: ninguno. Nada requiere al humano todavía.
 
 **Primera tarea de mañana**: validar demanda y competencia en español de L1 (planners de estudio), L3 (imprimibles educativos) y L5 (plantillas Canva para negocios locales).
+
+---
+
+## Día 2 — 2026-10-26 (Fase 1: Investigación)
+
+**Avances**
+- `investigacion/04_DEMANDA_Y_COMPETENCIA.md`: competencia y precios reales para L1, L2, L3, L5, L11 y L10 (con fuentes).
+- `investigacion/05_TAM_SAM_SOM.md`: TAM con datos oficiales (2,79 M alumnos ESO+Bachillerato; ~248 k maestros de Primaria). SAM/SOM estimados y marcados como tales. L1: SOM ≈ 220–1.150 € → 500 € cabe dentro del rango, no en el extremo bajo.
+- Verificado [V]: Etsy exige titular 18+; de 13 a 17 solo con cuenta del tutor. Canva: plantillas con contenido Pro solo se venden como enlace de plantilla, no como PDF.
+
+**Decisiones**
+- **L10 (Minecraft) descartada**: monetizar mapas/addons fuera del Marketplace está restringido; un servidor de pago choca con F2 y F6.
+- **L1 se consolida como favorita**: ningún competidor encontrado adapta el planner al sistema español (LOMLOE, trimestres, PAU); el dueño es el usuario objetivo.
+- L3, L2, L5 bajan (tickets bajos, saturación o falta de credibilidad). L11 pasa a bonus.
+
+**Aprendizaje honesto**
+- No tengo datos de volumen de búsqueda ni de reseñas en Etsy: la demanda medida hoy es indirecta. Lo dejo marcado.
+- Riesgo nuevo para el simulador: el comprador de L1 suele ser la familia, no el estudiante (fricción de pago → conversión más baja).
+
+**Bloqueos**: ninguno. Nada requiere al humano todavía.
+
+**Primera tarea de mañana**: investigar L7 y los canales de tráfico de L1 (alcance orgánico en TikTok/Instagram, Pinterest, búsquedas en Etsy) con cifras reales; elegir el 3er finalista y empezar `FINALISTAS.md`.

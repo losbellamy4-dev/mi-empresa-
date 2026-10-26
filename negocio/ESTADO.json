@@ -1,12 +1,13 @@
 {
   "fase": 1,
-  "dia_global": 2,
+  "dia_global": 3,
   "idea_elegida": null,
   "checkpoints": [],
   "bloqueado_por_humano": false,
   "decision_pendiente": null,
-  "ultima_sesion": "2026-10-19",
-  "hecho_ultima_sesion": "Día 1: estructura creada; criterios de filtro fijados; investigación de plataformas/comisiones/edad; panorama de 6 modelos; lista larga de 12 ideas con primer filtro (7 pasan, 4 descartadas, 1 dudosa).",
-  "siguiente_tarea": "Validar demanda y competencia en español para L1, L3, L5 (luego L2, L7, L11); revisar EULA Minecraft (L10); verificar edad mínima en términos de Etsy/Payhip/Lemon Squeezy/Gumroad.",
-  "ideas_vivas": ["L1", "L2", "L3", "L5", "L7", "L8", "L11", "L10?"]
+  "ultima_sesion": "2026-10-26",
+  "hecho_ultima_sesion": "Día 2: demanda y competencia de L1, L2, L3, L5, L11 (04_DEMANDA_Y_COMPETENCIA.md); TAM/SAM/SOM preliminar (05_TAM_SAM_SOM.md); L10 descartada; edad mínima Etsy verificada (18+, 13-17 vía cuenta del tutor); licencia Canva para vender plantillas verificada.",
+  "siguiente_tarea": "Investigar L7 (herramienta web de horarios/planificador de exámenes) y canales de tráfico para L1 (TikTok/Instagram studytok en español, Pinterest, Etsy): tasas de alcance y conversión reales. Elegir 3er finalista (L7 vs L5). Empezar borrador de FINALISTAS.md.",
+  "ideas_vivas": ["L1", "L7", "L5", "L3", "L2", "L8 (bonus)", "L11 (bonus)"],
+  "ranking_provisional": ["L1", "L7", "L5"]
 }
