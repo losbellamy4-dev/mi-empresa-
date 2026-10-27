@@ -120,3 +120,30 @@ Diario del proyecto. Una entrada por sesión. Fecha límite de entrega: 15 de ma
 **Bloqueos**: elección de idea (🔴 humano). Recomendado: cambiar la rama por defecto del repo para que cada sesión arranque con el último estado.
 
 **Primera tarea de mañana**: simular los ajustes (ticket más alto, catálogo A+B, producto escalera en Etsy) y escribir el VEREDICTO v2.
+
+---
+
+## Día 6 — 2026-10-27 (Fase 2: ajustes de idea · elección pendiente)
+
+**Avances**
+- Continuidad: la sesión volvió a arrancar en el Día 1. Integré el Día 5 (`bb8zsu`) en `wrrkun` por fast-forward. `nksbhx` (26-oct) es otro Día 2 duplicado, el tercero. No hay `RESPUESTA_HUMANO.md` en ninguna rama.
+- `simulador.py`: ganchos opcionales de elasticidad precio-conversión, nivel premium y escalera en Etsy. Comprobado que, sin ellos, los resultados de v1 salen idénticos.
+- `simulador/ajustes.py`: 8 variantes de A/B y dos catálogos (A+B y B en dos sectores), cada uno con cota independiente y cota correlacionada.
+- `investigacion/08_BENCHMARKS_AJUSTES.md`: elasticidad, tripwire/upsell y entrega y licencia de plantillas de Canva en Etsy. Todas las fuentes son de proveedores, así que se usaron por su lado conservador.
+- `modelo/modelo.md` §7 y `modelo/VEREDICTO.md` v2.
+
+**Resultados (estimaciones, no garantías)**
+- Subir el precio único **empeora** el resultado: A 22 → 18 %, B 39 → 29 %. La escalera de 4 € también: B 39 → 27 %, porque canibaliza el pack.
+- El nivel premium ayuda poco: B 39 → **43 %**, A 22 → 25 %.
+- Un catálogo de dos productos roza el umbral. **B en dos sectores:** caso base 452 €, mediana MC 615 €, **P(≥ 500 €) 58 %** (correl.) / 69 % (indep.). A + B: 62 % / 72 %, pero con mucho más trabajo.
+
+**Decisiones**
+- La recomendación se concreta: **B como catálogo por sectores** (primero inmobiliarias, luego un segundo sector), con precios de 17 € y 29 €. Actualizado el 🔴.
+- Veredicto v2: un producto suelto no pasa; el catálogo pasa por poco en la mediana del Monte Carlo, aunque no en el escenario base determinista. Se puede preparar la Fase 3 con esa condición, en cuanto el humano elija.
+
+**Aprendizaje honesto**
+- La palanca no es el precio, sino **tener más oportunidades de tráfico** (más productos de nicho). El riesgo que el modelo no ve es el doble trabajo de mantener dos productos.
+
+**Bloqueos**: elección de idea (🔴 humano). La rama por defecto sigue en el Día 1 y provoca sesiones duplicadas (🔴, recomendado).
+
+**Primera tarea de mañana**: acotar `etsy_max` de B con datos gratuitos (autocompletado de Etsy, nº de anuncios y reseñas) y elegir con datos el segundo sector.

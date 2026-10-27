@@ -1,29 +1,40 @@
 {
   "fase": 2,
-  "dia_global": 6,
+  "dia_global": 7,
   "idea_elegida": null,
   "checkpoints": [],
   "bloqueado_por_humano": false,
-  "decision_pendiente": "Elegir idea A/B/C. Recomendación actualizada el Día 5: B (simulador 39 % frente a 22 % de A). Ver 🔴_ACCION_REQUERIDA.md. Responder en negocio/RESPUESTA_HUMANO.md en cualquier rama.",
-  "ultima_sesion": "2026-10-25",
-  "hecho_ultima_sesion": "Día 5: integrado el Día 4 (fnmjjw) en bb8zsu; benchmarks de CTR/Pinterest/Etsy (07_BENCHMARKS_TRAFICO.md); modelo/modelo.md v1; simulador/simulador.py (3 canales, embudo 2 etapas, escenarios, Monte Carlo, tornado, Spearman, SVG); VEREDICTO v1 provisional: ninguna idea llega a 500 € en el caso base; P(>=500) A 22 %, B 39 %, C 9 %; recomendación cambia a B.",
-  "siguiente_tarea": "Revisar RESPUESTA_HUMANO.md en todas las ramas. Simular ajustes de idea (vuelta parcial a Fase 1): ticket más alto (A 19–24 €, B 29 €), catálogo A+B, producto escalera en Etsy; documentarlos en VEREDICTO v2. Buscar datos de búsquedas en Etsy para 'plantillas inmobiliaria' y 'planner oposiciones'.",
+  "decision_pendiente": "Elegir idea A/B/C. Recomendación Día 6: B como catálogo por sectores (inmobiliarias + 2.º sector), con niveles 17/29 €. Ver 🔴_ACCION_REQUERIDA.md. Responder en negocio/RESPUESTA_HUMANO.md en cualquier rama.",
+  "ultima_sesion": "2026-10-27",
+  "hecho_ultima_sesion": "Día 6: integrado el Día 5 (bb8zsu) en wrrkun por fast-forward; ganchos de ajuste en simulador.py (elasticidad, premium, escalera; v1 idéntico); simulador/ajustes.py con 8 variantes + catálogos AB/BB (cotas indep./correl.); modelo.md §7; investigacion/08_BENCHMARKS_AJUSTES.md; VEREDICTO v2.",
+  "siguiente_tarea": "Revisar RESPUESTA_HUMANO.md en todas las ramas. Acotar etsy_max para B con datos gratuitos (autocompletado de Etsy, nº de anuncios/reseñas). Elegir con datos el 2.º sector de B. Tornado del catálogo BB. Si el humano elige, empezar el diseño del producto (lista de 20–30 plantillas) y el esqueleto de la web.",
   "finalistas": {
     "A": "L13+L7 opositores",
     "B": "L5 inmobiliarias",
     "C": "L1+L7 estudiantes"
   },
-  "recomendacion": "B",
+  "recomendacion": "B (catálogo por sectores, 17/29 €)",
   "preview_prob_500": {
     "A": 0.42,
     "B": 0.35,
     "C": 0.23
   },
-  "nota_ramas": "Día 2 en lauy9y, Día 3 en ise0l1, Día 4 en fnmjjw; Día 5 en bb8zsu (fast-forward desde fnmjjw). odi82r y kmq0em son Días 2 duplicados (descartados). La rama por defecto (2gx72p) sigue en el Día 1.",
+  "nota_ramas": "Línea principal: 5cc7e21 → lauy9y (D2) → ise0l1 (D3) → fnmjjw (D4) → bb8zsu (D5) → wrrkun (D6). kmq0em, odi82r y nksbhx son Días 2 duplicados (descartados). La rama por defecto (2gx72p) sigue en el Día 1.",
   "prob_500_fase2_v1": {
     "A": 0.222,
     "B": 0.386,
     "C": 0.087
   },
-  "veredicto_fase2": "NO (provisional): ninguna idea alcanza 500 € en el caso base conservador"
+  "veredicto_fase2": "v2 (provisional): NO en el escenario base estricto con un producto; SÍ por poco en la mediana del Monte Carlo con catálogo de dos productos (BB: base 452 €, mediana 615 €, P≈58 % correl.)",
+  "prob_500_fase2_v2": {
+    "A_niv": 0.251,
+    "B_niv": 0.43,
+    "AB_cat_correl": 0.615,
+    "BB_cat_correl": 0.584,
+    "BB_cat_indep": 0.689
+  },
+  "ajustes_descartados": [
+    "precio único más alto",
+    "escalera de 4 € en Etsy"
+  ]
 }

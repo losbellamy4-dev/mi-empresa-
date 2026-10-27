@@ -58,3 +58,15 @@ Cada parámetro incierto es una distribución: lognormal definida por su p5 y p9
 3. Toda venta paga IVA del 21 %, aunque haya ventas fuera de España.
 4. No se modelan ventas recurrentes, subidas de precio ni productos nuevos (todo eso sería ganancia extra).
 5. Rangos de tráfico sin datos absolutos de volumen de búsqueda (sin Keyword Planner): distribuciones **anchas** a propósito.
+
+## 7. Ajustes de idea (v2, Día 6, 2026-10-27)
+Implementados en `../simulador/simulador.py` (ganchos opcionales; sin ellos el resultado es idéntico a v1) y probados en `../simulador/ajustes.py`. Fuentes: `../investigacion/08_BENCHMARKS_AJUSTES.md`.
+
+- **Elasticidad precio-conversión:** al subir el precio de `P_ref` a `P`, todas las conversiones se multiplican por `(P/P_ref)^−e`, con `e` ~ U(1, 2) [S/E]. La regla práctica "+10 % de precio → −20 % de conversión" en mercados saturados equivale a `e ≈ 2`, que es el extremo desfavorable.
+- **Nivel premium:** se ofrece junto al pack normal; una fracción `f` ~ U(10 %, 30 %) de los compradores elige el premium [E]. Supuesto conservador: el premium **no** sube la conversión (no se modela el efecto ancla) y el ticket medio pasa a ser `(1−f)·P + f·P_premium`.
+- **Escalera en Etsy:** el anuncio de Etsy vende un producto de 4 € en lugar del pack. Convierte `mult_tw` ~ U(1,5, 3) veces más [E], y una fracción `p_upsell` (lognormal, p5–p95 = 2–12 %) [E] compra después el pack en la web. Los vendedores citan un 2–8 % (y hasta un 50 % en ofertas de checkout) [S, fuentes comerciales]; aquí se usa un rango más bajo.
+- **Catálogo de dos productos:** las redes del dueño se reparten (`red_base` a la mitad en cada producto) y el dominio se paga una sola vez. Se dan dos cotas:
+  - *indep.:* los parámetros de cada producto se sortean por separado (cota optimista);
+  - *correl.:* los parámetros comunes usan el mismo cuantil en ambos productos, de modo que si Etsy o la conversión fallan en uno, fallan en el otro (cota conservadora).
+  En "BB" (B para un segundo sector), el segundo sector tiene la **mitad** de tráfico SEO y de Etsy, porque su demanda no está medida [E].
+- **No modelado (riesgo a favor del modelo):** el doble trabajo que supone construir y mantener dos productos. Es la limitación principal del catálogo.

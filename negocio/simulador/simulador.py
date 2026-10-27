@@ -84,7 +84,7 @@ IDEAS = {
     },
 }
 # Parámetros en los que un valor ALTO es desfavorable
-DESFAVORABLE_ALTO = {"retraso_seo", "tau_seo", "tau_etsy"}
+DESFAVORABLE_ALTO = {"retraso_seo", "tau_seo", "tau_etsy", "elast"}
 
 
 def neto_web(precio):
@@ -127,6 +127,15 @@ def simular(idea, v, mes_lanz, rng=None):
     cfg = IDEAS[idea]
     est = ESTACIONALIDAD[idea]
     nw, ne = neto_web(cfg["precio"]), neto_etsy(cfg["precio"])
+    # Ajustes v2 (opcionales; sin ellos el resultado es idéntico a v1)
+    fac = (cfg["precio"] / cfg["precio_ref"]) ** -v["elast"] if "elast" in v else 1.0
+    if "f_premium" in v:                       # nivel premium: sube el ticket medio
+        f = v["f_premium"]
+        nw = (1 - f) * nw + f * neto_web(cfg["premium"])
+        ne = (1 - f) * ne + f * neto_etsy(cfg["premium"])
+    tw = cfg.get("tripwire")                   # Etsy vende un producto barato que lleva al pack
+    if tw:
+        ne_tw = neto_etsy(tw)
     activo = True
     total, ventas_tot, visitas_tot = 0.0, 0.0, 0.0
     for m in range(1, H + 1):
@@ -148,11 +157,22 @@ def simular(idea, v, mes_lanz, rng=None):
         else:
             lam_web = web * v["p_directa"]
         lam_etsy = etsy * v.get("p_etsy", 0)
+        lam_web *= fac
+        if tw:
+            lam_etsy *= v["mult_tw"]
+        else:
+            lam_etsy *= fac
         if rng is None:
             vw, ve = lam_web, lam_etsy
+            sube = ve * v["p_upsell"] if tw else 0.0
         else:
             vw, ve = poisson(rng, lam_web), poisson(rng, lam_etsy)
-        total += vw * nw + ve * ne
+            sube = sum(rng.random() < v["p_upsell"] for _ in range(ve)) if tw else 0
+        if tw:
+            total += vw * nw + ve * ne_tw + sube * nw   # el pack completo se compra en la web
+            vw += sube
+        else:
+            total += vw * nw + ve * ne
         ventas_tot += vw + ve
         visitas_tot += web + etsy
     neto = total * (1 - REEMBOLSOS) - COSTE_FIJO
