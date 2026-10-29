@@ -1,4 +1,30 @@
-# VEREDICTO del simulador — v2 (Día 6, 2026-10-27) · PROVISIONAL
+# VEREDICTO del simulador — v3 (Día 7, 2026-10-29) · PROVISIONAL
+
+> Sigue siendo provisional porque el humano no ha elegido idea. Son **estimaciones del modelo bajo supuestos conservadores, no garantías**.
+> Datos: `../simulador/resultados/dia7.md` (20.000 corridas, semilla 42). Investigación: `../investigacion/09_ETSY_Y_SEGUNDO_SECTOR.md`.
+
+## Respuesta corta
+- **El v2 era demasiado optimista con Etsy.** En español, el comprador de plantillas para profesionales compra en Hotmart, Gumroad y webs propias, no en Etsy. Con un rango de Etsy conservador (10–400 visitas/mes en madurez, antes 20–800):
+  - B en un sector: **P(≥ 500 €) 43 % → 28 %** (base 185 €).
+  - **Catálogo BB (inmobiliarias + psicólogos): 58 % → 42 %** (base 275 €, mediana 408 €).
+  - Prueba de estrés (Etsy 5–200): BB 29 %.
+- **Veredicto v3: NO.** Con supuestos conservadores, el modelo no llega a 500 € ni en el caso base ni en la mediana. Según la regla de la Fase 2, **todavía no toca construir (Fase 3)**: hay que ajustar el **canal**, no el producto.
+- El 2.º sector elegido con datos es **psicólogos** (47.396 colegiados sanitarios, búsquedas explícitas de "plantillas canva para psicologos" y poca competencia en español).
+
+## Qué hay que acertar sí o sí (tornado BB, Etsy v3)
+1. `etsy_max`: entre 141 € y 843 €. **Sigue siendo la variable dominante**, aunque ya acotada a la baja.
+2. `seo_max`: entre 204 € y 576 €.
+3. `p_etsy`: entre 177 € y 496 €.
+4. `p_directa`: entre 208 € y 440 €.
+
+Gráfica: `../simulador/resultados/tornado_BB.svg`.
+
+## Qué hacer ahora (ajuste de canal, sin depender de la elección)
+- **Modelar Hotmart como canal.** Es el canal en español con más señales: marketplace con afiliados que se llevan una comisión y el productor pone el porcentaje. Hay que investigar sus comisiones, la edad mínima (necesitará el adulto) y si su marketplace genera tráfico sin afiliados.
+- **Probar Etsy en inglés** como mercado alternativo: mucha más demanda, pero saturado (anuncios con más de 3.000 reseñas). El dueño compite en diseño, no en idioma.
+- Reestimar el SEO en español con los datos de autocompletado.
+
+## Anexo — VEREDICTO v2 (Día 6, 2026-10-27), conservado como historial
 
 > Sigue siendo provisional porque el humano no ha elegido idea. Son **estimaciones del modelo bajo supuestos conservadores, no garantías**.
 > Datos: `../simulador/resultados/ajustes_v2.md` (20.000 corridas por variante, semilla 42, lanzamiento en junio de 2027, 12 meses). Supuestos nuevos: `modelo.md` §7.

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="332" font-family="sans-serif" font-size="12">
+<rect width="100%" height="100%" fill="#fff"/>
+<text x="10" y="20" font-size="14" font-weight="bold">BB (inmobiliarias + psicólogos), Etsy v3: p10 ↔ p90 en ambos productos</text>
+<text x="114" y="57" text-anchor="end">etsy_max</text>
+<rect x="120.0" y="44" width="490.0" height="20" fill="#457b9d"/>
+<text x="114" y="85" text-anchor="end">seo_max</text>
+<rect x="164.3" y="72" width="259.2" height="20" fill="#457b9d"/>
+<text x="114" y="113" text-anchor="end">p_etsy</text>
+<rect x="145.6" y="100" width="222.5" height="20" fill="#457b9d"/>
+<text x="114" y="141" text-anchor="end">p_directa</text>
+<rect x="167.2" y="128" width="161.9" height="20" fill="#457b9d"/>
+<text x="114" y="169" text-anchor="end">red_base</text>
+<rect x="202.8" y="156" width="72.0" height="20" fill="#457b9d"/>
+<text x="114" y="197" text-anchor="end">tau_seo</text>
+<rect x="200.5" y="184" width="35.9" height="20" fill="#457b9d"/>
+<text x="114" y="225" text-anchor="end">retraso_seo</text>
+<rect x="198.2" y="212" width="33.2" height="20" fill="#457b9d"/>
+<text x="114" y="253" text-anchor="end">tau_etsy</text>
+<rect x="201.1" y="240" width="26.1" height="20" fill="#457b9d"/>
+<text x="114" y="281" text-anchor="end">f_premium</text>
+<rect x="203.8" y="268" width="20.7" height="20" fill="#457b9d"/>
+<line x1="214.1" y1="34" x2="214.1" y2="298" stroke="#000"/>
+<text x="214.1" y="312" text-anchor="middle">base 275 €</text>
+<line x1="370.8" y1="34" x2="370.8" y2="298" stroke="#d62828" stroke-dasharray="4"/>
+<text x="370.8" y="30" text-anchor="middle" fill="#d62828">500 €</text></svg>

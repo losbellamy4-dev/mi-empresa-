@@ -1,4 +1,6 @@
-# 🔴 ACCIÓN REQUERIDA (actualizado el Día 6, 2026-10-27)
+# 🔴 ACCIÓN REQUERIDA (actualizado el Día 7, 2026-10-29)
+
+> **Novedad del Día 7:** al acotar el tráfico de Etsy con datos, la probabilidad estimada de B baja. En español casi nadie compra estas plantillas en Etsy. **B como catálogo (inmobiliarias + psicólogos): 58 % → 42 %.** Sigue siendo la mejor opción, pero ahora con un **canal distinto** (Hotmart/web en español o Etsy en inglés), que se estudiará los próximos días. Detalle en `modelo/VEREDICTO.md` v3.
 
 ## 1. Elegir la idea de negocio (pendiente desde el Día 4)
 **Quién:** Adrián (con un adulto si quiere opinar)
@@ -22,6 +24,9 @@ Elijo: B
 Comentarios: (opcional)
 ```
 
-## 2. (Recomendado, 2 minutos) Arreglar la continuidad entre sesiones ⚠️ sigue pasando
-Cada sesión diaria arranca desde la rama por defecto del repo, que se quedó en el **Día 1**. El 24, 25 y 26 de octubre, tres sesiones rehicieron el Día 2 desde cero (`kmq0em`, `odi82r`, `nksbhx`) en lugar de continuar el trabajo: son días perdidos.
-**Solución:** en GitHub → *Settings → General → Default branch*, cambia la rama por defecto a **`claude/confident-tesla-wrrkun`** (la más avanzada: Día 6). Alternativa: fusionar esa rama en la rama por defecto. No cuesta dinero ni requiere datos personales.
+## 2. (URGENTE, 2 minutos) Arreglar la continuidad entre sesiones ⚠️ sigue pasando
+Cada sesión diaria arranca desde la rama por defecto del repo (`claude/confident-tesla-2gx72p`), que sigue en el **Día 1**. El 24, 25, 26 y 28 de octubre, cuatro sesiones rehicieron el Día 2 desde cero (`kmq0em`, `odi82r`, `nksbhx`, `smd1j5`): **cuatro días perdidos de once**.
+**Solución:** en GitHub → *Settings → General → Default branch*, cambia la rama por defecto a **`claude/confident-tesla-e2k4ce`** (la más avanzada, Día 7; contiene todo lo de `wrrkun`). Alternativa: fusionar esa rama en `claude/confident-tesla-2gx72p`. No cuesta dinero ni requiere datos personales.
+
+## 3. (Opcional, gratis, con un adulto) Medir Etsy de verdad
+Una cuenta gratuita de eRank (o de vendedor en Etsy) enseña el volumen real de búsqueda en Etsy de "plantillas inmobiliaria" y "plantillas psicologos". Es el dato que más incertidumbre quitaría al modelo. Si lo consigues, pégalo en `RESPUESTA_HUMANO.md`.

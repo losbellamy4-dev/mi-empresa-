@@ -147,3 +147,29 @@ Diario del proyecto. Una entrada por sesión. Fecha límite de entrega: 15 de ma
 **Bloqueos**: elección de idea (🔴 humano). La rama por defecto sigue en el Día 1 y provoca sesiones duplicadas (🔴, recomendado).
 
 **Primera tarea de mañana**: acotar `etsy_max` de B con datos gratuitos (autocompletado de Etsy, nº de anuncios y reseñas) y elegir con datos el segundo sector.
+
+---
+
+## Día 7 — 2026-10-29 (Fase 2: acotar el canal Etsy · elección pendiente)
+
+**Avances**
+- Continuidad: otra vez se arrancó en el Día 1. Integré `wrrkun` (Día 6) en `e2k4ce` por fast-forward. `smd1j5` (28-oct) es el cuarto Día 2 duplicado. No hay `RESPUESTA_HUMANO.md` en ninguna rama.
+- Etsy bloquea la consulta automática (403 y captcha): no se pudieron contar anuncios ni reseñas. Recurrí a señales indirectas.
+- `investigacion/09_ETSY_Y_SEGUNDO_SECTOR.md`: en las búsquedas en español no aparece Etsy, solo Canva gratis, Hotmart y Gumroad. Etsy en inglés está saturado. Tamaños de sector: 60.683 inmobiliarias, 47.396 psicólogos sanitarios, ≈ 72.300 peluquerías y centros de estética.
+- Autocompletado de 35 consultas en `investigacion/datos/autocompletado_2026-10-29*.json`.
+- `simulador/dia7.py`: tres rangos de Etsy y tornado del catálogo BB. `modelo/VEREDICTO.md` v3.
+
+**Resultados (estimaciones, no garantías)**
+- Con Etsy conservador (10–400): **B 43 → 28 %**, **BB 58 → 42 %** (base 275 €, mediana 408 €). Con la prueba de estrés (5–200), BB baja al 29 %.
+- Tornado BB: `etsy_max` (141–843 €) > `seo_max` > `p_etsy` > `p_directa`.
+
+**Decisiones**
+- El 2.º sector de B es **psicólogos** (búsquedas explícitas de "plantillas canva para psicologos", poca competencia en español y precios de unos 30 $), con fisioterapia en reserva. Descartados estética (Hotmart saturado y barato) y restaurantes (casi todo "gratis" y otro producto).
+- Veredicto v3: **NO**. Antes de la Fase 3 hay que ajustar el **canal**.
+
+**Aprendizaje honesto**
+- El Día 6 rozaba el umbral solo porque suponía mucho tráfico en Etsy. Al acotarlo con lo que se sabe, el negocio vuelve a quedarse por debajo. Mejor descubrirlo ahora que tras meses construyendo.
+
+**Bloqueos**: elección de idea (🔴). Rama por defecto aún en el Día 1 (🔴 urgente: 4 sesiones perdidas).
+
+**Primera tarea de mañana**: investigar Hotmart como canal (comisiones, titular adulto, tráfico del marketplace) y Etsy en inglés; añadirlos al simulador y compararlos con BB v3.

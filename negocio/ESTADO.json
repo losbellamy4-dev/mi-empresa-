@@ -1,19 +1,19 @@
 {
   "fase": 2,
-  "dia_global": 7,
+  "dia_global": 8,
   "idea_elegida": null,
   "checkpoints": [],
   "bloqueado_por_humano": false,
-  "decision_pendiente": "Elegir idea A/B/C. Recomendación Día 6: B como catálogo por sectores (inmobiliarias + 2.º sector), con niveles 17/29 €. Ver 🔴_ACCION_REQUERIDA.md. Responder en negocio/RESPUESTA_HUMANO.md en cualquier rama.",
-  "ultima_sesion": "2026-10-27",
-  "hecho_ultima_sesion": "Día 6: integrado el Día 5 (bb8zsu) en wrrkun por fast-forward; ganchos de ajuste en simulador.py (elasticidad, premium, escalera; v1 idéntico); simulador/ajustes.py con 8 variantes + catálogos AB/BB (cotas indep./correl.); modelo.md §7; investigacion/08_BENCHMARKS_AJUSTES.md; VEREDICTO v2.",
-  "siguiente_tarea": "Revisar RESPUESTA_HUMANO.md en todas las ramas. Acotar etsy_max para B con datos gratuitos (autocompletado de Etsy, nº de anuncios/reseñas). Elegir con datos el 2.º sector de B. Tornado del catálogo BB. Si el humano elige, empezar el diseño del producto (lista de 20–30 plantillas) y el esqueleto de la web.",
+  "decision_pendiente": "Elegir idea A/B/C. Recomendación Día 7: B como catálogo (inmobiliarias + psicólogos), 17/29 €, con canal por decidir (Hotmart/web ES o Etsy EN). Ver 🔴_ACCION_REQUERIDA.md. Responder en negocio/RESPUESTA_HUMANO.md en cualquier rama.",
+  "ultima_sesion": "2026-10-29",
+  "hecho_ultima_sesion": "Día 7: integrado wrrkun (Día 6) en e2k4ce por fast-forward; smd1j5 es otro Día 2 duplicado. Etsy bloquea el scraping; señales indirectas → etsy_max v3 = 10–400. 2.º sector = psicólogos (datos INE/autocompletado). simulador/dia7.py: B 43→28 %, BB 58→42 %; tornado_BB. VEREDICTO v3 = NO (ajustar canal).",
+  "siguiente_tarea": "Revisar RESPUESTA_HUMANO.md en todas las ramas. Investigar Hotmart (comisiones, edad mínima/titular adulto, tráfico de marketplace, afiliados) y Etsy en inglés (competencia, conversión). Añadir canal 'hotmart' y variante 'B_EN' al simulador y comparar con BB v3.",
   "finalistas": {
     "A": "L13+L7 opositores",
     "B": "L5 inmobiliarias",
     "C": "L1+L7 estudiantes"
   },
-  "recomendacion": "B (catálogo por sectores, 17/29 €)",
+  "recomendacion": "B catálogo inmobiliarias + psicólogos (17/29 €); canal por decidir",
   "preview_prob_500": {
     "A": 0.42,
     "B": 0.35,
@@ -36,5 +36,7 @@
   "ajustes_descartados": [
     "precio único más alto",
     "escalera de 4 € en Etsy"
-  ]
+  ],
+  "segundo_sector_B": "psicólogos (reserva: fisioterapia)",
+  "rama_mas_avanzada": "claude/confident-tesla-e2k4ce"
 }
