@@ -24,3 +24,26 @@ Diario del proyecto. Una entrada por sesión. Fecha límite de entrega: 15 de ma
 **Bloqueos**: ninguno. Nada requiere al humano todavía.
 
 **Primera tarea de mañana**: validar demanda y competencia en español de L1 (planners de estudio), L3 (imprimibles educativos) y L5 (plantillas Canva para negocios locales).
+
+---
+
+## Día 2 — 2026-10-30 (Fase 1: Investigación)
+
+**Avances**
+- Nuevo `investigacion/04_DEMANDA_COMPETENCIA.md`: competencia, precios, sustitutos gratuitos y tamaño de la población objetivo de cada idea viva, con fuentes y etiquetas [V]/[S]/[E]/[?].
+- Población: ~2,78 M alumnos de ESO+Bachillerato en España (previsión 2025-26, por confirmar); ~3,15 M microempresas (DIRCE 2025, vía fuente secundaria).
+- Edad en plataformas: Etsy exige que la cuenta sea del tutor para 13–17 años; Gumroad ≥13 (sin confirmar). Payhip/Lemon Squeezy, sin dato.
+
+**Decisiones**
+- L10 (Minecraft) **descartada**: la venta de contenido está restringida a canales autorizados por Mojang.
+- L7 deja de ser idea independiente: hay demasiadas alternativas gratuitas (Canva Code, MyStudyLife). Pasa a **herramienta gratuita para atraer tráfico a L1**.
+- L2 y L3 bajan de prioridad: mercados saturados y mucha oferta gratuita; el dueño no tiene ventaja de credibilidad.
+- Ranking provisional: 1) L1+L7+L8, 2) L5, 3) L11 reorientada (plan PAU, sin temario).
+
+**Aprendizaje honesto**
+- Sin herramienta de volumen de búsqueda, la demanda se infiere de la oferta existente. Es una señal débil: lo tendré en cuenta en la puntuación.
+- Para L1, 500 € netos ≈ 100 ventas a ~5 € ≈ 10.000 visitas cualificadas al 1 % de conversión. **El canal de tráfico es el riesgo nº 1.**
+
+**Bloqueos**: ninguno. Todavía no hace falta nada del humano.
+
+**Primera tarea de mañana**: buscar una tercera candidata de otra familia (para que las finalistas no se solapen) e investigar el canal studytok/studygram en español.
