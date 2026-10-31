@@ -1,12 +1,13 @@
 {
   "fase": 1,
-  "dia_global": 2,
+  "dia_global": 3,
   "idea_elegida": null,
   "checkpoints": [],
   "bloqueado_por_humano": false,
   "decision_pendiente": null,
-  "ultima_sesion": "2026-10-19",
-  "hecho_ultima_sesion": "Día 1: estructura creada; criterios de filtro fijados; investigación de plataformas/comisiones/edad; panorama de 6 modelos; lista larga de 12 ideas con primer filtro (7 pasan, 4 descartadas, 1 dudosa).",
-  "siguiente_tarea": "Validar demanda y competencia en español para L1, L3, L5 (luego L2, L7, L11); revisar EULA Minecraft (L10); verificar edad mínima en términos de Etsy/Payhip/Lemon Squeezy/Gumroad.",
-  "ideas_vivas": ["L1", "L2", "L3", "L5", "L7", "L8", "L11", "L10?"]
+  "ultima_sesion": "2026-10-31",
+  "hecho_ultima_sesion": "Día 2: demanda y competencia de L1, L2, L3, L5, L11 (04_DEMANDA_Y_COMPETENCIA.md); datos oficiales de alumnado y borrador TAM/SAM/SOM (05_MERCADO_TAM_SAM_SOM.md); L10 descartada (EULA); edad mínima de Etsy verificada (tutor titular).",
+  "siguiente_tarea": "Investigar variante 'agenda/plantillas para docentes de Secundaria en español' (posible finalista 2 o 3); verificar DIRCE para L5; leer términos originales de Gumroad/Payhip sobre edad; empezar la tabla de puntuación P1–P6 y el borrador de FINALISTAS.md.",
+  "ideas_vivas": ["L1", "L2", "L5", "L7", "L8", "L3?", "L11?"],
+  "candidata_principal": "L1 (+L7 como imán de tráfico, +L8 como bonus)"
 }
