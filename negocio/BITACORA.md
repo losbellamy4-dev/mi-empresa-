@@ -24,3 +24,31 @@ Diario del proyecto. Una entrada por sesión. Fecha límite de entrega: 15 de ma
 **Bloqueos**: ninguno. Nada requiere al humano todavía.
 
 **Primera tarea de mañana**: validar demanda y competencia en español de L1 (planners de estudio), L3 (imprimibles educativos) y L5 (plantillas Canva para negocios locales).
+
+---
+
+## Día 2 — 2026-11-01 (Fase 1: Investigación)
+
+*Nota: entre el 19-oct y el 1-nov no hubo sesiones registradas; se retoma exactamente donde quedó el Día 1.*
+
+**Avances**
+- `investigacion/04_DEMANDA_COMPETENCIA.md`: competencia y precios en español para L1, L2, L3, L5, L11 (con fuentes), verificación de edad mínima y puntuación preliminar P1–P6.
+- Edad mínima **Etsy verificada** [V]: el tutor crea la cuenta con sus datos y tiene toda la información financiera a su nombre. Gumroad: "edad legal para contratar". Payhip/Lemon Squeezy: sin dato → cuenta del adulto.
+- Primeras cifras de mercado: ~2,07 M alumnos de ESO y ~0,71 M de Bachillerato (2025-26, leídas de un gráfico del Ministerio, **pendiente de verificar**; el PDF oficial dio error 503).
+
+**Decisiones**
+- **L10 (Minecraft/Roblox) descartada**: solo contenido cosmético y Mojang puede retirar permisos sin aviso.
+- **L8 (ebook) fusionada en L1** como bonus; **L7** se mantiene solo como imán de tráfico gratuito para L1.
+
+**Puntuación preliminar** [E]: L5 Canva negocios locales 3,50 · L1 planners estudio 3,35 · L2 presupuesto 3,00 · L3 imprimibles Primaria 2,85 · L11 Anki EBAU 2,65 · L7 2,50.
+
+**Aprendizaje honesto**
+- La oferta en español existe en todas las categorías, pero es **muy barata** (1–7 $ en planners, 1–2,50 € en fichas). L5 tiene el ticket más alto (8–37 €) porque compra un negocio, no un particular.
+- No encontré mazos Anki de pago para EBAU: puede ser hueco o falta de disposición a pagar. Sin más datos, L11 sigue débil.
+- Las señales de demanda siguen siendo indirectas (no hay acceso a volúmenes de búsqueda).
+
+**Pregunta útil para Adrián (no bloquea nada):** ¿sabes usar Canva o te apetece diseñar para negocios (peluquerías, cafeterías…)? Cambia la nota de L5 frente a L1. Si quieres responder, escribe en `negocio/RESPUESTA_HUMANO.md`.
+
+**Bloqueos**: ninguno.
+
+**Primera tarea de mañana**: contar reseñas/ventas de los 10 primeros listados de Etsy/Gumroad para L1 y L5; crear `05_TAM_SAM_SOM.md`.

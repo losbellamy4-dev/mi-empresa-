@@ -1,12 +1,19 @@
 {
   "fase": 1,
-  "dia_global": 2,
+  "dia_global": 3,
   "idea_elegida": null,
   "checkpoints": [],
   "bloqueado_por_humano": false,
   "decision_pendiente": null,
-  "ultima_sesion": "2026-10-19",
-  "hecho_ultima_sesion": "Día 1: estructura creada; criterios de filtro fijados; investigación de plataformas/comisiones/edad; panorama de 6 modelos; lista larga de 12 ideas con primer filtro (7 pasan, 4 descartadas, 1 dudosa).",
-  "siguiente_tarea": "Validar demanda y competencia en español para L1, L3, L5 (luego L2, L7, L11); revisar EULA Minecraft (L10); verificar edad mínima en términos de Etsy/Payhip/Lemon Squeezy/Gumroad.",
-  "ideas_vivas": ["L1", "L2", "L3", "L5", "L7", "L8", "L11", "L10?"]
+  "ultima_sesion": "2026-11-01",
+  "hecho_ultima_sesion": "Día 2: primera pasada de demanda/competencia de L1, L2, L3, L5, L7, L11 (04_DEMANDA_COMPETENCIA.md); L10 descartada; L8 fusionada en L1; edad mínima Etsy verificada (cuenta del tutor); puntuación preliminar: L5 3,50 · L1 3,35 · L2 3,00 · L3 2,85 · L11 2,65 · L7 2,50.",
+  "siguiente_tarea": "Contar reseñas/ventas de los 10 primeros resultados en Etsy/Gumroad para L1 y L5; crear 05_TAM_SAM_SOM.md verificando cifras ESO/Bachillerato en el PDF del Ministerio y nº de micro-negocios (DIRCE) para L5; investigar canales de tráfico gratuitos.",
+  "ideas_vivas": [
+    "L5",
+    "L1",
+    "L2",
+    "L3",
+    "L11",
+    "L7 (imán de L1)"
+  ]
 }
