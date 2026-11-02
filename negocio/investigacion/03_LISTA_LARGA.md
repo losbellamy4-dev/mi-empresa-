@@ -13,7 +13,7 @@ Filtros F1–F8 definidos en `00_CRITERIOS.md`. ✅ pasa · ❌ no pasa · ⚠�
 | L7 | Generador web de horarios/planificador de exámenes (herramienta freemium) | ✅ | ✅ | ✅ | ✅ | ⚠️ | ✅ | ✅ | ✅ | **PASA** (encaja como imán de tráfico para L1) |
 | L8 | Ebook "Cómo estudiar en ESO" | ✅ | ✅ | ✅ | ✅ | ⚠️ | ✅ | ✅ | ⚠️ | **PASA (débil)** — mejor como bonus de L1 |
 | L9 | Blog/contenido de afiliación (tecnología, gaming) | ✅ | ✅ | ✅ | ✅ | ❌ | ⚠️ | ✅ | ✅ | **NO PASA** (F5: ingresos por visita demasiado bajos en 7 meses) |
-| L10 | Mapas/servidores/addons de Minecraft o Roblox de pago | ✅ | ✅ | ✅ | ✅ | ⚠️ | ⚠️ (reglas de EULA de Mojang sobre monetización) | ✅ | ✅ | **DUDOSO** — revisar EULA |
+| L10 | Mapas/servidores/addons de Minecraft o Roblox de pago | ✅ | ✅ | ✅ | ✅ | ⚠️ | ⚠️ (reglas de EULA de Mojang sobre monetización) | ✅ | ✅ | **NO PASA** (día 2) — venta fuera del Marketplace oficial arriesgada; Mojang puede retirar permisos. Ver `04_DEMANDA_COMPETENCIA.md` |
 | L11 | Packs de flashcards/Anki de temario de Bachillerato/EBAU | ✅ | ✅ | ✅ | ✅ | ⚠️ | ✅ | ✅ | ⚠️ (calidad de contenido) | **PASA** |
 | L12 | Presets/LUTs fotográficos | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ⚠️ | **NO PASA** (saturado, sin ventaja) |
 
@@ -23,3 +23,8 @@ Filtros F1–F8 definidos en `00_CRITERIOS.md`. ✅ pasa · ❌ no pasa · ⚠�
 3. TAM/SAM/SOM honesto para las que sobrevivan (datos de matrícula en ESO/Bachillerato del Ministerio de Educación; nº de docentes; nº de micro-negocios).
 4. Revisar EULA de Minecraft para L10 (descartar o mantener).
 5. Verificar edad mínima en términos oficiales de Etsy, Payhip, Lemon Squeezy, Gumroad.
+
+## Actualización día 2 (2026-11-02)
+- L10 descartada (EULA/Usage Guidelines de Minecraft).
+- L2 y L11 bajan posiciones (sin ventaja del dueño / riesgo de contenido). L7 y L8 se fusionan con L1 como "kit de estudio".
+- Ranking provisional: L1(+L7+L8) > L5 > L3 > L11 > L2. Detalle en `04_DEMANDA_COMPETENCIA.md`.

@@ -24,3 +24,26 @@ Diario del proyecto. Una entrada por sesión. Fecha límite de entrega: 15 de ma
 **Bloqueos**: ninguno. Nada requiere al humano todavía.
 
 **Primera tarea de mañana**: validar demanda y competencia en español de L1 (planners de estudio), L3 (imprimibles educativos) y L5 (plantillas Canva para negocios locales).
+
+---
+
+## Día 2 — 2026-11-02 (Fase 1: Investigación)
+
+**Avances**
+- Nuevo `investigacion/04_DEMANDA_COMPETENCIA.md`: competencia y precios en español de L1, L2, L3, L5, L11; primer TAM/SAM/SOM de L1 con datos del Ministerio (ESO 2,09 M + Bachillerato 0,70 M alumnos en 2024-25).
+- SOM conservador de L1: 40–280 compradores en 12 meses → 240–1.700 € netos. El umbral de 500 € es alcanzable **solo con un canal de tráfico** (redes de estudio, boca a boca).
+- Edad mínima: Etsy permite 13–17 a través de una cuenta registrada por el tutor (verificado en su centro de ayuda). Gumroad: fuentes contradictorias. Payhip: sin dato → asumir cuenta del adulto.
+
+**Decisiones**
+- **L10 (Minecraft) descartada**: vender contenido fuera del Marketplace oficial es arriesgado y Mojang puede retirar permisos.
+- L7 (generador de horarios) y L8 (ebook) se fusionan con L1 como "kit de estudio" (L7 = imán de tráfico gratis).
+- L2 (finanzas) y L11 (flashcards PAU) bajan: sin ventaja del dueño / riesgo de errores de contenido.
+
+**Aprendizaje honesto**
+- Riesgo nuevo en L1: el usuario es menor y casi nunca tiene tarjeta → paga el padre/madre. Hay que convencer a dos personas.
+- El sustituto real de un planner digital es la agenda en papel (3–25 €) que muchos centros ya entregan.
+- Sin herramientas de volumen de búsqueda, la demanda es cualitativa; el simulador marcará el tráfico como supuesto.
+
+**Bloqueos**: ninguno. Nada requiere al humano todavía.
+
+**Primera tarea de mañana**: buscar una 3.ª finalista más fuerte (recursos en español para colegios bilingües de EE. UU.; plantillas Canva por sector) y puntuar P1–P6 todas las ideas vivas.
