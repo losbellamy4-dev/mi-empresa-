@@ -24,3 +24,29 @@ Diario del proyecto. Una entrada por sesión. Fecha límite de entrega: 15 de ma
 **Bloqueos**: ninguno. Nada requiere al humano todavía.
 
 **Primera tarea de mañana**: validar demanda y competencia en español de L1 (planners de estudio), L3 (imprimibles educativos) y L5 (plantillas Canva para negocios locales).
+
+---
+
+## Día 2 — 2026-11-04 (Fase 1: Investigación)
+
+*(Nota: desde la sesión anterior, el 19-oct, pasaron 16 días sin ejecución; se retoma sin pérdidas.)*
+
+**Avances**
+- Nuevo `investigacion/04_DEMANDA_COMPETENCIA.md`: competencia y precios reales para L1, L2, L3, L5 y L11, con fuentes.
+- Dato oficial de mercado: **2.089.403 alumnos de ESO** (curso 2024-25, Ministerio de Educación).
+- Edad mínima **verificada** en los términos oficiales de Etsy (13-17 años permitidos solo con un adulto titular), Gumroad (≥13 + capacidad contractual) y Payhip (B2B, sin edad, exige plena capacidad). Conclusión: el adulto es siempre el titular. Actualizado `02_PLATAFORMAS_Y_COSTES.md`.
+- **L10 (Minecraft) descartada**: vender mods o add-ons fuera del Marketplace oficial no está permitido según fuentes secundarias (la web oficial dio error 503).
+- **Nueva idea L13**: recursos en español para profesores de inmersión dual en EE. UU., vendidos en Teachers Pay Teachers. TpT cambió sus planes el 1-oct-2026: Basic paga el 55 % − 0,30 $ por recurso (pendiente de confirmar en la fuente oficial).
+- Puntuación provisional: **L1 3,80** > L13 3,20 > L3 2,90 > L5 2,80 > L2 2,45.
+
+**Decisiones**
+- L8 (ebook), L11 (flashcards) y L7 (generador de horarios) pasan a ser **complementos de L1**, no ideas independientes.
+- L5 y L2 bajan a "débiles": formato copiado, precios hundidos y muchos sustitutos gratis.
+
+**Aprendizaje honesto**
+- No hay herramientas de volumen de búsqueda en esta sesión: P1 (demanda) se apoya en señales indirectas (nº de listados, precios, reseñas). Hay que reforzarlo.
+- L1 tiene un hueco real (no encontré ningún planner adaptado al sistema educativo español: materias LOMLOE, calendario escolar, EBAU/PAU), pero estrecho. Además, quien paga suele ser la familia, no el estudiante.
+
+**Bloqueos**: ninguno. Nada requiere al humano todavía.
+
+**Primera tarea de mañana**: señales de volumen (Google Trends, autocompletado, Reddit) para L1 y L13; competencia de L7; confirmar las comisiones de TpT; empezar el TAM/SAM/SOM de L1.
