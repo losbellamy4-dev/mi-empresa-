@@ -1,4 +1,4 @@
-# SIGUIENTE: validar demanda (señales concretas) de las ideas "PASA" de 03_LISTA_LARGA.md, empezando por L1, L3 y L5.
+# (Día 2 completado: ver 04_DEMANDA_Y_COMPETENCIA.md)
 
 # Panorama de modelos de micro-negocio digital
 

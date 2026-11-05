@@ -24,3 +24,27 @@ Diario del proyecto. Una entrada por sesión. Fecha límite de entrega: 15 de ma
 **Bloqueos**: ninguno. Nada requiere al humano todavía.
 
 **Primera tarea de mañana**: validar demanda y competencia en español de L1 (planners de estudio), L3 (imprimibles educativos) y L5 (plantillas Canva para negocios locales).
+
+---
+
+## Día 2 — 2026-11-05 (Fase 1: Investigación)
+
+**Avances**
+- Nuevo `investigacion/04_DEMANDA_Y_COMPETENCIA.md`.
+- **Edad mínima:** Etsy tiene vía oficial para 13–17 años (el tutor registra la cuenta con sus datos y es el *shop owner*) [verificado en help.etsy.com]. Gumroad/Payhip/Lemon Squeezy: sin confirmación oficial → se asume cuenta del adulto.
+- **L10 (Minecraft) descartada**: el EULA prohíbe vender contenido/add-ons sin permiso de Mojang.
+- Señales de demanda/competencia para L1, L2, L3, L5, L11 (precios reales, competidores, competencia gratuita).
+- Primeros datos de mercado: Bachillerato 1.125.860 alumnos (2024-25); total no universitario 8,25 M (2025-26).
+
+**Decisiones**
+- L7 (generador de horarios) y L8 (ebook) dejan de ser ideas independientes: se integran en L1 como imán de tráfico y bonus.
+- Ranking provisional: L1 3,75 > L5 3,20 > L11 2,80 > L3 2,60 > L2 2,45.
+
+**Aprendizaje honesto**
+- Las búsquedas web dan listados sueltos, no cifras de ventas; la única señal numérica fuerte hoy es una tienda Etsy de plantillas Canva en español con ~1.600 ventas (L5).
+- Hueco en L1: no encontré planners específicos de ESO/Bachillerato español. Ojo: no encontrarlo no demuestra que no existan.
+- El PDF del Ministerio y las pautas de Minecraft devolvieron error 503; reintentar.
+
+**Bloqueos**: ninguno. Nada requiere al humano todavía.
+
+**Primera tarea de mañana**: contar reseñas/ventas de los primeros listados de Etsy en español para L1 y L5, y calcular TAM/SAM/SOM.
