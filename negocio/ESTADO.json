@@ -1,12 +1,13 @@
 {
   "fase": 1,
-  "dia_global": 2,
+  "dia_global": 3,
   "idea_elegida": null,
   "checkpoints": [],
   "bloqueado_por_humano": false,
   "decision_pendiente": null,
-  "ultima_sesion": "2026-10-19",
-  "hecho_ultima_sesion": "Día 1: estructura creada; criterios de filtro fijados; investigación de plataformas/comisiones/edad; panorama de 6 modelos; lista larga de 12 ideas con primer filtro (7 pasan, 4 descartadas, 1 dudosa).",
-  "siguiente_tarea": "Validar demanda y competencia en español para L1, L3, L5 (luego L2, L7, L11); revisar EULA Minecraft (L10); verificar edad mínima en términos de Etsy/Payhip/Lemon Squeezy/Gumroad.",
-  "ideas_vivas": ["L1", "L2", "L3", "L5", "L7", "L8", "L11", "L10?"]
+  "ultima_sesion": "2026-11-07",
+  "hecho_ultima_sesion": "Día 2: demanda y competencia de L1, L2, L3, L5, L7, L11 (investigacion/04_DEMANDA_Y_COMPETENCIA.md); L10 descartada (Usage Guidelines de Mojang); L7+L8 fusionadas en L1+ (imán de tráfico + bonus); edad mínima: Etsy confirmada 13-17 con cuenta del tutor; primer TAM/SAM/SOM de L1; puntuación provisional: L1+ 3,60, L11 3,23, L3 2,75, L5 2,65, L2 2,65.",
+  "siguiente_tarea": "Buscar una 3.ª finalista más fuerte (p. ej. 'pack PAU' o idea nueva con ventaja del dueño); conseguir datos de volumen de búsqueda (Google Trends/autocompletado) para L1+ y L11; re-verificar cifras del Ministerio (ESO 2025-26) y términos de Payhip/Lemon Squeezy/Gumroad.",
+  "ideas_vivas": ["L1+", "L11", "L3", "L5", "L2"],
+  "ideas_descartadas": ["L4", "L6", "L9", "L10", "L12"]
 }

@@ -24,3 +24,28 @@ Diario del proyecto. Una entrada por sesión. Fecha límite de entrega: 15 de ma
 **Bloqueos**: ninguno. Nada requiere al humano todavía.
 
 **Primera tarea de mañana**: validar demanda y competencia en español de L1 (planners de estudio), L3 (imprimibles educativos) y L5 (plantillas Canva para negocios locales).
+
+---
+
+## Día 2 — 2026-11-07 (Fase 1: Investigación)
+
+**Avances**
+- Nuevo `investigacion/04_DEMANDA_Y_COMPETENCIA.md`: señales de demanda, competencia y riesgos de cada idea viva, con fuentes.
+- **L10 (Minecraft/Roblox) descartada**: el uso comercial depende de las Usage Guidelines de Mojang (revocables) y la venta de add-ons pasa por el Marketplace oficial.
+- **L7 y L8 fusionadas en L1** → "L1+": pack de pago + herramienta web gratuita (calculadora de nota PAU o planificador de exámenes) como imán de tráfico, con el ebook como bonus.
+- Edad: Etsy confirma oficialmente que de 13 a 17 años se puede vender **con la cuenta a nombre del tutor**. Gumroad tiene términos contradictorios y en Payhip/Lemon Squeezy no encontré la regla.
+- Primer TAM/SAM/SOM de L1: unos 2,7 M de estudiantes de ESO+Bachillerato → SAM estimado de ~80.000 → bastan ~85 ventas de ~7 € para 500 € netos. El cuello de botella es el tráfico, no el tamaño del mercado.
+- Puntuación provisional: **L1+ 3,60 · L11 3,23** · L3 2,75 · L5 2,65 · L2 2,65.
+
+**Decisiones**
+- L5 (Canva para negocios) pierde fuerza: hay muchos vendedores hispanos y Canva ofrece plantillas gratis.
+- La tercera finalista sigue abierta: L3, L5 y L2 son débiles.
+
+**Aprendizaje honesto**
+- Los planners sueltos se venden muy baratos (1–5 €). El margen exige pack o bundle.
+- No encontré mazos Anki de pago para la PAU: puede ser un hueco o falta de demanda. Hay que verificarlo.
+- Las webs del Ministerio y minecraft.net dieron error 503. Algunas cifras son de prensa y están marcadas [S].
+
+**Bloqueos**: ninguno. Nada requiere al humano todavía.
+
+**Primera tarea de mañana**: buscar una tercera finalista más fuerte y conseguir datos de volumen de búsqueda para L1+ y L11.
