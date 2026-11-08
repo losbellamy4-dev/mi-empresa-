@@ -1,0 +1,18 @@
+{
+  "runs": 20000,
+  "meses": 7,
+  "neto_P10": 41.6,
+  "neto_P50": 182.4,
+  "neto_P90": 484.5,
+  "prob_neto_>=_500": 0.091,
+  "ventas_mediana": 39.0,
+  "sensibilidad_correlacion": {
+    "pinterest": 0.548,
+    "conversion": 0.459,
+    "seo_herramienta_gratis": 0.4,
+    "etsy_busqueda": 0.359,
+    "precio": 0.213,
+    "redes_menor (capado <16)": 0.097
+  },
+  "aviso": "Estimación de un PROTOTIPO con supuestos preliminares; no es una garantía."
+}
