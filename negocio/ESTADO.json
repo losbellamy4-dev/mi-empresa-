@@ -1,12 +1,13 @@
 {
   "fase": 1,
-  "dia_global": 2,
+  "dia_global": 3,
   "idea_elegida": null,
   "checkpoints": [],
   "bloqueado_por_humano": false,
   "decision_pendiente": null,
-  "ultima_sesion": "2026-10-19",
-  "hecho_ultima_sesion": "Día 1: estructura creada; criterios de filtro fijados; investigación de plataformas/comisiones/edad; panorama de 6 modelos; lista larga de 12 ideas con primer filtro (7 pasan, 4 descartadas, 1 dudosa).",
-  "siguiente_tarea": "Validar demanda y competencia en español para L1, L3, L5 (luego L2, L7, L11); revisar EULA Minecraft (L10); verificar edad mínima en términos de Etsy/Payhip/Lemon Squeezy/Gumroad.",
-  "ideas_vivas": ["L1", "L2", "L3", "L5", "L7", "L8", "L11", "L10?"]
+  "ultima_sesion": "2026-11-09",
+  "hecho_ultima_sesion": "Día 2: demanda y competencia en español de L1, L2, L3, L5, L7 y L11 (investigacion/04_DEMANDA_Y_COMPETENCIA.md); L10 descartada (EULA de Minecraft); edad mínima de Etsy verificada (18+, menores solo con la cuenta del tutor); TAM/SAM/SOM preliminar de L1 (TAM 2,79 M de alumnos; SOM 30–280 compradores frente a ~70 ventas necesarias).",
+  "siguiente_tarea": "TAM/SAM/SOM de L5 y L11; buscar mazos de la PAU en AnkiWeb y Quizlet; puntuar todas las ideas vivas con P1–P6; empezar el borrador de FINALISTAS.md (candidatas: L1+L7+L8, L5, L11).",
+  "ideas_vivas": ["L1", "L2", "L3", "L5", "L7", "L8", "L11"],
+  "ranking_provisional": ["L1 (+L7, L8 como complementos)", "L5", "L11", "L2", "L3"]
 }

@@ -1,5 +1,3 @@
-# SIGUIENTE: validar demanda (señales concretas) de las ideas "PASA" de 03_LISTA_LARGA.md, empezando por L1, L3 y L5.
-
 # Panorama de modelos de micro-negocio digital
 
 Investigado el 2026-10-19. Leyenda: **[V]** verificado en fuente oficial · **[S]** fuente secundaria · **[E]** estimación propia.
