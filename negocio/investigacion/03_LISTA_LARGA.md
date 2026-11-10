@@ -23,3 +23,9 @@ Filtros F1–F8 definidos en `00_CRITERIOS.md`. ✅ pasa · ❌ no pasa · ⚠�
 3. TAM/SAM/SOM honesto para las que sobrevivan (datos de matrícula en ESO/Bachillerato del Ministerio de Educación; nº de docentes; nº de micro-negocios).
 4. Revisar EULA de Minecraft para L10 (descartar o mantener).
 5. Verificar edad mínima en términos oficiales de Etsy, Payhip, Lemon Squeezy, Gumroad.
+
+## Actualización día 2 (2026-11-10) — ver `04_DEMANDA_COMPETENCIA.md`
+- **L10 DESCARTADA** (riesgo EULA Minecraft).
+- **L2 y L11 APARCADAS** (competencia gratuita / baja disposición a pagar).
+- **L7 y L8 FUSIONADAS en L1** ("Kit de estudio ESO").
+- Siguen vivas: **L1 (+L7+L8), L5, L3**.

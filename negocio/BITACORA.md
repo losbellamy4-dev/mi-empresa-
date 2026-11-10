@@ -24,3 +24,27 @@ Diario del proyecto. Una entrada por sesión. Fecha límite de entrega: 15 de ma
 **Bloqueos**: ninguno. Nada requiere al humano todavía.
 
 **Primera tarea de mañana**: validar demanda y competencia en español de L1 (planners de estudio), L3 (imprimibles educativos) y L5 (plantillas Canva para negocios locales).
+
+---
+
+## Día 2 — 2026-11-10 (Fase 1: Investigación)
+
+*(Nota: entre el día 1, 19-oct, y hoy no hubo sesiones registradas.)*
+
+**Avances**
+- `investigacion/04_DEMANDA_COMPETENCIA.md`: señales de demanda, competencia y precios para L1, L2, L3, L5, L7, L11; tamaño bruto del mercado escolar (ESO 2,09 M, Bachillerato 0,70 M, 806 k docentes).
+- Edad mínima verificada en términos oficiales: Etsy (18+, menores vía cuenta del tutor), Gumroad (mayoría de edad contractual), Payhip (depende de PayPal/Stripe). Confirma: todo a nombre del adulto.
+- Ranking provisional: L1 Kit de estudio ESO 3,30 · L5 Canva negocios locales 3,25 · L3 imprimibles 2,70.
+
+**Decisiones**
+- L10 (Minecraft) descartada por riesgo de EULA.
+- L2 (finanzas) y L11 (Anki EBAU) aparcadas: demasiada oferta gratuita / baja disposición a pagar (Wuolah: la mayoría gana 30–40 €/año).
+- L7 (herramienta web) y L8 (ebook) fusionadas en L1 como imán de tráfico y bonus.
+
+**Aprendizaje honesto**
+- En español casi toda la oferta escolar se dirige al **docente**, no al alumno → hueco para L1, pero con el problema de que el alumno no tiene tarjeta (ticket bajo, ~72 ventas para 500 €).
+- L5 necesita muchas menos ventas (~20–40) porque compra un adulto con tarjeta y el ticket es mayor; el riesgo es la saturación si no se elige bien el nicho.
+
+**Bloqueos**: ninguno. Nada requiere al humano todavía.
+
+**Primera tarea de mañana**: L5 — elegir nicho concreto con datos de DIRCE/INE y competencia en Etsy en español; verificar licencia de Canva para vender plantillas.
