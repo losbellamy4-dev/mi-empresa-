@@ -1,12 +1,13 @@
 {
   "fase": 1,
-  "dia_global": 2,
+  "dia_global": 3,
   "idea_elegida": null,
   "checkpoints": [],
   "bloqueado_por_humano": false,
   "decision_pendiente": null,
-  "ultima_sesion": "2026-10-19",
-  "hecho_ultima_sesion": "Día 1: estructura creada; criterios de filtro fijados; investigación de plataformas/comisiones/edad; panorama de 6 modelos; lista larga de 12 ideas con primer filtro (7 pasan, 4 descartadas, 1 dudosa).",
-  "siguiente_tarea": "Validar demanda y competencia en español para L1, L3, L5 (luego L2, L7, L11); revisar EULA Minecraft (L10); verificar edad mínima en términos de Etsy/Payhip/Lemon Squeezy/Gumroad.",
-  "ideas_vivas": ["L1", "L2", "L3", "L5", "L7", "L8", "L11", "L10?"]
+  "ultima_sesion": "2026-11-11",
+  "hecho_ultima_sesion": "Día 2: demanda y competencia de L1, L2, L3, L5, L7, L11 (04_DEMANDA_Y_COMPETENCIA.md); L10 descartada por EULA; datos oficiales de alumnado ESO/Bach/PAU; edad mínima de Etsy verificada (cuenta del tutor); puntuación provisional.",
+  "siguiente_tarea": "Profundizar L1 y L11: Google Trends, conteo de reseñas en top-10 listados en español, TAM/SAM/SOM con datos del Ministerio; esbozar plan de canal de tráfico para cada candidata; decidir si la 3.ª finalista es L5 o el combo L1+L11+L7.",
+  "ideas_vivas": ["L1", "L11", "L5", "L7 (imán)", "L2 (débil)", "L3 (débil)"],
+  "ranking_provisional": {"L1": 3.55, "L11": 3.35, "L5": 2.95, "L2": 2.65, "L3": 2.35, "L7": 2.05}
 }

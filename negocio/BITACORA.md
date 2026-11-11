@@ -24,3 +24,26 @@ Diario del proyecto. Una entrada por sesión. Fecha límite de entrega: 15 de ma
 **Bloqueos**: ninguno. Nada requiere al humano todavía.
 
 **Primera tarea de mañana**: validar demanda y competencia en español de L1 (planners de estudio), L3 (imprimibles educativos) y L5 (plantillas Canva para negocios locales).
+
+---
+
+## Día 2 — 2026-11-11 (Fase 1: Investigación)
+
+**Avances**
+- Nuevo `investigacion/04_DEMANDA_Y_COMPETENCIA.md`: competencia, precios y huecos de L1, L2, L3, L5, L7 y L11, con fuentes.
+- Datos oficiales de mercado: ~2,07 M alumnos de ESO y ~708.000 de Bachillerato (Ministerio, 2025-26); ~300.000 presentados a la PAU 2026.
+- Edad mínima: Etsy confirma 18+ con cuenta del tutor para 13–17 (verificado). Gumroad exige edad legal para contratar. Payhip y Lemon Squeezy siguen sin verificar.
+- Puntuación provisional: L1 3,55 · L11 3,35 · L5 2,95 · L2 2,65 · L3 2,35 · L7 2,05.
+
+**Decisiones**
+- **L10 (Minecraft) descartada**: el EULA prohíbe lucrarse con contenido sin permiso de Mojang.
+- L2 y L3 bajan a "débil" (competencia densa en español, poca ventaja del dueño).
+- L7 deja de ser negocio por sí misma: pasa a ser "imán de tráfico" gratuito para L1/L11.
+
+**Aprendizaje honesto**
+- No encontré ningún mazo de flashcards de pago para la PAU en español. Eso puede ser un hueco o una señal de que los estudiantes no pagan por esto (Wuolah lo da gratis). Todavía no puedo saber cuál de las dos.
+- Los planners en español se venden a 3–7 €: para llegar a 500 € netos harían falta del orden de 80–170 ventas. El precio bajo obliga a crear paquetes.
+
+**Bloqueos**: ninguno. Nada requiere al humano todavía.
+
+**Primera tarea de mañana**: Google Trends + conteo de reseñas para L1 y L11; TAM/SAM/SOM; plan de canal de tráfico para cada candidata.
