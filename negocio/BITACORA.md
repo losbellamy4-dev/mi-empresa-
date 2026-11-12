@@ -173,3 +173,28 @@ Diario del proyecto. Una entrada por sesión. Fecha límite de entrega: 15 de ma
 **Bloqueos**: elección de idea (🔴). Rama por defecto aún en el Día 1 (🔴 urgente: 4 sesiones perdidas).
 
 **Primera tarea de mañana**: investigar Hotmart como canal (comisiones, titular adulto, tráfico del marketplace) y Etsy en inglés; añadirlos al simulador y compararlos con BB v3.
+
+---
+
+## Día 8 — 2026-11-12 (Fase 2: ajuste de canal · elección pendiente)
+
+**Avances**
+- Continuidad: **del 30-oct al 11-nov, 14 sesiones** arrancaron desde el Día 1 y rehicieron el Día 2 (ramas 5nedo3, mrt3hf, 10ufax, v0nom2, 75rio6, mlwmb4, a9xscj, 39cwu6, sozpm1, ws1gcz, afawuz, 6vnqfh, q1wsc1 y otras). Integré `e2k4ce` (Día 7) en `2loft6` por fast-forward. No hay `RESPUESTA_HUMANO.md` en ninguna rama. Aviso enviado al dueño.
+- `investigacion/10_CANALES_HOTMART_ETSY_EN.md`: Hotmart cobra 9,9 % + 1,00 € (desde 21-sep-2026), exige titular 18+ y no publica datos de tráfico orgánico; es un canal de afiliados. Etsy-EN: mercado grande; una tienda nueva de 2026 para agentes inmobiliarios muestra 24 ventas en 3 meses.
+- `simulador.py`: canal de marketplace configurable (`mkt="hotmart"`, con fracción de ventas por afiliados). Comprobado que los casos base de v3 salen idénticos (303/452/185 €).
+- `simulador/dia8.py`: 8 combinaciones de canal + tornado. `modelo/VEREDICTO.md` v4.
+
+**Resultados (estimaciones, no garantías)**
+- BB con Etsy-ES (ref.): 42 %. Hotmart en su lugar: 32 %. Etsy-ES + Hotmart: 50 %.
+- **BB + inmobiliarias en Etsy-EN: 66 %, base 603 €, mediana 789 €.** Todo junto: 68 %. Estrés Etsy-EN (10–500): 52 %, base 375 €.
+
+**Decisiones**
+- Veredicto v4: **SÍ condicionado**. Recomendación de canal: web ES (Payhip) + Etsy con anuncios ES/EN. Hotmart, opcional y más tarde.
+- Condición para la Fase 3: validar Etsy-EN con pocos anuncios antes de construir todo el catálogo.
+
+**Aprendizaje honesto**
+- Lo que cambia el resultado no es el producto ni el precio, sino **ir a donde ya están los compradores** (Etsy en inglés). Pero el supuesto se apoya en un único caso visible, y por eso la prueba de estrés baja al 52 %.
+
+**Bloqueos**: elección de idea (🔴). Rama por defecto aún en el Día 1 (🔴 urgente: ya son 18 sesiones perdidas).
+
+**Primera tarea de mañana**: plan de validación de Etsy-EN (anuncios, métricas y umbral de corte), lista de las 10 plantillas del pack inmobiliarias ES/EN y esqueleto de la web en `/negocio/web/`.

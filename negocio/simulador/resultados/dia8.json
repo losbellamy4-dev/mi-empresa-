@@ -1,0 +1,153 @@
+{
+ "n": 20000,
+ "semilla": 42,
+ "resultados": {
+  "BB_etsyES": {
+   "mediana": 407.8514708139134,
+   "p10": 103.1874279242387,
+   "p90": 1482.3509942979042,
+   "prob_500": 0.4156,
+   "prob_0_ventas": 0.00095,
+   "ventas_mediana": 31.0,
+   "pesimista": 7.400828391779508,
+   "base": 275.3704438962706,
+   "optimista": 3892.7565184064033,
+   "nombre": "Referencia v3: BB con Etsy-ES"
+  },
+  "BB_hotmart": {
+   "mediana": 301.46820861381167,
+   "p10": 68.29096864146592,
+   "p90": 1155.4630560712192,
+   "prob_500": 0.31815,
+   "prob_0_ventas": 0.0028,
+   "ventas_mediana": 24.0,
+   "pesimista": -0.3152998566429659,
+   "base": 196.46179368969493,
+   "optimista": 3098.612791032735,
+   "nombre": "BB con Hotmart en lugar de Etsy-ES"
+  },
+  "BB_etsyES+HM": {
+   "mediana": 493.56125227311736,
+   "p10": 105.78824984305679,
+   "p90": 2030.1982451667875,
+   "prob_500": 0.49595,
+   "prob_0_ventas": 0.00055,
+   "ventas_mediana": 41.0,
+   "pesimista": -14.438430489148956,
+   "base": 343.34870359815574,
+   "optimista": 5015.378955711352,
+   "nombre": "BB con Etsy-ES y además Hotmart"
+  },
+  "BB+EN": {
+   "mediana": 788.7648721646736,
+   "p10": 195.00583329213168,
+   "p90": 3247.0858080334738,
+   "prob_500": 0.6648,
+   "prob_0_ventas": 0.0001,
+   "ventas_mediana": 62.0,
+   "pesimista": 23.929019749929118,
+   "base": 602.910324594654,
+   "optimista": 7554.052424642625,
+   "nombre": "BB Etsy-ES + inmobiliarias traducido en Etsy-EN"
+  },
+  "BB_HM+EN": {
+   "mediana": 697.9683399042162,
+   "p10": 163.8148076539547,
+   "p90": 2886.1386038933324,
+   "prob_500": 0.6229,
+   "prob_0_ventas": 0.0001,
+   "ventas_mediana": 56.0,
+   "pesimista": 16.212891501506643,
+   "base": 524.0016743880782,
+   "optimista": 6759.9086972689565,
+   "nombre": "BB Hotmart + inmobiliarias en Etsy-EN"
+  },
+  "BB_todo": {
+   "mediana": 849.9419195489969,
+   "p10": 182.47215721853314,
+   "p90": 3679.6113271605295,
+   "prob_500": 0.6749,
+   "prob_0_ventas": 0.0001,
+   "ventas_mediana": 69.0,
+   "pesimista": 2.089760869000653,
+   "base": 670.888584296539,
+   "optimista": 8676.674861947573,
+   "nombre": "BB Etsy-ES + Hotmart + inmobiliarias en Etsy-EN"
+  },
+  "BB+EN_estres": {
+   "mediana": 529.1646623920833,
+   "p10": 126.0063080112587,
+   "p90": 2053.974844095192,
+   "prob_500": 0.52265,
+   "prob_0_ventas": 0.00055,
+   "ventas_mediana": 42.0,
+   "pesimista": 2.9102282514719695,
+   "base": 374.55045235555934,
+   "optimista": 5103.1893280902605,
+   "nombre": "Prueba de estrés: BB+EN con Etsy-EN 10–500 visitas/mes"
+  },
+  "B_EN_solo": {
+   "mediana": 338.9716236535427,
+   "p10": 55.13737580288201,
+   "p90": 1820.5718807482633,
+   "prob_500": 0.3872,
+   "prob_0_ventas": 0.01065,
+   "ventas_mediana": 26.0,
+   "pesimista": 31.52819135814961,
+   "base": 342.5398806983833,
+   "optimista": 3676.295906236221,
+   "nombre": "Solo inmobiliarias en Etsy-EN (sin web en español)"
+  },
+  "tornado": {
+   "combo": "BB_todo",
+   "base": 670.888584296539,
+   "filas": [
+    {
+     "param": "etsy_max",
+     "neto_p10": 190.0227588519448,
+     "neto_p90": 2853.0473628677737
+    },
+    {
+     "param": "p_etsy",
+     "neto_p10": 346.1965446314812,
+     "neto_p90": 1359.7896998818542
+    },
+    {
+     "param": "seo_max",
+     "neto_p10": 599.5407420560141,
+     "neto_p90": 971.1283212111427
+    },
+    {
+     "param": "p_directa",
+     "neto_p10": 603.683431184166,
+     "neto_p90": 835.6879770684945
+    },
+    {
+     "param": "tau_etsy",
+     "neto_p10": 606.067078620782,
+     "neto_p90": 736.7245377197389
+    },
+    {
+     "param": "red_base",
+     "neto_p10": 654.6935380320026,
+     "neto_p90": 757.9484501900682
+    },
+    {
+     "param": "f_premium",
+     "neto_p10": 633.3024454396555,
+     "neto_p90": 708.4747231534226
+    },
+    {
+     "param": "tau_seo",
+     "neto_p10": 651.4150038957505,
+     "neto_p90": 702.8813409334323
+    },
+    {
+     "param": "retraso_seo",
+     "neto_p10": 648.0720597662112,
+     "neto_p90": 695.7218039850059
+    }
+   ]
+  }
+ }
+}

@@ -95,6 +95,20 @@ def neto_etsy(precio):
     return precio / (1 + IVA) * (1 - 0.065 - 0.04 - 0.15 * 0.2) - 0.30 - 0.19
 
 
+def neto_hotmart(precio, f_afil=0.0, com_afil=0.5):
+    """Hotmart (Día 8): 9,9 % + 1,00 € fijo desde el 21-sep-2026 [S: ayuda Hotmart vía buscador].
+    Una fracción f_afil de las ventas la hacen afiliados, que se llevan com_afil del neto [E]."""
+    base = precio / (1 + IVA) * (1 - 0.099) - 1.00
+    return base * (1 - f_afil * com_afil)
+
+
+def neto_mercado(cfg, precio, v):
+    """Neto por venta en el canal 'marketplace' (Etsy por defecto; Hotmart si cfg['mkt'] == 'hotmart')."""
+    if cfg.get("mkt") == "hotmart":
+        return neto_hotmart(precio, v.get("f_afil", 0.0))
+    return neto_etsy(precio)
+
+
 def cuantil(dist, q):
     """Valor del parámetro en el cuantil q (0..1)."""
     tipo, a, b = dist
@@ -126,13 +140,13 @@ def simular(idea, v, mes_lanz, rng=None):
     """Una trayectoria de 12 meses. Con rng=None devuelve el valor esperado."""
     cfg = IDEAS[idea]
     est = ESTACIONALIDAD[idea]
-    nw, ne = neto_web(cfg["precio"]), neto_etsy(cfg["precio"])
+    nw, ne = neto_web(cfg["precio"]), neto_mercado(cfg, cfg["precio"], v)
     # Ajustes v2 (opcionales; sin ellos el resultado es idéntico a v1)
     fac = (cfg["precio"] / cfg["precio_ref"]) ** -v["elast"] if "elast" in v else 1.0
     if "f_premium" in v:                       # nivel premium: sube el ticket medio
         f = v["f_premium"]
         nw = (1 - f) * nw + f * neto_web(cfg["premium"])
-        ne = (1 - f) * ne + f * neto_etsy(cfg["premium"])
+        ne = (1 - f) * ne + f * neto_mercado(cfg, cfg["premium"], v)
     tw = cfg.get("tripwire")                   # Etsy vende un producto barato que lleva al pack
     if tw:
         ne_tw = neto_etsy(tw)

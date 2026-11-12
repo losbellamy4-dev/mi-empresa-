@@ -9,3 +9,5 @@
 Solo usa la librería estándar de Python.
 - `dia7.py` — (Día 7) sensibilidad de B y BB al rango de visitas de Etsy (v2 20–800, v3 10–400, estrés 5–200) y tornado del catálogo BB.
   `python3 dia7.py [n_corridas] [semilla]` → `resultados/dia7.md`, `.json` y `tornado_BB.svg` (≈ 7 s).
+- `dia8.py` — (Día 8) ajuste de canal del catálogo BB: Etsy-ES, Hotmart, Etsy-EN y combinaciones, con prueba de estrés y tornado.
+  `python3 dia8.py [n_corridas] [semilla]` → `resultados/dia8.md`, `.json` y `tornado_dia8.svg` (≈ 11 s).

@@ -1,4 +1,26 @@
-# VEREDICTO del simulador — v3 (Día 7, 2026-10-29) · PROVISIONAL
+# VEREDICTO del simulador — v4 (Día 8, 2026-11-12) · PROVISIONAL
+
+> Provisional porque el humano no ha elegido idea. **Estimaciones del modelo bajo supuestos conservadores, no garantías.**
+> Datos: `../simulador/resultados/dia8.md` (20.000 corridas, semilla 42, cota correlacionada). Investigación: `../investigacion/10_CANALES_HOTMART_ETSY_EN.md`.
+
+## Respuesta corta
+- **Hotmart no arregla el canal**: en lugar de Etsy-ES baja BB de 42 % a 32 %; sumado a Etsy-ES sube solo a 50 % (base 343 €).
+- **Etsy en inglés sí**: vender también el pack de inmobiliarias traducido (misma tienda de Etsy) lleva el catálogo a **P(≥ 500 €) ≈ 66 %**, **caso base 603 €**, mediana 789 €.
+- Prueba de estrés (Etsy-EN 10–500 visitas/mes): **52 %**, base 375 €.
+- **Veredicto v4: SÍ, CONDICIONADO.** El modelo conservador supera 500 € en el caso base y en la mediana con el catálogo **BB + inmobiliarias en inglés (Etsy)**, pero ese resultado se apoya en **un solo dato** de Etsy-EN (una tienda nueva con 24 ventas en 3 meses). Se puede pasar a Fase 3 cuando el humano elija B, con esta condición: **validar Etsy-EN pronto y barato** (pocos anuncios) antes de construir el catálogo completo.
+
+## Qué hay que acertar sí o sí (tornado de `BB_todo`)
+1. `etsy_max` (visitas de Etsy, ahora ES + EN): 190 € ↔ 2.853 €.
+2. `p_etsy` (conversión en Etsy): 346 € ↔ 1.360 €.
+3. `seo_max`: 600 € ↔ 971 €.
+
+## Recomendación de canal
+Web propia en español (Payhip) + **una tienda de Etsy con anuncios en español e inglés**. Hotmart queda como extra opcional (+1 punto, no compensa el trabajo al principio).
+
+---
+
+## Anexo — VEREDICTO v3 (Día 7)
+
 
 > Sigue siendo provisional porque el humano no ha elegido idea. Son **estimaciones del modelo bajo supuestos conservadores, no garantías**.
 > Datos: `../simulador/resultados/dia7.md` (20.000 corridas, semilla 42). Investigación: `../investigacion/09_ETSY_Y_SEGUNDO_SECTOR.md`.

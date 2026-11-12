@@ -1,31 +1,31 @@
 {
   "fase": 2,
-  "dia_global": 8,
+  "dia_global": 9,
   "idea_elegida": null,
   "checkpoints": [],
   "bloqueado_por_humano": false,
-  "decision_pendiente": "Elegir idea A/B/C. Recomendación Día 7: B como catálogo (inmobiliarias + psicólogos), 17/29 €, con canal por decidir (Hotmart/web ES o Etsy EN). Ver 🔴_ACCION_REQUERIDA.md. Responder en negocio/RESPUESTA_HUMANO.md en cualquier rama.",
-  "ultima_sesion": "2026-10-29",
-  "hecho_ultima_sesion": "Día 7: integrado wrrkun (Día 6) en e2k4ce por fast-forward; smd1j5 es otro Día 2 duplicado. Etsy bloquea el scraping; señales indirectas → etsy_max v3 = 10–400. 2.º sector = psicólogos (datos INE/autocompletado). simulador/dia7.py: B 43→28 %, BB 58→42 %; tornado_BB. VEREDICTO v3 = NO (ajustar canal).",
-  "siguiente_tarea": "Revisar RESPUESTA_HUMANO.md en todas las ramas. Investigar Hotmart (comisiones, edad mínima/titular adulto, tráfico de marketplace, afiliados) y Etsy en inglés (competencia, conversión). Añadir canal 'hotmart' y variante 'B_EN' al simulador y comparar con BB v3.",
+  "decision_pendiente": "Elegir idea A/B/C. Recomendación Día 8: B como catálogo (inmobiliarias + psicólogos, 17/29 €) vendido en web ES (Payhip) + Etsy con anuncios en español E INGLÉS. Ver 🔴_ACCION_REQUERIDA.md. Responder en negocio/RESPUESTA_HUMANO.md.",
+  "ultima_sesion": "2026-11-12",
+  "hecho_ultima_sesion": "Día 8: detectado que del 30-oct al 11-nov (14 sesiones) cada ejecución rehízo el Día 2 desde 5cc7e21; integrado e2k4ce (Día 7) por fast-forward en 2loft6. Investigado Hotmart (9,9 % + 1 €, titular 18+, sin datos de tráfico orgánico) y Etsy-EN (tienda nueva 2026: 24 ventas/3 meses). simulador.py: canal 'mkt=hotmart'. dia8.py: 8 combinaciones de canal. VEREDICTO v4 = SÍ condicionado (BB+EN: P≈66 %, base 603 €; estrés 52 %).",
+  "siguiente_tarea": "Revisar RESPUESTA_HUMANO.md en todas las ramas. Si no hay respuesta: preparar Fase 3 sin depender de la elección → plan de validación barata de Etsy-EN (3–5 anuncios, métricas, umbral de corte), lista de 10 plantillas del pack inmobiliarias (ES/EN) y esqueleto de la web estática en /negocio/web/.",
   "finalistas": {
     "A": "L13+L7 opositores",
     "B": "L5 inmobiliarias",
     "C": "L1+L7 estudiantes"
   },
-  "recomendacion": "B catálogo inmobiliarias + psicólogos (17/29 €); canal por decidir",
+  "recomendacion": "B catálogo inmobiliarias + psicólogos (17/29 €); canales: web ES (Payhip) + Etsy ES+EN; Hotmart opcional",
   "preview_prob_500": {
     "A": 0.42,
     "B": 0.35,
     "C": 0.23
   },
-  "nota_ramas": "Línea principal: 5cc7e21 → lauy9y (D2) → ise0l1 (D3) → fnmjjw (D4) → bb8zsu (D5) → wrrkun (D6). kmq0em, odi82r y nksbhx son Días 2 duplicados (descartados). La rama por defecto (2gx72p) sigue en el Día 1.",
+  "nota_ramas": "Línea principal: 5cc7e21 → lauy9y (D2) → ise0l1 (D3) → fnmjjw (D4) → bb8zsu (D5) → wrrkun (D6) → e2k4ce (D7) → 2loft6 (D8). Todas las demás ramas confident-tesla-* son Días 2 duplicados (descartados). Rama por defecto (2gx72p) sigue en el Día 1.",
   "prob_500_fase2_v1": {
     "A": 0.222,
     "B": 0.386,
     "C": 0.087
   },
-  "veredicto_fase2": "v2 (provisional): NO en el escenario base estricto con un producto; SÍ por poco en la mediana del Monte Carlo con catálogo de dos productos (BB: base 452 €, mediana 615 €, P≈58 % correl.)",
+  "veredicto_fase2": "v4 (provisional): SÍ condicionado — BB + inmobiliarias en Etsy-EN supera 500 € en base (603 €) y mediana (789 €), P≈66 % (correl.); estrés Etsy-EN 10–500 → 52 %. Depende de un solo dato de Etsy-EN.",
   "prob_500_fase2_v2": {
     "A_niv": 0.251,
     "B_niv": 0.43,
@@ -38,5 +38,15 @@
     "escalera de 4 € en Etsy"
   ],
   "segundo_sector_B": "psicólogos (reserva: fisioterapia)",
-  "rama_mas_avanzada": "claude/confident-tesla-e2k4ce"
+  "rama_mas_avanzada": "claude/confident-tesla-2loft6",
+  "prob_500_fase2_v4": {
+    "BB_etsyES": 0.416,
+    "BB_hotmart": 0.318,
+    "BB_etsyES+HM": 0.496,
+    "BB+EN": 0.665,
+    "BB_HM+EN": 0.623,
+    "BB_todo": 0.675,
+    "BB+EN_estres": 0.523,
+    "B_EN_solo": 0.387
+  }
 }
