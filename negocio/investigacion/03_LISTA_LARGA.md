@@ -23,3 +23,9 @@ Filtros F1–F8 definidos en `00_CRITERIOS.md`. ✅ pasa · ❌ no pasa · ⚠�
 3. TAM/SAM/SOM honesto para las que sobrevivan (datos de matrícula en ESO/Bachillerato del Ministerio de Educación; nº de docentes; nº de micro-negocios).
 4. Revisar EULA de Minecraft para L10 (descartar o mantener).
 5. Verificar edad mínima en términos oficiales de Etsy, Payhip, Lemon Squeezy, Gumroad.
+
+## Actualización día 2 (2026-11-13)
+- **L10 → DESCARTADA**: el EULA/directrices de Mojang exigen permiso para monetizar y excluyen la venta de mods (ver `04_DEMANDA_Y_COMPETENCIA.md`).
+- **L11 → probable descarte**: Wuolah ofrece apuntes gratis a "1 de cada 2 preuniversitarios" (dato de la empresa).
+- **L2 → débil**, **L3 → débil**: competencia profesional/gratuita fuerte.
+- Edad mínima de Etsy verificada: titular 18+; menores solo con cuenta del tutor.
