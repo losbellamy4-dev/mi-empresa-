@@ -24,3 +24,27 @@ Diario del proyecto. Una entrada por sesión. Fecha límite de entrega: 15 de ma
 **Bloqueos**: ninguno. Nada requiere al humano todavía.
 
 **Primera tarea de mañana**: validar demanda y competencia en español de L1 (planners de estudio), L3 (imprimibles educativos) y L5 (plantillas Canva para negocios locales).
+
+---
+
+## Día 2 — 2026-11-14 (Fase 1: Investigación)
+
+**Avances**
+- `investigacion/04_DEMANDA_Y_COMPETENCIA.md`: demanda y competencia en español de L1, L2, L3, L5, L10, L11, con fuentes citadas y TAM/SAM/SOM preliminar de L1 y L1b (datos oficiales: 2,09 M alumnos de ESO, 0,70 M de Bachillerato y ~792.000 docentes en 2024-25).
+- `investigacion/05_EDAD_MINIMA_PLATAFORMAS.md`: confirmado que en Etsy, Gumroad, Payhip, Lemon Squeezy/Stripe y TpT el titular y el cobro deben ser del adulto.
+- `03_LISTA_LARGA.md` actualizada.
+
+**Decisiones**
+- **L10 descartada** (la EULA de Minecraft prohíbe vender mods; el Marketplace es solo para partners aprobados).
+- **L2 y L11 pasan a reserva** (competencia gratuita fuerte / cultura de "todo gratis").
+- **Nuevas variantes:** L1b (agenda/cuaderno del profesor de Secundaria) y L3b (recursos en español para aulas bilingües de EE. UU.).
+
+**Aprendizaje honesto**
+- El que paga no es el alumno: las agendas para alumnos se venden a unos 2 $ o se regalan, y las de docentes a 7–29 $. Vender a estudiantes de 14 años es difícil porque no tienen medio de pago propio.
+- L1 en solitario solo llega a 500 € en el extremo optimista del SOM (estimación).
+- Riesgo nuevo: la **estacionalidad**. El pico de compra docente (agosto–septiembre) cae después de la entrega del 15 de mayo de 2027. El simulador deberá modelarlo.
+- Sin herramientas de volumen de búsqueda: la demanda se infiere de las ventas y reseñas visibles en los listados.
+
+**Bloqueos**: ninguno. Todavía no hace falta que intervenga el humano.
+
+**Primera tarea de mañana**: puntuar con P1–P6 las ideas vivas (L1b, L3b, L5, L1+L7) y profundizar en L3b (TpT) y en el nicho vertical de L5.

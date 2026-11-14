@@ -23,3 +23,10 @@ Filtros F1–F8 definidos en `00_CRITERIOS.md`. ✅ pasa · ❌ no pasa · ⚠�
 3. TAM/SAM/SOM honesto para las que sobrevivan (datos de matrícula en ESO/Bachillerato del Ministerio de Educación; nº de docentes; nº de micro-negocios).
 4. Revisar EULA de Minecraft para L10 (descartar o mantener).
 5. Verificar edad mínima en términos oficiales de Etsy, Payhip, Lemon Squeezy, Gumroad.
+
+## Actualización día 2 (2026-11-14)
+Ver `04_DEMANDA_Y_COMPETENCIA.md` y `05_EDAD_MINIMA_PLATAFORMAS.md`.
+- **L10 → NO PASA** (EULA prohíbe vender mods; Marketplace solo para partners aprobados).
+- **Nuevas variantes:** **L1b** agenda/cuaderno del profesor de Secundaria en español; **L3b** recursos en español para aulas *dual language* de EE. UU.
+- **Bajan a débil:** L2 (competencia gratis), L11 (cultura gratis en Anki, F8 dudoso).
+- Ideas vivas: L1b, L3b, L5, L1 (+L7 imán), L2/L11/L8 en reserva.
