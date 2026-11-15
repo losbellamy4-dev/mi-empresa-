@@ -13,8 +13,9 @@ Filtros F1–F8 definidos en `00_CRITERIOS.md`. ✅ pasa · ❌ no pasa · ⚠�
 | L7 | Generador web de horarios/planificador de exámenes (herramienta freemium) | ✅ | ✅ | ✅ | ✅ | ⚠️ | ✅ | ✅ | ✅ | **PASA** (encaja como imán de tráfico para L1) |
 | L8 | Ebook "Cómo estudiar en ESO" | ✅ | ✅ | ✅ | ✅ | ⚠️ | ✅ | ✅ | ⚠️ | **PASA (débil)** — mejor como bonus de L1 |
 | L9 | Blog/contenido de afiliación (tecnología, gaming) | ✅ | ✅ | ✅ | ✅ | ❌ | ⚠️ | ✅ | ✅ | **NO PASA** (F5: ingresos por visita demasiado bajos en 7 meses) |
-| L10 | Mapas/servidores/addons de Minecraft o Roblox de pago | ✅ | ✅ | ✅ | ✅ | ⚠️ | ⚠️ (reglas de EULA de Mojang sobre monetización) | ✅ | ✅ | **DUDOSO** — revisar EULA |
+| L10 | Mapas/servidores/addons de Minecraft o Roblox de pago | ✅ | ✅ | ✅ | ✅ | ⚠️ | ⚠️ (reglas de EULA de Mojang sobre monetización) | ✅ | ✅ | **NO PASA** (Día 2) — según fuentes secundarias, Mojang no permite cobrar por mapas/mods fuera del Marketplace oficial; ver `04_DEMANDA_COMPETENCIA.md` |
 | L11 | Packs de flashcards/Anki de temario de Bachillerato/EBAU | ✅ | ✅ | ✅ | ✅ | ⚠️ | ✅ | ✅ | ⚠️ (calidad de contenido) | **PASA** |
+| L13 | Kit de organización para opositores (planner + opotracker + Sheets con estadísticas) — añadida Día 2 | ✅ | ✅ | ✅ | ✅ | ⚠️ (versión básica gratis/≤1,5 €) | ✅ | ✅ | ✅ (herramienta, no temario) | **PASA** |
 | L12 | Presets/LUTs fotográficos | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ⚠️ | **NO PASA** (saturado, sin ventaja) |
 
 ## Siguientes pasos (Fase 1, días 2–N)
@@ -23,3 +24,6 @@ Filtros F1–F8 definidos en `00_CRITERIOS.md`. ✅ pasa · ❌ no pasa · ⚠�
 3. TAM/SAM/SOM honesto para las que sobrevivan (datos de matrícula en ESO/Bachillerato del Ministerio de Educación; nº de docentes; nº de micro-negocios).
 4. Revisar EULA de Minecraft para L10 (descartar o mantener).
 5. Verificar edad mínima en términos oficiales de Etsy, Payhip, Lemon Squeezy, Gumroad.
+
+## Actualización Día 2 (2026-11-15)
+Ver `04_DEMANDA_COMPETENCIA.md`. L10 descartada; L13 añadida. Nueva restricción: precio ≥6 € o bundle (si no, hacen falta >12.000 visitas).

@@ -1,12 +1,21 @@
 {
   "fase": 1,
-  "dia_global": 2,
+  "dia_global": 3,
   "idea_elegida": null,
   "checkpoints": [],
   "bloqueado_por_humano": false,
   "decision_pendiente": null,
-  "ultima_sesion": "2026-10-19",
-  "hecho_ultima_sesion": "Día 1: estructura creada; criterios de filtro fijados; investigación de plataformas/comisiones/edad; panorama de 6 modelos; lista larga de 12 ideas con primer filtro (7 pasan, 4 descartadas, 1 dudosa).",
-  "siguiente_tarea": "Validar demanda y competencia en español para L1, L3, L5 (luego L2, L7, L11); revisar EULA Minecraft (L10); verificar edad mínima en términos de Etsy/Payhip/Lemon Squeezy/Gumroad.",
-  "ideas_vivas": ["L1", "L2", "L3", "L5", "L7", "L8", "L11", "L10?"]
+  "ultima_sesion": "2026-11-15",
+  "hecho_ultima_sesion": "Día 2: demanda y competencia de L1,L2,L3,L5,L7,L11,L13; datos oficiales de matrícula (ESO 2,09 M, Bach 0,70 M); L10 descartada (Minecraft); L13 (opositores) añadida; edad Etsy verificada (18+, 13-17 vía cuenta del tutor); tabla de ventas necesarias por precio.",
+  "siguiente_tarea": "(1) Intentar verificar en fuente primaria las Usage Guidelines de Minecraft (hoy 503) — solo para cerrar L10. (2) Demanda en español: buscar señales de volumen (Google Trends/Keyword tools públicos, Reddit/foros) para L1 y L13 y disposición a pagar por versión 'pro'. (3) Revisar L5 por nichos españoles concretos. (4) Empezar TAM/SAM/SOM de L1, L13, L5 y la matriz de puntuación P1–P6.",
+  "ideas_vivas": [
+    "L1",
+    "L13",
+    "L5",
+    "L11",
+    "L7 (imán de tráfico)",
+    "L8 (bonus)",
+    "L2 (baja)",
+    "L3 (baja)"
+  ]
 }
