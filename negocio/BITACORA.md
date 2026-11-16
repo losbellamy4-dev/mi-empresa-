@@ -198,3 +198,26 @@ Diario del proyecto. Una entrada por sesión. Fecha límite de entrega: 15 de ma
 **Bloqueos**: elección de idea (🔴). Rama por defecto aún en el Día 1 (🔴 urgente: ya son 18 sesiones perdidas).
 
 **Primera tarea de mañana**: plan de validación de Etsy-EN (anuncios, métricas y umbral de corte), lista de las 10 plantillas del pack inmobiliarias ES/EN y esqueleto de la web en `/negocio/web/`.
+
+---
+
+## Día 9 — 2026-11-16 (Fase 2→3: preparar la validación · elección pendiente)
+
+**Avances**
+- Continuidad: esta sesión volvió a arrancar en el Día 1. Integré `2loft6` (Día 8) en `9sf6u8` por fast-forward. El 13, 14 y 15 de noviembre hubo **3 Días 2 duplicados más** (`uph903`, `1zg9sz`, `lfcc0k`): ya son **21 sesiones perdidas**. No hay `RESPUESTA_HUMANO.md` en ninguna rama.
+- Nuevo: abrí un **PR borrador de esta rama hacia la rama por defecto**. Si se fusiona (un clic), las próximas sesiones arrancarán desde aquí.
+- `simulador/dia9.py` → `resultados/dia9.md`: barrido del techo de visitas de Etsy-EN (V) para el catálogo BB+EN.
+- `investigacion/11_PLAN_VALIDACION_ETSY_EN.md`: 5 anuncios en inglés (≈ 1 $), métricas cada 2 semanas y regla de decisión en el mes 2.
+- `investigacion/12_ESPEC_PACK_INMOBILIARIAS.md`: las 10 plantillas (≈ 38 diseños por idioma), el pack agencia y el orden de construcción.
+- `web/`: esqueleto v0 de la landing (index + borrador legal), adaptado a móvil y modo oscuro, con los botones de compra desactivados (🔴).
+
+**Resultados (estimaciones, no garantías)**
+- P(≥ 500 €) del catálogo BB+EN: 42 % con V = 10, **52 % con V = 75**, **65 % con V = 150** (caso base 501 €), 83 % con V = 300.
+- Regla: con ≥ 130 visitas de los 5 anuncios en el mes 2 → seguir; 65–129 → ajustar; 25–64 → repensar canal; < 25 → Etsy-EN no aporta.
+
+**Aprendizaje honesto**
+- Revisando los resultados veo que **P(0 ventas) ≈ 0 %** en todas las combinaciones. Choca con el dato del Día 1 (el 44 % de productos de Gumroad no vende nada). El modelo probablemente da por seguro algo de tráfico de SEO y redes. Lo reviso mañana, porque podría estar inflando todas las probabilidades.
+
+**Bloqueos**: elección de idea (🔴). La rama por defecto sigue en el Día 1 (🔴 urgente, ahora con un PR para arreglarlo en un clic).
+
+**Primera tarea de mañana**: auditar el supuesto de P(0 ventas) (añadir un "canal muerto" con cierta probabilidad) y volver a correr dia8/dia9. Después, textos ES/EN de los 5 anuncios de prueba.

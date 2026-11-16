@@ -11,3 +11,4 @@ Solo usa la librería estándar de Python.
   `python3 dia7.py [n_corridas] [semilla]` → `resultados/dia7.md`, `.json` y `tornado_BB.svg` (≈ 7 s).
 - `dia8.py` — (Día 8) ajuste de canal del catálogo BB: Etsy-ES, Hotmart, Etsy-EN y combinaciones, con prueba de estrés y tornado.
   `python3 dia8.py [n_corridas] [semilla]` → `resultados/dia8.md`, `.json` y `tornado_dia8.svg` (≈ 11 s).
+- `dia9.py` (Día 9): umbral de corte para la prueba de Etsy-EN → `resultados/dia9.md`.

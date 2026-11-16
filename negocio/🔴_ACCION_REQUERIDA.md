@@ -1,8 +1,9 @@
-# 🔴 ACCIÓN REQUERIDA (actualizado el Día 8, 2026-11-12)
+# 🔴 ACCIÓN REQUERIDA (actualizado el Día 9, 2026-11-16)
 
-> **Novedad del Día 8:** vender también el pack de inmobiliarias **en inglés en Etsy** (misma tienda, anuncios traducidos) sube la probabilidad estimada del catálogo B de **42 % a ≈ 66 %** (caso base 603 €). Hotmart apenas ayuda. Por primera vez el modelo conservador **supera 500 € en el caso base**, aunque apoyado en un solo dato de Etsy-EN. Detalle: `modelo/VEREDICTO.md` v4.
+> ⚠️ **Lo más urgente: continuidad.** Ya son **21 sesiones perdidas**: cada día la tarea arranca desde la rama por defecto, que sigue en el Día 1, y rehace el "Día 2" (la última vez el 13, 14 y 15 de noviembre). **Ahora se arregla con un clic:** hay un **Pull Request borrador** de `claude/confident-tesla-9sf6u8` (Día 9) hacia la rama por defecto. Ábrelo en GitHub → *Pull requests* → "Ready for review" → **Merge**. Alternativa: *Settings → General → Default branch* → `claude/confident-tesla-9sf6u8`. Gratis, sin datos personales.
 >
-> ⚠️ **Continuidad (lo más urgente):** del 30-oct al 11-nov, **14 sesiones seguidas** rehicieron el "Día 2" desde cero porque arrancan desde la rama por defecto (Día 1). Hoy lo he recuperado todo en **`claude/confident-tesla-2loft6`**. Cambia la rama por defecto a esa (GitHub → Settings → General → Default branch) para no perder más días. Gratis, 2 minutos.
+> **Novedad del Día 9:** ya está listo el plan para comprobar barato (≈ 1 $, 5 anuncios) si Etsy en inglés funciona, con una regla clara de seguir o parar (`investigacion/11_PLAN_VALIDACION_ETSY_EN.md`). También hay una especificación del pack (`investigacion/12_ESPEC_PACK_INMOBILIARIAS.md`) y un primer esqueleto de la web (`web/index.html`). Todo sirve si eliges B.
+> Aviso honesto: mañana reviso un posible optimismo del simulador (casi nunca simula "0 ventas"), así que las probabilidades podrían bajar.
 
 ## 1. Elegir la idea de negocio (pendiente desde el Día 4)
 **Quién:** Adrián (con un adulto si quiere opinar)
@@ -17,7 +18,7 @@ El Día 6 probé en el simulador varios ajustes de las ideas (`modelo/VEREDICTO.
 
 \* Son estimaciones de un modelo con supuestos conservadores, no garantías. Un producto suelto **no** llega a 500 € en el caso base; un catálogo de dos se queda cerca (452–473 €) y supera los 500 € en la mediana del Monte Carlo.
 
-**Mi recomendación (Día 8): B como catálogo por sectores (inmobiliarias + psicólogos), vendido en web propia en español + Etsy con anuncios en español e inglés.** Antes (Día 6): (primero inmobiliarias y, cuando esté terminado, un segundo sector, como clínicas estéticas o peluquerías), con dos niveles de precio. Descarté subir el precio único y el "producto escalera" de 4 €, porque en la simulación empeoran el resultado.
+**Mi recomendación (Días 8–9, sin cambios): B como catálogo por sectores (inmobiliarias + psicólogos), vendido en web propia en español + Etsy con anuncios en español e inglés.** Antes (Día 6): (primero inmobiliarias y, cuando esté terminado, un segundo sector, como clínicas estéticas o peluquerías), con dos niveles de precio. Descarté subir el precio único y el "producto escalera" de 4 €, porque en la simulación empeoran el resultado.
 
 ### Cómo responder
 Crea `negocio/RESPUESTA_HUMANO.md` en **cualquier rama** del repo (la tarea revisa todas) con:

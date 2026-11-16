@@ -1,13 +1,13 @@
 {
   "fase": 2,
-  "dia_global": 9,
+  "dia_global": 10,
   "idea_elegida": null,
   "checkpoints": [],
   "bloqueado_por_humano": false,
   "decision_pendiente": "Elegir idea A/B/C. Recomendación Día 8: B como catálogo (inmobiliarias + psicólogos, 17/29 €) vendido en web ES (Payhip) + Etsy con anuncios en español E INGLÉS. Ver 🔴_ACCION_REQUERIDA.md. Responder en negocio/RESPUESTA_HUMANO.md.",
-  "ultima_sesion": "2026-11-12",
-  "hecho_ultima_sesion": "Día 8: detectado que del 30-oct al 11-nov (14 sesiones) cada ejecución rehízo el Día 2 desde 5cc7e21; integrado e2k4ce (Día 7) por fast-forward en 2loft6. Investigado Hotmart (9,9 % + 1 €, titular 18+, sin datos de tráfico orgánico) y Etsy-EN (tienda nueva 2026: 24 ventas/3 meses). simulador.py: canal 'mkt=hotmart'. dia8.py: 8 combinaciones de canal. VEREDICTO v4 = SÍ condicionado (BB+EN: P≈66 %, base 603 €; estrés 52 %).",
-  "siguiente_tarea": "Revisar RESPUESTA_HUMANO.md en todas las ramas. Si no hay respuesta: preparar Fase 3 sin depender de la elección → plan de validación barata de Etsy-EN (3–5 anuncios, métricas, umbral de corte), lista de 10 plantillas del pack inmobiliarias (ES/EN) y esqueleto de la web estática en /negocio/web/.",
+  "ultima_sesion": "2026-11-16",
+  "hecho_ultima_sesion": "Día 9: recuperada continuidad (2loft6→9sf6u8 por fast-forward; 13–15 nov = 3 Días 2 duplicados más: uph903, 1zg9sz, lfcc0k). dia9.py: umbral de corte Etsy-EN (P≥50 % desde V=75 visitas/mes; base ≥500 € desde V=150). Plan de validación Etsy-EN (11_), especificación del pack inmobiliarias ES/EN (12_), esqueleto web v0 en /negocio/web/. PR borrador hacia la rama por defecto para arreglar la continuidad.",
+  "siguiente_tarea": "1) Revisar RESPUESTA_HUMANO.md en todas las ramas y si el PR de continuidad se fusionó. 2) Revisar el realismo de P(0 ventas)≈0 % del simulador (choca con 44 % de productos Gumroad a 0 $): probable optimismo en tráfico SEO/redes garantizado; añadir probabilidad de 'canal muerto'. 3) Textos ES/EN de los anuncios de Etsy de las 5 plantillas de prueba y maquetas SVG de referencia.",
   "finalistas": {
     "A": "L13+L7 opositores",
     "B": "L5 inmobiliarias",
@@ -19,7 +19,7 @@
     "B": 0.35,
     "C": 0.23
   },
-  "nota_ramas": "Línea principal: 5cc7e21 → lauy9y (D2) → ise0l1 (D3) → fnmjjw (D4) → bb8zsu (D5) → wrrkun (D6) → e2k4ce (D7) → 2loft6 (D8). Todas las demás ramas confident-tesla-* son Días 2 duplicados (descartados). Rama por defecto (2gx72p) sigue en el Día 1.",
+  "nota_ramas": "Línea principal: 5cc7e21 → lauy9y (D2) → ise0l1 (D3) → fnmjjw (D4) → bb8zsu (D5) → wrrkun (D6) → e2k4ce (D7) → 2loft6 (D8). Todas las demás ramas confident-tesla-* son Días 2 duplicados (descartados). Rama por defecto (2gx72p) sigue en el Día 1. → 9sf6u8 (D9). Duplicados D2 adicionales: uph903, 1zg9sz, lfcc0k (13–15 nov).",
   "prob_500_fase2_v1": {
     "A": 0.222,
     "B": 0.386,
@@ -38,7 +38,7 @@
     "escalera de 4 € en Etsy"
   ],
   "segundo_sector_B": "psicólogos (reserva: fisioterapia)",
-  "rama_mas_avanzada": "claude/confident-tesla-2loft6",
+  "rama_mas_avanzada": "claude/confident-tesla-9sf6u8",
   "prob_500_fase2_v4": {
     "BB_etsyES": 0.416,
     "BB_hotmart": 0.318,
@@ -48,5 +48,13 @@
     "BB_todo": 0.675,
     "BB+EN_estres": 0.523,
     "B_EN_solo": 0.387
-  }
+  },
+  "umbral_etsy_en": {
+    "V_p50": 75,
+    "V_base500": 150,
+    "obs_mes2_seguir": 130,
+    "obs_mes2_ajustar": 65,
+    "obs_mes2_parar": 25
+  },
+  "riesgo_modelo_pendiente": "P(0 ventas) ≈ 0 % en todas las combinaciones; probablemente optimista."
 }
