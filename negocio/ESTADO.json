@@ -1,12 +1,60 @@
 {
-  "fase": 1,
-  "dia_global": 2,
+  "fase": 2,
+  "dia_global": 10,
   "idea_elegida": null,
   "checkpoints": [],
   "bloqueado_por_humano": false,
-  "decision_pendiente": null,
-  "ultima_sesion": "2026-10-19",
-  "hecho_ultima_sesion": "Día 1: estructura creada; criterios de filtro fijados; investigación de plataformas/comisiones/edad; panorama de 6 modelos; lista larga de 12 ideas con primer filtro (7 pasan, 4 descartadas, 1 dudosa).",
-  "siguiente_tarea": "Validar demanda y competencia en español para L1, L3, L5 (luego L2, L7, L11); revisar EULA Minecraft (L10); verificar edad mínima en términos de Etsy/Payhip/Lemon Squeezy/Gumroad.",
-  "ideas_vivas": ["L1", "L2", "L3", "L5", "L7", "L8", "L11", "L10?"]
+  "decision_pendiente": "Elegir idea A/B/C. Recomendación Día 8: B como catálogo (inmobiliarias + psicólogos, 17/29 €) vendido en web ES (Payhip) + Etsy con anuncios en español E INGLÉS. Ver 🔴_ACCION_REQUERIDA.md. Responder en negocio/RESPUESTA_HUMANO.md.",
+  "ultima_sesion": "2026-11-16",
+  "hecho_ultima_sesion": "Día 9: recuperada continuidad (2loft6→9sf6u8 por fast-forward; 13–15 nov = 3 Días 2 duplicados más: uph903, 1zg9sz, lfcc0k). dia9.py: umbral de corte Etsy-EN (P≥50 % desde V=75 visitas/mes; base ≥500 € desde V=150). Plan de validación Etsy-EN (11_), especificación del pack inmobiliarias ES/EN (12_), esqueleto web v0 en /negocio/web/. PR borrador hacia la rama por defecto para arreglar la continuidad.",
+  "siguiente_tarea": "1) Revisar RESPUESTA_HUMANO.md en todas las ramas y si el PR de continuidad se fusionó. 2) Revisar el realismo de P(0 ventas)≈0 % del simulador (choca con 44 % de productos Gumroad a 0 $): probable optimismo en tráfico SEO/redes garantizado; añadir probabilidad de 'canal muerto'. 3) Textos ES/EN de los anuncios de Etsy de las 5 plantillas de prueba y maquetas SVG de referencia.",
+  "finalistas": {
+    "A": "L13+L7 opositores",
+    "B": "L5 inmobiliarias",
+    "C": "L1+L7 estudiantes"
+  },
+  "recomendacion": "B catálogo inmobiliarias + psicólogos (17/29 €); canales: web ES (Payhip) + Etsy ES+EN; Hotmart opcional",
+  "preview_prob_500": {
+    "A": 0.42,
+    "B": 0.35,
+    "C": 0.23
+  },
+  "nota_ramas": "Línea principal: 5cc7e21 → lauy9y (D2) → ise0l1 (D3) → fnmjjw (D4) → bb8zsu (D5) → wrrkun (D6) → e2k4ce (D7) → 2loft6 (D8). Todas las demás ramas confident-tesla-* son Días 2 duplicados (descartados). Rama por defecto (2gx72p) sigue en el Día 1. → 9sf6u8 (D9). Duplicados D2 adicionales: uph903, 1zg9sz, lfcc0k (13–15 nov).",
+  "prob_500_fase2_v1": {
+    "A": 0.222,
+    "B": 0.386,
+    "C": 0.087
+  },
+  "veredicto_fase2": "v4 (provisional): SÍ condicionado — BB + inmobiliarias en Etsy-EN supera 500 € en base (603 €) y mediana (789 €), P≈66 % (correl.); estrés Etsy-EN 10–500 → 52 %. Depende de un solo dato de Etsy-EN.",
+  "prob_500_fase2_v2": {
+    "A_niv": 0.251,
+    "B_niv": 0.43,
+    "AB_cat_correl": 0.615,
+    "BB_cat_correl": 0.584,
+    "BB_cat_indep": 0.689
+  },
+  "ajustes_descartados": [
+    "precio único más alto",
+    "escalera de 4 € en Etsy"
+  ],
+  "segundo_sector_B": "psicólogos (reserva: fisioterapia)",
+  "rama_mas_avanzada": "claude/confident-tesla-9sf6u8",
+  "prob_500_fase2_v4": {
+    "BB_etsyES": 0.416,
+    "BB_hotmart": 0.318,
+    "BB_etsyES+HM": 0.496,
+    "BB+EN": 0.665,
+    "BB_HM+EN": 0.623,
+    "BB_todo": 0.675,
+    "BB+EN_estres": 0.523,
+    "B_EN_solo": 0.387
+  },
+  "umbral_etsy_en": {
+    "V_p50": 75,
+    "V_base500": 150,
+    "obs_mes2_seguir": 130,
+    "obs_mes2_ajustar": 65,
+    "obs_mes2_parar": 25
+  },
+  "riesgo_modelo_pendiente": "P(0 ventas) ≈ 0 % en todas las combinaciones; probablemente optimista."
 }
