@@ -1,4 +1,4 @@
-# SIGUIENTE: validar demanda (señales concretas) de las ideas "PASA" de 03_LISTA_LARGA.md, empezando por L1, L3 y L5.
+# SIGUIENTE: plan de validación Etsy-EN + lista de plantillas del pack inmobiliarias (ver ESTADO.json).
 
 # Panorama de modelos de micro-negocio digital
 
