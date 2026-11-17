@@ -1,4 +1,26 @@
-# VEREDICTO del simulador — v4 (Día 8, 2026-11-12) · PROVISIONAL
+# VEREDICTO del simulador — v5 (Día 10, 2026-11-17) · PROVISIONAL
+
+> Provisional porque el humano no ha elegido idea. **Estimaciones del modelo bajo supuestos conservadores, no garantías.**
+> Datos: `../simulador/resultados/dia10.md` (20.000 corridas, semilla 42, cota correlacionada). Auditoría: `../investigacion/13_CANAL_MUERTO.md`.
+
+## Respuesta corta
+- **El v4 era optimista.** No tenía en cuenta que un canal nuevo puede dar **cero** visitas (lo más habitual según Ahrefs, Gumroad y Etsy). Con "canales muertos":
+  - BB + inmobiliarias en Etsy-EN: **P(≥ 500 €) 66 % → 37 %**, mediana 784 → 300 €. Estrés: 24 %.
+  - Mejor combinación probada, **BB + inmobiliarias y psicólogos en Etsy-EN: 42 %** (mediana 360 €, media 1.032 €).
+  - Un solo producto: 27 % → **11 %**, con P(0 ventas) = 24 %.
+- El resultado ahora es **bimodal**: si Etsy-EN arranca, se suele pasar de 500 € con holgura; si no arranca, casi nunca. Por eso la media (≈ 800–1.000 €) es mucho mayor que la mediana (≈ 300 €).
+- **Veredicto v5: NO con los supuestos conservadores actuales** (ninguna combinación llega al 50 %). **Pero es un NO que se puede convertir en SÍ con un dato barato:** si la prueba de 5 anuncios en Etsy-EN muestra **≥ 260 visitas en el mes 2**, la probabilidad pasa a ≈ 65 %; con ≥ 170 visitas, ≈ 47 %.
+- Consecuencia práctica: **no tiene sentido construir el catálogo completo antes de medir Etsy-EN.** La prueba (≈ 1 $, 5 anuncios) pasa a ser el paso n.º 1 de la Fase 3, no un extra.
+
+## Qué cambia en la regla de la prueba
+Ver `../investigacion/11_PLAN_VALIDACION_ETSY_EN.md` §3 (actualizada a v5): seguir con ≥ 260 visitas en el mes 2; ajustar con 130–259; repensar por debajo.
+
+## Lo que sigue valiendo del v4
+Etsy-EN es la palanca que más mueve el resultado; Hotmart aporta poco (+2 puntos); la web propia en español sola no basta.
+
+---
+
+## Anexo — VEREDICTO v4 (Día 8, 2026-11-12)
 
 > Provisional porque el humano no ha elegido idea. **Estimaciones del modelo bajo supuestos conservadores, no garantías.**
 > Datos: `../simulador/resultados/dia8.md` (20.000 corridas, semilla 42, cota correlacionada). Investigación: `../investigacion/10_CANALES_HOTMART_ETSY_EN.md`.

@@ -25,15 +25,17 @@
 
 Anotar los números en `negocio/RESPUESTA_HUMANO.md` (o en `negocio/investigacion/datos/etsy_en_prueba.md`) y la tarea diaria los mete en el simulador.
 
-## 3. Regla de decisión (del simulador, `dia9.md`)
-Visitas de los 5 anuncios **en el mes 2** tras publicar (inferencia conservadora: rampa rápida, sin extrapolar por número de anuncios):
+## 3. Regla de decisión — **v5 (Día 10, `dia10.md`)**; sustituye a la del Día 9
+Visitas de los 5 anuncios **en el mes 2** tras publicar (inferencia conservadora: rampa rápida, sin extrapolar por número de anuncios). Desde el Día 10 el modelo admite que SEO, redes y Etsy-ES pueden dar **cero** visitas, así que los umbrales suben:
 
-| Visitas observadas en el mes 2 | Techo V que implica | P(≥ 500 €) del catálogo BB+EN | Decisión |
+| Visitas observadas en el mes 2 | Techo V que implica | P(≥ 500 €) BB+EN (v5) | Decisión |
 |---|---|---|---|
-| **≥ 130** | ≥ 150 | ≥ 65 % y caso base ≥ 500 € | ✅ **Seguir**: construir todo el catálogo (EN + ES + psicólogos) |
-| 65–129 | 75–149 | 52–64 % | 🟡 **Seguir con ajustes**: 2 semanas cambiando títulos/mockups; volver a medir |
-| 25–64 | 30–74 | 45–51 % | 🟠 **Repensar canal**: no ampliar en inglés; priorizar web ES + Etsy-ES, revisar Hotmart |
-| < 25 | < 30 | ≤ 45 % (igual que sin Etsy-EN) | ❌ **Etsy-EN no aporta**: volver al VEREDICTO v3 (NO) y ajustar la idea |
+| **≥ 260** | ≥ 300 | ≈ 65 % | ✅ **Seguir**: construir todo el catálogo (EN + ES + psicólogos EN) |
+| 130–259 | 150–299 | 37–64 % | 🟡 **Seguir con ajustes**: añadir los anuncios de psicólogos en EN (sube ≈ +5 puntos), mejorar títulos/mockups; volver a medir en 2 semanas |
+| 45–129 | 50–149 | 21–36 % | 🟠 **Repensar**: probar otro sector en inglés o volver a Fase 1 con lo aprendido |
+| < 45 | < 50 | ≤ 21 % | ❌ **Etsy-EN no aporta**: VEREDICTO NO; volver a Fase 1 |
+
+(Tabla del Día 9, ya obsoleta: seguir con ≥ 130, ajustar con 65–129.)
 
 Regla secundaria: si hay **≥ 100 visitas y 0 ventas** en 8 semanas, el problema es el anuncio (mockups, precio), no la demanda → arreglar antes de decidir.
 

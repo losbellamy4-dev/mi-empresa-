@@ -221,3 +221,30 @@ Diario del proyecto. Una entrada por sesión. Fecha límite de entrega: 15 de ma
 **Bloqueos**: elección de idea (🔴). La rama por defecto sigue en el Día 1 (🔴 urgente, ahora con un PR para arreglarlo en un clic).
 
 **Primera tarea de mañana**: auditar el supuesto de P(0 ventas) (añadir un "canal muerto" con cierta probabilidad) y volver a correr dia8/dia9. Después, textos ES/EN de los 5 anuncios de prueba.
+
+---
+
+## Día 10 — 2026-11-17 (Fase 2: auditoría del simulador · elección pendiente)
+
+**Avances**
+- Continuidad: esta sesión también arrancó en el Día 1 (rama `2hgi05`). Integré `9sf6u8` (Día 9) por fast-forward. No hay `RESPUESTA_HUMANO.md` en ninguna rama. El PR #1 sigue abierto y sin fusionar.
+- **Auditoría de P(0 ventas)** (`investigacion/13_CANAL_MUERTO.md`, `simulador/dia10.py` → `resultados/dia10.md`): cada canal (SEO, redes, Etsy-ES, Etsy-EN, Hotmart) puede quedarse en **0 visitas** con una probabilidad basada en datos (Ahrefs: 96,55 % de páginas sin tráfico de Google; Etsy: ≈ 65 % de tiendas sin ventas; Gumroad: 44 % de productos sin ventas).
+- Regla de la prueba de Etsy-EN recalculada (`investigacion/11_PLAN_VALIDACION_ETSY_EN.md` §3).
+- `producto/ANUNCIOS_PRUEBA.md` (+ `anuncios_prueba.py`, que comprueba los límites de Etsy): títulos, descripciones ES/EN y 13 etiquetas de los 5 anuncios de prueba.
+- `modelo/VEREDICTO.md` → **v5**.
+
+**Resultados (estimaciones, no garantías)**
+- P(≥ 500 €): BB + inmobiliarias en Etsy-EN **66 % → 37 %** (mediana 784 → 300 €); BB + ambos sectores en Etsy-EN **42 %**; un solo producto **11 %** (P(0 ventas) 24 %).
+- Resultado **bimodal**: si Etsy-EN arranca se suele superar 500 € con holgura; si no, casi nunca.
+- Nueva regla: ≥ 260 visitas de los 5 anuncios en el mes 2 → seguir (≈ 65 %); 130–259 → ajustar; 45–129 → repensar; < 45 → volver a Fase 1.
+
+**Decisiones**
+- Veredicto v5: **NO con los supuestos actuales**, pero se puede convertir en SÍ con un dato barato (la prueba de Etsy-EN, ≈ 1 $). La prueba pasa a ser el **paso n.º 1** de la Fase 3: no se construye el catálogo completo antes de medir.
+- Psicólogos también en inglés (+5 puntos).
+
+**Aprendizaje honesto**
+- El Día 9 sospeché que el modelo era optimista, y lo era: no admitía que un canal pudiera dar cero visitas. Las probabilidades de los Días 5–9 estaban infladas aproximadamente al doble. Desde hoy todo canal nuevo lleva su probabilidad de "canal muerto".
+
+**Bloqueos**: elección de idea (🔴). La rama por defecto sigue en el Día 1 (🔴: nuevo PR desde `2hgi05`, que incluye todo).
+
+**Primera tarea de mañana**: maquetas de referencia (SVG/HTML) de las plantillas #1–#4 para Canva; después buscar palancas que bajen la probabilidad de canal muerto del SEO.

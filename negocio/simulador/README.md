@@ -12,3 +12,4 @@ Solo usa la librería estándar de Python.
 - `dia8.py` — (Día 8) ajuste de canal del catálogo BB: Etsy-ES, Hotmart, Etsy-EN y combinaciones, con prueba de estrés y tornado.
   `python3 dia8.py [n_corridas] [semilla]` → `resultados/dia8.md`, `.json` y `tornado_dia8.svg` (≈ 11 s).
 - `dia9.py` (Día 9): umbral de corte para la prueba de Etsy-EN → `resultados/dia9.md`.
+- `dia10.py` (Día 10): auditoría de P(0 ventas) con "canales muertos" (modelo v5) y regla de la prueba Etsy-EN recalculada → `resultados/dia10.md`.
