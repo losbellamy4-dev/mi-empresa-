@@ -24,3 +24,25 @@ Diario del proyecto. Una entrada por sesión. Fecha límite de entrega: 15 de ma
 **Bloqueos**: ninguno. Nada requiere al humano todavía.
 
 **Primera tarea de mañana**: validar demanda y competencia en español de L1 (planners de estudio), L3 (imprimibles educativos) y L5 (plantillas Canva para negocios locales).
+
+---
+
+## Día 2 — 2026-11-18 (Fase 1: Investigación)
+
+*(Nota: han pasado ~30 días desde la sesión anterior; se retoma sin pérdida de estado.)*
+
+**Avances**
+- `investigacion/04_DEMANDA_COMPETENCIA.md`: primera pasada de demanda y competencia para L1, L2, L3, L5, L7, L11 con fuentes.
+- Datos oficiales de tamaño: ESO 2.089.403 alumnos; PAU 2025 320.927 matriculados; 1,8 M empresas sin asalariados y 313.827 locales de hostelería (INE DIRCE 2025, tabla descargada y leída).
+- Edad: Etsy confirmado [V] → cuenta a nombre del adulto (13–17 solo bajo su supervisión). Gumroad ≥13 (fuente débil). Payhip/Lemon Squeezy siguen sin verificar.
+- L10 (Minecraft) **descartada**.
+
+**Decisiones / hallazgos**
+- Ninguna idea suelta destaca (puntuaciones 2,75–3,25). L1 y L3 sufren mucha competencia gratuita (Notion, AulaPT, Tes).
+- Señal de demanda más sólida: el mercado de la PAU (fecha fija, ~320 k estudiantes/año, Wuolah con ~500 k usuarios activos al mes).
+- Propuesta nueva: **L13 "Kit 2º Bachillerato + PAU"** combinando L11 + L1 + L7 + L8.
+- ⚠️ Calendario: si gana L13, el lanzamiento debería ser marzo–abril de 2027, antes de la entrega del 15 de mayo.
+
+**Bloqueos**: ninguno. Aún no hace falta que intervenga el humano.
+
+**Primera tarea de mañana**: pasar L13 por el filtro y puntuarla; comprobar si alguien vende flashcards/mazos de pago para la PAU.
