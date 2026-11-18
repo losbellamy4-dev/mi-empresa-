@@ -1,13 +1,13 @@
 {
   "fase": 2,
-  "dia_global": 11,
+  "dia_global": 12,
   "idea_elegida": null,
   "checkpoints": [],
   "bloqueado_por_humano": false,
   "decision_pendiente": "Elegir idea A/B/C. Recomendación Día 8: B como catálogo (inmobiliarias + psicólogos, 17/29 €) vendido en web ES (Payhip) + Etsy con anuncios en español E INGLÉS. Ver 🔴_ACCION_REQUERIDA.md. Responder en negocio/RESPUESTA_HUMANO.md.",
-  "ultima_sesion": "2026-11-17",
-  "hecho_ultima_sesion": "Día 10: continuidad recuperada (9sf6u8→2hgi05 por fast-forward). Auditoría de P(0 ventas): modelo v5 con 'canales muertos' (dia10.py, 13_CANAL_MUERTO.md). P(≥500) cae ~a la mitad: BB+EN 66→37 %, BB+2EN 42 %. VEREDICTO v5: NO con supuestos actuales, convertible en SÍ si la prueba Etsy-EN da ≥260 visitas en el mes 2. Regla de la prueba actualizada (11_). Textos ES/EN validados de los 5 anuncios de prueba (producto/ANUNCIOS_PRUEBA.md).",
-  "siguiente_tarea": "1) Revisar RESPUESTA_HUMANO.md en todas las ramas y si se fusionó el PR. 2) Maquetas de referencia SVG/HTML de las plantillas #1–#4 (medidas, paletas, tipografías) para que Adrián las monte en Canva. 3) Explorar qué más subiría la probabilidad sin depender de Etsy-EN (p. ej. un 3.er sector en EN, o reducir p_muerto del SEO con enlaces desde directorios) y correrlo en dia10.py.",
+  "ultima_sesion": "2026-11-18",
+  "hecho_ultima_sesion": "Día 11: continuidad recuperada otra vez (la sesión arrancó en el Día 1 en tkfnj4 y llegó a rehacer un Día 2 duplicado; se integró 2hgi05 encima y el duplicado quedó anulado). Sin RESPUESTA_HUMANO en ninguna rama; PR #1 y #2 abiertos sin fusionar. Maquetas de referencia SVG de las plantillas #1–#4 (36 SVG, 3 paletas, ES/EN) + index.html con medidas, paletas y tipografías (producto/maquetas/).",
+  "siguiente_tarea": "1) Revisar RESPUESTA_HUMANO.md en todas las ramas y si se fusionó algún PR. 2) Maquetas de #1 (diseños C y D) y #6 (carrusel de 7 diapositivas) + 5 mockups de anuncio para Etsy (portada, cuadrícula, qué incluye). 3) Palancas para bajar p_muerto del SEO en dia10.py.",
   "finalistas": {
     "A": "L13+L7 opositores",
     "B": "L5 inmobiliarias",
@@ -19,7 +19,7 @@
     "B": 0.35,
     "C": 0.23
   },
-  "nota_ramas": "Línea principal: 5cc7e21 → lauy9y (D2) → ise0l1 (D3) → fnmjjw (D4) → bb8zsu (D5) → wrrkun (D6) → e2k4ce (D7) → 2loft6 (D8). Todas las demás ramas confident-tesla-* son Días 2 duplicados (descartados). Rama por defecto (2gx72p) sigue en el Día 1. → 9sf6u8 (D9). Duplicados D2 adicionales: uph903, 1zg9sz, lfcc0k (13–15 nov). → 2hgi05 (D10).",
+  "nota_ramas": "Línea principal: 5cc7e21 → lauy9y (D2) → ise0l1 (D3) → fnmjjw (D4) → bb8zsu (D5) → wrrkun (D6) → e2k4ce (D7) → 2loft6 (D8). Todas las demás ramas confident-tesla-* son Días 2 duplicados (descartados). Rama por defecto (2gx72p) sigue en el Día 1. → 9sf6u8 (D9). Duplicados D2 adicionales: uph903, 1zg9sz, lfcc0k (13–15 nov). → 2hgi05 (D10). → tkfnj4 (D11; su commit de Día 2 duplicado queda en el historial pero anulado: el árbol es el de 2hgi05 + Día 11).",
   "prob_500_fase2_v1": {
     "A": 0.222,
     "B": 0.386,
@@ -38,7 +38,7 @@
     "escalera de 4 € en Etsy"
   ],
   "segundo_sector_B": "psicólogos (reserva: fisioterapia)",
-  "rama_mas_avanzada": "claude/confident-tesla-2hgi05",
+  "rama_mas_avanzada": "claude/confident-tesla-tkfnj4",
   "prob_500_fase2_v4": {
     "BB_etsyES": 0.416,
     "BB_hotmart": 0.318,

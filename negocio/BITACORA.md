@@ -248,3 +248,18 @@ Diario del proyecto. Una entrada por sesión. Fecha límite de entrega: 15 de ma
 **Bloqueos**: elección de idea (🔴). La rama por defecto sigue en el Día 1 (🔴: nuevo PR desde `2hgi05`, que incluye todo).
 
 **Primera tarea de mañana**: maquetas de referencia (SVG/HTML) de las plantillas #1–#4 para Canva; después buscar palancas que bajen la probabilidad de canal muerto del SEO.
+
+---
+
+## Día 11 — 2026-11-18 (Fase 2→3: maquetas · elección pendiente)
+
+**Avances**
+- Continuidad: la sesión volvió a arrancar en el Día 1 (rama `tkfnj4`) y **llegó a rehacer otro Día 2 entero** antes de que lo detectara al revisar las ramas. Integré `2hgi05` (Día 10) y anulé el duplicado. Ya van **≈ 22 sesiones perdidas**. No hay `RESPUESTA_HUMANO.md` en ninguna rama; los PR #1 y #2 siguen abiertos.
+- `producto/maquetas/`: `maquetas.py` → 36 SVG (#1 A/B, #2 post/story, #3, #4 × 3 paletas × ES/EN) e `index.html` con medidas, colores hex, tipografías (Playfair Display + Montserrat) y reglas de montaje en Canva. Revisado visualmente con capturas: corregí dos desbordes de texto ("NUEVO EN CARTERA" y "UNDER CONTRACT").
+
+**Aprendizaje honesto**
+- Mientras la rama por defecto siga en el Día 1, cada sesión gasta tiempo en recuperar el estado o, peor, repite trabajo sin enterarse. Es lo que más frena el proyecto, por delante de la elección de idea.
+
+**Bloqueos**: elección de idea (🔴, desde el Día 4). Continuidad (🔴: fusionar el PR nuevo de `tkfnj4`).
+
+**Primera tarea de mañana**: diseños C y D de #1, carrusel #6 y los 5 mockups del anuncio de Etsy.

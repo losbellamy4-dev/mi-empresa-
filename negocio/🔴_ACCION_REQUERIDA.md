@@ -1,8 +1,10 @@
-# 🔴 ACCIÓN REQUERIDA (actualizado el Día 10, 2026-11-17)
+# 🔴 ACCIÓN REQUERIDA (actualizado el Día 11, 2026-11-18)
 
-> ⚠️ **Lo más urgente: continuidad.** Hoy ha vuelto a pasar: la sesión arrancó en el Día 1 y tuve que recuperar el trabajo a mano. **Arreglo en un clic:** fusiona el **PR #2** (https://github.com/losbellamy4-dev/mi-empresa-/pull/2) de la rama `claude/confident-tesla-2hgi05` (Día 10, incluye todo lo del PR #1) hacia la rama por defecto: GitHub → *Pull requests* → abre el PR → "Ready for review" → **Merge**. Después puedes cerrar el PR #1. Alternativa: *Settings → General → Default branch* → `claude/confident-tesla-2hgi05`. Gratis, sin datos personales.
+> ⚠️ **Lo más urgente: continuidad.** Ha vuelto a pasar: hoy la sesión arrancó en el Día 1 y **rehízo un Día 2 entero** antes de detectarlo (≈ 22 sesiones perdidas en total). **Arreglo en un clic:** en GitHub → *Pull requests*, abre el PR más reciente de la rama `claude/confident-tesla-tkfnj4` (Días 2–11, incluye todo lo de los PR #1 y #2) → "Ready for review" → **Merge**. Después cierra los PR #1 y #2. Cualquier PR fusionado arregla el problema para siempre, porque las sesiones siguientes arrancan desde la rama por defecto. Es gratis y no pide datos personales.
 >
-> **Novedad importante del Día 10 (aviso honesto):** revisé el simulador y **era demasiado optimista**: no contemplaba que un canal (Google, Etsy, redes) pueda dar **cero visitas**, que es lo más habitual. Corregido, las probabilidades bajan más o menos a la mitad: la mejor opción de B pasa de ≈ 66 % a **≈ 37–42 %**. **Veredicto v5: NO con los supuestos actuales**, pero se puede convertir en SÍ con una prueba barata: 5 anuncios en Etsy en inglés (≈ 1 $). Si en el segundo mes reciben **≥ 260 visitas**, la probabilidad sube a ≈ 65 %. Los textos de esos 5 anuncios ya están listos: `producto/ANUNCIOS_PRUEBA.md`.
+> **Novedad del Día 11:** ya están las maquetas de las plantillas #1–#4 para montarlas en Canva. Abre `negocio/producto/maquetas/index.html` en el navegador: tienes medidas, colores y tipografías.
+>
+> Recordatorio del Día 10: **veredicto v5 = NO con los supuestos actuales** (la mejor opción ≈ 37–42 %). Se puede convertir en SÍ con la prueba de 5 anuncios en Etsy-EN (≈ 1 $, la gestiona un adulto).
 
 ## 1. Elegir la idea de negocio (pendiente desde el Día 4)
 **Quién:** Adrián (con un adulto si quiere opinar)
@@ -30,7 +32,7 @@ Comentarios: (opcional)
 
 ## 2. (URGENTE, 2 minutos) Arreglar la continuidad entre sesiones ⚠️ sigue pasando
 Cada sesión diaria arranca desde la rama por defecto del repo (`claude/confident-tesla-2gx72p`), que sigue en el **Día 1**. El 24, 25, 26 y 28 de octubre, cuatro sesiones rehicieron el Día 2 desde cero (`kmq0em`, `odi82r`, `nksbhx`, `smd1j5`): **cuatro días perdidos de once**.
-**Solución:** en GitHub → *Settings → General → Default branch*, cambia la rama por defecto a **`claude/confident-tesla-2hgi05`** (la más avanzada, Día 10; contiene todo lo anterior). Alternativa: fusionar esa rama en `claude/confident-tesla-2gx72p`. No cuesta dinero ni requiere datos personales.
+**Solución:** en GitHub → *Settings → General → Default branch*, cambia la rama por defecto a **`claude/confident-tesla-tkfnj4`** (la más avanzada, Día 11; contiene todo lo anterior). Alternativa: fusionar esa rama en `claude/confident-tesla-2gx72p`. No cuesta dinero ni requiere datos personales.
 
 ## 3. (Opcional, gratis, con un adulto) Medir Etsy de verdad
 Una cuenta gratuita de eRank (o de vendedor en Etsy) enseña el volumen real de búsqueda en Etsy de "plantillas inmobiliaria" y "plantillas psicologos". Es el dato que más incertidumbre quitaría al modelo. Si lo consigues, pégalo en `RESPUESTA_HUMANO.md`.
