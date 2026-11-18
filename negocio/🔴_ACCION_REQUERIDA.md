@@ -1,6 +1,6 @@
 # 🔴 ACCIÓN REQUERIDA (actualizado el Día 11, 2026-11-18)
 
-> ⚠️ **Lo más urgente: continuidad.** Ha vuelto a pasar: hoy la sesión arrancó en el Día 1 y **rehízo un Día 2 entero** antes de detectarlo (≈ 22 sesiones perdidas en total). **Arreglo en un clic:** en GitHub → *Pull requests*, abre el PR más reciente de la rama `claude/confident-tesla-tkfnj4` (Días 2–11, incluye todo lo de los PR #1 y #2) → "Ready for review" → **Merge**. Después cierra los PR #1 y #2. Cualquier PR fusionado arregla el problema para siempre, porque las sesiones siguientes arrancan desde la rama por defecto. Es gratis y no pide datos personales.
+> ⚠️ **Lo más urgente: continuidad.** Ha vuelto a pasar: hoy la sesión arrancó en el Día 1 y **rehízo un Día 2 entero** antes de detectarlo (≈ 22 sesiones perdidas en total). **Arreglo en un clic:** en GitHub → *Pull requests*, abre el **PR #3** (https://github.com/losbellamy4-dev/mi-empresa-/pull/3) de la rama `claude/confident-tesla-tkfnj4` (Días 2–11, incluye todo lo de los PR #1 y #2) → "Ready for review" → **Merge**. Después cierra los PR #1 y #2. Cualquier PR fusionado arregla el problema para siempre, porque las sesiones siguientes arrancan desde la rama por defecto. Es gratis y no pide datos personales.
 >
 > **Novedad del Día 11:** ya están las maquetas de las plantillas #1–#4 para montarlas en Canva. Abre `negocio/producto/maquetas/index.html` en el navegador: tienes medidas, colores y tipografías.
 >
