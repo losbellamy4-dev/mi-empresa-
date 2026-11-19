@@ -37,6 +37,21 @@ TXT = {
         "vendido": "¡VENDIDO!", "gracias": "Gracias, [nombre del cliente]",
         "reservado": "RESERVADO", "pronto": "Pronto tendrá nuevos dueños",
         "desliza": "Desliza para ver más →",
+        "disponible": "DISPONIBLE", "ver_mas": "Más info en el enlace de la bio",
+        "c_titulo": ["5 cosas que revisar", "antes de visitar un piso"],
+        "c_tips": [("Luz natural", "¿A qué hora entra el sol? Pide visitar de día."),
+                   ("Ruido", "Escucha con las ventanas cerradas y abiertas."),
+                   ("Humedades", "Mira techos, esquinas y detrás de los muebles."),
+                   ("Zonas comunes", "Portal, ascensor y escalera dicen mucho del edificio."),
+                   ("Entorno", "Da una vuelta por el barrio: transporte, tiendas, parques.")],
+        "c_cta": ["¿Buscas casa?", "Escríbenos y te ayudamos"], "c_guarda": "Guarda este post",
+        "v_titulo": ["5 ideas para que tu casa", "salga mejor en las fotos"],
+        "v_tips": [("Despeja", "Menos objetos a la vista: las estancias parecen más amplias."),
+                   ("Abre la luz", "Sube persianas y enciende todas las lámparas."),
+                   ("Ordena la cocina", "Encimeras despejadas y nada en el fregadero."),
+                   ("Camas hechas", "Textiles lisos y bien estirados en los dormitorios."),
+                   ("Un toque verde", "Una planta o unas flores dan vida a cualquier rincón.")],
+        "v_cta": ["¿Vas a vender?", "Hablemos de tu vivienda"],
     },
     "en": {
         "nuevo": "JUST LISTED", "piso": "3-bed apartment · [Neighborhood]",
@@ -47,6 +62,21 @@ TXT = {
         "vendido": "JUST SOLD!", "gracias": "Thank you, [client name]",
         "reservado": "UNDER CONTRACT", "pronto": "Soon to have new owners",
         "desliza": "Swipe to see more →",
+        "disponible": "AVAILABLE NOW", "ver_mas": "More info at the link in bio",
+        "c_titulo": ["5 things to check", "before a home viewing"],
+        "c_tips": [("Natural light", "When does the sun come in? Visit during the day."),
+                   ("Noise", "Listen with the windows closed and open."),
+                   ("Damp", "Check ceilings, corners and behind furniture."),
+                   ("Shared areas", "Lobby, elevator and stairs say a lot."),
+                   ("Neighborhood", "Walk around: transit, shops, parks.")],
+        "c_cta": ["Looking for a home?", "Message us and we will help"], "c_guarda": "Save this post",
+        "v_titulo": ["5 ways to make your home", "look great in photos"],
+        "v_tips": [("Declutter", "Fewer items on show make rooms feel bigger."),
+                   ("Let light in", "Open the blinds and turn on every lamp."),
+                   ("Clear the kitchen", "Empty counters and nothing in the sink."),
+                   ("Make the beds", "Plain, smooth bedding in every bedroom."),
+                   ("Add some green", "A plant or fresh flowers brighten any corner.")],
+        "v_cta": ["Thinking of selling?", "Let's talk about your home"],
     },
 }
 
@@ -157,14 +187,98 @@ def p_sello(p, t, clave_titulo, clave_sub):  # #3 Vendido y #4 Reservado (misma 
     return svg(W, H, c, p)
 
 
+def p1c(p, t):  # Just Listed — dos columnas: foto a la izquierda, ficha a la derecha
+    W, H = POST
+    c = foto(0, 0, 620, H, p, t)
+    c += f'<rect x="620" y="0" width="{W - 620}" height="{H}" fill="{p["suave"]}"/>'
+    palabras = t["nuevo"].split(" ")
+    for i, pal in enumerate(palabras):
+        c += texto(660, 230 + i * 92, pal, 76 if max(len(w) for w in palabras) < 7 else 64,
+                   p, fam=SERIF, weight=700)
+    y = 230 + len(palabras) * 92
+    c += f'<line x1="660" y1="{y}" x2="820" y2="{y}" stroke="{p["acento"]}" stroke-width="5"/>'
+    piso, barrio = (t["piso"].split(" · ") + [""])[:2]
+    c += texto(660, y + 80, piso, 30, p, weight=600)
+    c += texto(660, y + 125, barrio, 30, p, op=.8)
+    for i, d in enumerate(t["datos"].split(" · ")):
+        c += texto(660, y + 210 + i * 50, "— " + d, 28, p, op=.85)
+    c += texto(660, 1110, t["precio"], 60, p, fam=SERIF, weight=700, color=p["acento"])
+    c += logo(660, 1180, p)
+    c += texto(660, 1300, t["contacto"].split(" · ")[-1], 24, p, op=.8)
+    return svg(W, H, c, p)
+
+
+def p1d(p, t):  # Just Listed — collage de 3 fotos con banda de precio
+    W, H = POST
+    c = foto(0, 0, W, 700, p, t)
+    c += foto(0, 720, 530, 380, p, t) + foto(550, 720, 530, 380, p, t)
+    c += f'<rect x="0" y="600" width="{W}" height="100" fill="{p["acento"]}"/>'
+    c += texto(60, 668, t["nuevo"], 44, p, weight=700, color=p["sobre_acento"], ls=5)
+    c += texto(W - 60, 672, t["precio"], 52, p, fam=SERIF, weight=700, anchor="end", color=p["sobre_acento"])
+    c += texto(60, 1180, t["piso"], 44, p, fam=SERIF, weight=700)
+    c += texto(60, 1225, t["datos"], 28, p, op=.8)
+    c += logo(W - 210, 1145, p) + texto(W - 60, 1300, t["contacto"], 24, p, anchor="end", op=.8)
+    return svg(W, H, c, p)
+
+
+def carrusel(n, k="c"):
+    """#6 Carrusel de 7 diapositivas (1080×1350): portada, 5 consejos genéricos y cierre.
+    Consejos de sentido común, no asesoría (filtro F8)."""
+    def f(p, t):
+        W, H = POST
+        pie = texto(W / 2, 1290, f"{n} / 7", 26, p, anchor="middle", op=.6)
+        if n == 1:
+            c = f'<rect x="0" y="0" width="{W}" height="{H}" fill="{p["acento"]}"/>'
+            lineas, actual = [], ""
+            for w in t[k + "_titulo"][0].split():  # titular en líneas de ≤ 16 caracteres
+                if actual and len(actual) + len(w) > 16:
+                    lineas.append(actual.strip()); actual = ""
+                actual += w + " "
+            lineas.append(actual.strip())
+            for i, l in enumerate(lineas):
+                c += texto(80, 420 + i * 100, l, 88, p, fam=SERIF, weight=700, color=p["sobre_acento"])
+            c += texto(80, 420 + len(lineas) * 100 + 30, t[k + "_titulo"][1], 52, p, weight=600,
+                       color=p["sobre_acento"])
+            c += texto(80, 1150, t["desliza"], 34, p, weight=600, color=p["sobre_acento"])
+            c += texto(W / 2, 1290, "1 / 7", 26, p, anchor="middle", color=p["sobre_acento"], op=.7)
+            return svg(W, H, c, p)
+        if n == 7:
+            c = texto(W / 2, 480, t[k + "_cta"][0], 80, p, fam=SERIF, weight=700, anchor="middle")
+            c += texto(W / 2, 570, t[k + "_cta"][1], 38, p, anchor="middle", op=.85)
+            c += f'<rect x="290" y="660" width="500" height="96" rx="48" fill="{p["acento"]}"/>'
+            c += texto(W / 2, 722, t["c_guarda"], 34, p, weight=700, anchor="middle", color=p["sobre_acento"])
+            c += logo(W / 2 - 75, 900, p) + texto(W / 2, 1040, t["contacto"], 28, p, anchor="middle", op=.8)
+            return svg(W, H, c + pie, p)
+        tit, cuerpo = t[k + "_tips"][n - 2]
+        c = texto(80, 360, f"0{n - 1}", 220, p, fam=SERIF, weight=700, color=p["acento"])
+        c += f'<line x1="80" y1="430" x2="300" y2="430" stroke="{p["acento"]}" stroke-width="5"/>'
+        c += texto(80, 560, tit, 76, p, fam=SERIF, weight=700)
+        # cuerpo partido en líneas de ~26 caracteres
+        lineas, actual = [], ""
+        for w in cuerpo.split():
+            if len(actual) + len(w) > 26:
+                lineas.append(actual.strip()); actual = ""
+            actual += w + " "
+        lineas.append(actual.strip())
+        for i, l in enumerate(lineas):
+            c += texto(80, 680 + i * 64, l, 46, p, op=.85)
+        return svg(W, H, c + pie, p)
+    return f
+
+
 PLANTILLAS = [
     ("1a", "#1 Nuevo en cartera / Just Listed — diseño A", "post", p1a),
     ("1b", "#1 Nuevo en cartera / Just Listed — diseño B", "post", p1b),
+    ("1c", "#1 Nuevo en cartera / Just Listed — diseño C", "post", p1c),
+    ("1d", "#1 Nuevo en cartera / Just Listed — diseño D", "post", p1d),
     ("2post", "#2 Puertas abiertas / Open House — post", "post", p2_post),
     ("2story", "#2 Puertas abiertas / Open House — story", "story", p2_story),
     ("3", "#3 Vendido / Just Sold", "post", lambda p, t: p_sello(p, t, "vendido", "gracias")),
     ("4", "#4 Reservado / Under Contract", "post", lambda p, t: p_sello(p, t, "reservado", "pronto")),
-]
+] + [(f"6_{n}", f"#6 Carrusel de consejos / Tips carousel — diapositiva {n}/7", "post", carrusel(n))
+     for n in range(1, 8)] + [
+    (f"6v_{n}", f"#6b Carrusel para vendedores / Seller tips carousel — diapositiva {n}/7", "post", carrusel(n, "v"))
+    for n in range(1, 8)]
 
 
 def main():
@@ -213,8 +327,8 @@ figure{{margin:0}} img{{width:100%;height:auto;border:1px solid var(--line);disp
 figcaption{{font-size:12px;color:var(--mut)}}
 .filtro button{{font:inherit;padding:6px 12px;margin-right:6px;border:1px solid var(--line);background:none;color:inherit;border-radius:6px;cursor:pointer}}
 </style></head><body><main>
-<h1>Maquetas de referencia: plantillas #1–#4</h1>
-<p>Referencia para montar cada diseño en Canva (Día 11). <strong>No son el producto</strong>: el producto es la plantilla de Canva.
+<h1>Maquetas de referencia: plantillas #1–#4 y #6</h1>
+<p>Referencia para montar cada diseño en Canva (Días 11–12). <strong>No son el producto</strong>: el producto es la plantilla de Canva.
 Las fotos rayadas son huecos (marcos de foto en Canva); no se incluyen fotos. Especificación completa: <code>investigacion/12_ESPEC_PACK_INMOBILIARIAS.md</code>.</p>
 <h2>Tipografías (gratis en Canva)</h2>
 <p><span style="font-family:'Playfair Display',serif;font-weight:700;font-size:22px">Playfair Display Bold</span> para titulares ·

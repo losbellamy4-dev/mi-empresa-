@@ -1,10 +1,13 @@
-# 🔴 ACCIÓN REQUERIDA (actualizado el Día 11, 2026-11-18)
+# 🔴 ACCIÓN REQUERIDA (actualizado el Día 12, 2026-11-19)
 
-> ⚠️ **Lo más urgente: continuidad.** Ha vuelto a pasar: hoy la sesión arrancó en el Día 1 y **rehízo un Día 2 entero** antes de detectarlo (≈ 22 sesiones perdidas en total). **Arreglo en un clic:** en GitHub → *Pull requests*, abre el **PR #3** (https://github.com/losbellamy4-dev/mi-empresa-/pull/3) de la rama `claude/confident-tesla-tkfnj4` (Días 2–11, incluye todo lo de los PR #1 y #2) → "Ready for review" → **Merge**. Después cierra los PR #1 y #2. Cualquier PR fusionado arregla el problema para siempre, porque las sesiones siguientes arrancan desde la rama por defecto. Es gratis y no pide datos personales.
+> ⚠️ **Lo más urgente: continuidad.** Hoy la sesión volvió a arrancar en el Día 1 (esta vez lo detecté a tiempo). **Arreglo en un clic:** en GitHub → *Pull requests*, abre el PR más reciente (el de la rama `claude/confident-tesla-ucgjlr`, Días 2–12, incluye todo lo de los PR #1–#3) → "Ready for review" → **Merge**. Después cierra los PR #1, #2 y #3. Es gratis y no pide datos personales.
 >
-> **Novedad del Día 11:** ya están las maquetas de las plantillas #1–#4 para montarlas en Canva. Abre `negocio/producto/maquetas/index.html` en el navegador: tienes medidas, colores y tipografías.
+> **Novedades del Día 12:**
+> - Ya están **todas las maquetas que necesitan los 5 anuncios de prueba**: 4 diseños de "Nuevo en cartera", "Puertas abiertas", "Vendido/Reservado" y 2 carruseles. Ábrelas en `negocio/producto/maquetas/index.html`.
+> - Hay **5 imágenes de anuncio para Etsy** (ES y EN) en `negocio/producto/mockups/png/`. Para publicarlas hay que poner fotos de stock gratuitas en Canva (un adulto revisa la licencia).
+> - El simulador dice que trabajar el SEO de Google rinde poco. Lo que más mueve la probabilidad de llegar a 500 € es que los anuncios de **Etsy en inglés** funcionen.
 >
-> Recordatorio del Día 10: **veredicto v5 = NO con los supuestos actuales** (la mejor opción ≈ 37–42 %). Se puede convertir en SÍ con la prueba de 5 anuncios en Etsy-EN (≈ 1 $, la gestiona un adulto).
+> Recordatorio: **veredicto v5 = NO con los supuestos actuales** (la mejor opción ≈ 42 %). Se puede convertir en SÍ con la prueba de 5 anuncios en Etsy-EN (≈ 1 $, la gestiona un adulto).
 
 ## 1. Elegir la idea de negocio (pendiente desde el Día 4)
 **Quién:** Adrián (con un adulto si quiere opinar)

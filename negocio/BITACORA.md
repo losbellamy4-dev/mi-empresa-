@@ -263,3 +263,29 @@ Diario del proyecto. Una entrada por sesión. Fecha límite de entrega: 15 de ma
 **Bloqueos**: elección de idea (🔴, desde el Día 4). Continuidad (🔴: fusionar el PR nuevo de `tkfnj4`).
 
 **Primera tarea de mañana**: diseños C y D de #1, carrusel #6 y los 5 mockups del anuncio de Etsy.
+
+---
+
+## Día 12 — 2026-11-19 (Fase 2→3: maquetas completas para la prueba · mockups de Etsy · elección pendiente)
+
+**Avances**
+- Continuidad: la sesión volvió a arrancar en el Día 1 (rama `ucgjlr`). Esta vez lo detecté **antes de trabajar** e integré `tkfnj4` (Día 11). No hay `RESPUESTA_HUMANO.md` en ninguna rama y los PR #1, #2 y #3 siguen abiertos sin fusionar.
+- `producto/maquetas/`: #1 diseños **C** (dos columnas) y **D** (collage de 3 fotos), carrusel **#6** de compradores y **#6b** de vendedores (7 diapositivas cada uno; el anuncio 4 de Etsy prometía 2 carruseles y solo había uno). 132 SVG. Revisión visual: corregí un titular que tocaba el borde ("CARTERA") y las portadas de carrusel en inglés (ahora se parten en líneas).
+- `producto/mockups/` (nuevo): 5 mockups del anuncio ancla #1 Just Listed en ES y EN (portada, cuadrícula de perfil, detalle en el móvil, 3 paletas, qué incluye), en PNG de 2700×2025 (4:3, con lo importante dentro del cuadrado central).
+- `simulador/dia12.py` → `resultados/dia12.md`: barrido de la probabilidad de canal muerto, canal a canal. `investigacion/14_PALANCAS_CANALES.md`.
+
+**Resultados (estimaciones, no garantías)**
+- Por cada 0,1 menos de probabilidad de canal muerto, P(≥ 500 €) del catálogo `BB+2EN` sube: **Etsy-EN +4,4 pp**, Etsy-ES +1,4, SEO +1,3, redes +0,2.
+- Bajar el SEO de 0,6 a 0,2, algo muy difícil según Ahrefs (solo el 2–6 % de las páginas nuevas llega al top 10 en un año), daría 42 → 48 %. Bajar Etsy-EN de 0,4 a 0,2 daría 42 → **52 %**.
+
+**Decisiones**
+- **No se invierte en SEO** más allá de lo básico. La palanca es la **calidad de los anuncios de Etsy-EN** (portada, título, etiquetas, nº de anuncios). Pinterest se usará para llevar tráfico a esos anuncios, no como canal propio.
+- Descarto la tarea "palancas para bajar el p_muerto del SEO" de la cola: el modelo dice que rinde poco.
+
+**Aprendizaje honesto**
+- Medir antes de trabajar ahorró horas: la tarea que tocaba (mejorar el SEO) era la de menor rendimiento. Los mockups de hoy sí atacan el canal que más pesa.
+- Los mockups llevan degradados en lugar de fotos. Para publicar en Etsy hacen falta fotos de stock reales dentro de Canva.
+
+**Bloqueos**: elección de idea (🔴, desde el Día 4). Continuidad (🔴: fusionar un PR; hoy hay uno nuevo desde `ucgjlr`).
+
+**Primera tarea de mañana**: buscar datos (no anécdotas) sobre qué da impresiones a un anuncio nuevo de Etsy y traducirlo al `p_muerto` de Etsy-EN; después, mockups de los anuncios 2–5.
