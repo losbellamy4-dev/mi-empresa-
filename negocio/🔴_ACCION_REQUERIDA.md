@@ -1,6 +1,6 @@
 # 🔴 ACCIÓN REQUERIDA (actualizado el Día 12, 2026-11-19)
 
-> ⚠️ **Lo más urgente: continuidad.** Hoy la sesión volvió a arrancar en el Día 1 (esta vez lo detecté a tiempo). **Arreglo en un clic:** en GitHub → *Pull requests*, abre el PR más reciente (el de la rama `claude/confident-tesla-ucgjlr`, Días 2–12, incluye todo lo de los PR #1–#3) → "Ready for review" → **Merge**. Después cierra los PR #1, #2 y #3. Es gratis y no pide datos personales.
+> ⚠️ **Lo más urgente: continuidad.** Hoy la sesión volvió a arrancar en el Día 1 (esta vez lo detecté a tiempo). **Arreglo en un clic:** en GitHub → *Pull requests*, abre el **PR #4** (https://github.com/losbellamy4-dev/mi-empresa-/pull/4) de la rama `claude/confident-tesla-ucgjlr`, Días 2–12, incluye todo lo de los PR #1–#3) → "Ready for review" → **Merge**. Después cierra los PR #1, #2 y #3. Es gratis y no pide datos personales.
 >
 > **Novedades del Día 12:**
 > - Ya están **todas las maquetas que necesitan los 5 anuncios de prueba**: 4 diseños de "Nuevo en cartera", "Puertas abiertas", "Vendido/Reservado" y 2 carruseles. Ábrelas en `negocio/producto/maquetas/index.html`.
