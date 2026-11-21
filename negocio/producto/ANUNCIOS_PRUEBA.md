@@ -1,3 +1,5 @@
+# SIGUIENTE: rehacer con la oferta del Día 13 (ancla = pack base completo 19–24 $, sueltos 4–6 $, 'strategy included'); ver ../investigacion/15_ETSY_NUEVOS_ANUNCIOS.md §5
+
 # Textos de los 5 anuncios de prueba de Etsy (EN principal + ES) — Día 10
 
 > Generado por `anuncios_prueba.py` (valida límites de Etsy: título ≤ 140, 13 etiquetas ≤ 20). Plan de la prueba: `../investigacion/11_PLAN_VALIDACION_ETSY_EN.md`. Diseños: `../investigacion/12_ESPEC_PACK_INMOBILIARIAS.md`.

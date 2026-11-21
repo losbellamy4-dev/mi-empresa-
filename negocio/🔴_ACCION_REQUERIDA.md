@@ -1,13 +1,13 @@
-# 🔴 ACCIÓN REQUERIDA (actualizado el Día 12, 2026-11-19)
+# 🔴 ACCIÓN REQUERIDA (actualizado el Día 13, 2026-11-21)
 
-> ⚠️ **Lo más urgente: continuidad.** Hoy la sesión volvió a arrancar en el Día 1 (esta vez lo detecté a tiempo). **Arreglo en un clic:** en GitHub → *Pull requests*, abre el **PR #4** (https://github.com/losbellamy4-dev/mi-empresa-/pull/4) de la rama `claude/confident-tesla-ucgjlr`, Días 2–12, incluye todo lo de los PR #1–#3) → "Ready for review" → **Merge**. Después cierra los PR #1, #2 y #3. Es gratis y no pide datos personales.
+> ⚠️ **Lo más urgente: continuidad.** Hoy la sesión volvió a arrancar en el Día 1 (lo detecté a tiempo). **Arreglo en un clic:** en GitHub → *Pull requests*, abre el PR más reciente de la rama `claude/confident-tesla-sff658` (Días 2–13, incluye todo lo de los PR #1–#5) → "Ready for review" → **Merge**. Después cierra los PR #1–#5. Es gratis y no pide datos personales.
 >
-> **Novedades del Día 12:**
-> - Ya están **todas las maquetas que necesitan los 5 anuncios de prueba**: 4 diseños de "Nuevo en cartera", "Puertas abiertas", "Vendido/Reservado" y 2 carruseles. Ábrelas en `negocio/producto/maquetas/index.html`.
-> - Hay **5 imágenes de anuncio para Etsy** (ES y EN) en `negocio/producto/mockups/png/`. Para publicarlas hay que poner fotos de stock gratuitas en Canva (un adulto revisa la licencia).
-> - El simulador dice que trabajar el SEO de Google rinde poco. Lo que más mueve la probabilidad de llegar a 500 € es que los anuncios de **Etsy en inglés** funcionen.
+> **Novedad del Día 13 (importante para la idea B):**
+> - En Etsy, un anuncio nuevo tiene **una sola oportunidad corta** de demostrar que la gente hace clic y compra. Nuestros anuncios de prueba daban 4 diseños por 9 $, cuando los de al lado dan 50–345 diseños por 15–47 $.
+> - Con esa oferta, el simulador baja a **≈ 28 %** de probabilidad de llegar a 500 €. Si el anuncio principal es el **pack completo** (≈ 38 diseños × 3 paletas, 19–24 $), sube a **≈ 43 %**.
+> - Por eso, antes de la prueba de Etsy hay que montar el pack completo en Canva (≈ 10–15 h). Detalle: `investigacion/15_ETSY_NUEVOS_ANUNCIOS.md`.
 >
-> Recordatorio: **veredicto v5 = NO con los supuestos actuales** (la mejor opción ≈ 42 %). Se puede convertir en SÍ con la prueba de 5 anuncios en Etsy-EN (≈ 1 $, la gestiona un adulto).
+> Recordatorio: **veredicto = NO con los supuestos actuales** (mejor opción ≈ 43 %). Son estimaciones, no garantías.
 
 ## 1. Elegir la idea de negocio (pendiente desde el Día 4)
 **Quién:** Adrián (con un adulto si quiere opinar)

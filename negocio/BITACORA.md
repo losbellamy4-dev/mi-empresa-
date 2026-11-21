@@ -289,3 +289,29 @@ Diario del proyecto. Una entrada por sesión. Fecha límite de entrega: 15 de ma
 **Bloqueos**: elección de idea (🔴, desde el Día 4). Continuidad (🔴: fusionar un PR; hoy hay uno nuevo desde `ucgjlr`).
 
 **Primera tarea de mañana**: buscar datos (no anécdotas) sobre qué da impresiones a un anuncio nuevo de Etsy y traducirlo al `p_muerto` de Etsy-EN; después, mockups de los anuncios 2–5.
+
+---
+
+## Día 13 — 2026-11-21 (Fase 2→3: cómo arranca un anuncio nuevo en Etsy · brecha de valor · elección pendiente)
+
+**Avances**
+- Continuidad: la sesión volvió a arrancar en el Día 1 (rama `sff658`). Lo detecté **antes de trabajar** e hice fast-forward a `ucgjlr` (Día 12). No hay `RESPUESTA_HUMANO.md` en ninguna rama; los PR #1–#5 siguen abiertos y la rama por defecto sigue en el Día 1.
+- `investigacion/15_ETSY_NUEVOS_ANUNCIOS.md`: Etsy da a cada anuncio nuevo un **empujón corto** (horas–días, no oficial) y después lo coloca según el **Listing Quality Score** (clics, favoritos, compras). Renovar no sirve. Competencia en "real estate instagram template": ≈ 8.600 anuncios [S débil]; packs de 50–1.000+ diseños por 9–47 $.
+- **Hallazgo:** nuestros anuncios de prueba dan 4 diseños por 9 $ → 10–100× menos diseños por dólar que el anuncio de al lado. Es probable que el empujón se queme sin clics.
+- `simulador/dia13.py` → `resultados/dia13.md`: rejilla p_muerto de Etsy-EN × conversión de Etsy-EN para `BB+2EN`.
+
+**Resultados (estimaciones, no garantías)**
+- Oferta actual (p_muerto 0,6, conversión ×0,5): **P(≥ 500 €) ≈ 28,5 %**, mediana 187 €.
+- Supuesto v5 (0,4, ×1): 41,3 % (cuadra con el Día 10).
+- Pack completo como ancla (0,35, ×0,9): **43,0 %**, mediana 369 €. Corregir la brecha vale ≈ **+15 pp**.
+
+**Decisiones**
+- Cambio de plan para la prueba de Etsy-EN: el **anuncio ancla pasa a ser el pack base completo** (≈ 38 diseños × 3 paletas × ES/EN, 19–24 $); los anuncios sueltos bajan a 4–6 $ y sirven de puerta de entrada. Diferenciador: **"strategy included"** (calendario de 30 días) + versión en español.
+- Consecuencia: hay que montar el pack completo en Canva **antes** de la prueba (≈ 10–15 h de Adrián [E]).
+
+**Aprendizaje honesto**
+- El supuesto v5 de Etsy-EN (p_muerto 0,4) era probablemente **optimista para la oferta que teníamos**. Con los 5 anuncios tal cual, el veredicto real estaría más cerca del 28–34 % que del 42 %.
+
+**Bloqueos**: elección de idea (🔴, desde el Día 4). Continuidad (🔴: fusionar el PR de hoy, que incluye todo).
+
+**Primera tarea de mañana**: rehacer `producto/ANUNCIOS_PRUEBA.md` con la oferta nueva (ancla = pack completo) y diseñar el calendario de 30 días.

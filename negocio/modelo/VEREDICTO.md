@@ -1,3 +1,5 @@
+> **Nota del Día 13 (2026-11-21):** el v5 suponía p_muerto 0,4 para Etsy-EN. Con la oferta de prueba actual (4 diseños a 9 $ frente a packs de 50–1.000+ diseños de la competencia) ese supuesto es optimista: `simulador/resultados/dia13.md` da **≈ 28,5 %** con la oferta actual y **≈ 43 %** si el anuncio ancla es el pack completo. Veredicto: sigue en **NO**, y la prueba de Etsy-EN debe hacerse con el pack completo. Detalle: `investigacion/15_ETSY_NUEVOS_ANUNCIOS.md`.
+
 # VEREDICTO del simulador — v5 (Día 10, 2026-11-17) · PROVISIONAL
 
 > Provisional porque el humano no ha elegido idea. **Estimaciones del modelo bajo supuestos conservadores, no garantías.**
