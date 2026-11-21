@@ -1,6 +1,6 @@
 # 🔴 ACCIÓN REQUERIDA (actualizado el Día 13, 2026-11-21)
 
-> ⚠️ **Lo más urgente: continuidad.** Hoy la sesión volvió a arrancar en el Día 1 (lo detecté a tiempo). **Arreglo en un clic:** en GitHub → *Pull requests*, abre el PR más reciente de la rama `claude/confident-tesla-sff658` (Días 2–13, incluye todo lo de los PR #1–#5) → "Ready for review" → **Merge**. Después cierra los PR #1–#5. Es gratis y no pide datos personales.
+> ⚠️ **Lo más urgente: continuidad.** Hoy la sesión volvió a arrancar en el Día 1 (lo detecté a tiempo). **Arreglo en un clic:** en GitHub → *Pull requests*, abre el **PR #6** (https://github.com/losbellamy4-dev/mi-empresa-/pull/6) de la rama `claude/confident-tesla-sff658` (Días 2–13, incluye todo lo de los PR #1–#5) → "Ready for review" → **Merge**. Después cierra los PR #1–#5. Es gratis y no pide datos personales.
 >
 > **Novedad del Día 13 (importante para la idea B):**
 > - En Etsy, un anuncio nuevo tiene **una sola oportunidad corta** de demostrar que la gente hace clic y compra. Nuestros anuncios de prueba daban 4 diseños por 9 $, cuando los de al lado dan 50–345 diseños por 15–47 $.
