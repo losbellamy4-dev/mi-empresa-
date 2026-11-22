@@ -1,25 +1,25 @@
 {
   "fase": 2,
-  "dia_global": 14,
+  "dia_global": 15,
   "idea_elegida": null,
   "checkpoints": [],
   "bloqueado_por_humano": false,
   "decision_pendiente": "Elegir idea A/B/C. Recomendación Día 8: B como catálogo (inmobiliarias + psicólogos, 17/29 €) vendido en web ES (Payhip) + Etsy con anuncios en español E INGLÉS. Ver 🔴_ACCION_REQUERIDA.md. Responder en negocio/RESPUESTA_HUMANO.md.",
-  "ultima_sesion": "2026-11-21",
-  "hecho_ultima_sesion": "Día 13: continuidad recuperada (arrancó en Día 1 en sff658; fast-forward a ucgjlr). Sin RESPUESTA_HUMANO; PR #1–#5 abiertos. Investigación 15: Etsy da a los anuncios nuevos un empujón corto y luego manda el Listing Quality Score; rivales venden 50–1000+ diseños por 9–47 $ frente a 4 por 9 $ → brecha de valor. dia13.py: con la oferta actual P(≥500)≈28,5 % (no 41 %); con el pack completo como ancla ≈43 % (+15 pp).",
-  "siguiente_tarea": "1) Revisar RESPUESTA_HUMANO en todas las ramas y si se fusionó algún PR. 2) Rehacer ANUNCIOS_PRUEBA.md según 15_ETSY_NUEVOS_ANUNCIOS.md §5: ancla = pack base completo 19–24 $, sueltos 4–6 $, 'strategy included'. 3) Diseñar el calendario de 30 días (diferenciador) como maqueta HTML/PDF. 4) Actualizar VEREDICTO a v6 con la rejilla de dia13.",
+  "ultima_sesion": "2026-11-22",
+  "hecho_ultima_sesion": "Día 14: continuidad recuperada (arrancó en Día 1 en b5hizx; fast-forward a sff658). Sin RESPUESTA_HUMANO; PR #1–#6 abiertos sin fusionar. Calendario de 30 días ES/EN (HTML+PDF+CSV) ligado a las 10 plantillas; ANUNCIOS_PRUEBA v2 (ancla pack 22 $, sueltos 4–6 $); corregido el pack a 34 diseños (no 38); investigación 16: calendarios genéricos ya existen → diferenciador = calendario ligado + bilingüe; dia14.py: P(≥500) 35–48 % según caníbalización de los sueltos (ref. 43 %).",
+  "siguiente_tarea": "1) Revisar RESPUESTA_HUMANO en todas las ramas y si se fusionó algún PR. 2) Mockups de Etsy del anuncio ancla v2 (pack completo + calendario + ES/EN) reutilizando producto/mockups. 3) Maquetas SVG que faltan (#5 bajada de precio, #7 testimonio, #8 preséntate, #9 story visita, #10 portadas) para que Adrián pueda montar el pack completo. 4) Página de producto en web/ con la oferta v2.",
   "finalistas": {
     "A": "L13+L7 opositores",
     "B": "L5 inmobiliarias",
     "C": "L1+L7 estudiantes"
   },
-  "recomendacion": "B catálogo inmobiliarias + psicólogos; canales: web ES (Payhip) + Etsy ES+EN. Día 13: el anuncio ancla de Etsy-EN debe ser el pack completo (~38 diseños × 3 paletas, 19–24 $), no 4 diseños a 9 $; prueba de Etsy-EN con esa oferta.",
+  "recomendacion": "B catálogo inmobiliarias + psicólogos; canales: web ES (Payhip) + Etsy ES+EN. Oferta v2 Etsy-EN: ancla = pack completo 34 diseños ES+EN + calendario 30 días a 22 $; sueltos 4–6 $ con regla de retirada si canibalizan.",
   "preview_prob_500": {
     "A": 0.42,
     "B": 0.35,
     "C": 0.23
   },
-  "nota_ramas": "Línea principal: 5cc7e21 → lauy9y (D2) → ise0l1 (D3) → fnmjjw (D4) → bb8zsu (D5) → wrrkun (D6) → e2k4ce (D7) → 2loft6 (D8). Todas las demás ramas confident-tesla-* son Días 2 duplicados (descartados). Rama por defecto (2gx72p) sigue en el Día 1. → 9sf6u8 (D9). Duplicados D2 adicionales: uph903, 1zg9sz, lfcc0k (13–15 nov). → 2hgi05 (D10). → tkfnj4 (D11; su commit de Día 2 duplicado queda en el historial pero anulado: el árbol es el de 2hgi05 + Día 11). → ucgjlr (D12, integra tkfnj4 por fast-forward/merge).",
+  "nota_ramas": "Línea principal: 5cc7e21 → lauy9y (D2) → ise0l1 (D3) → fnmjjw (D4) → bb8zsu (D5) → wrrkun (D6) → e2k4ce (D7) → 2loft6 (D8). Todas las demás ramas confident-tesla-* son Días 2 duplicados (descartados). Rama por defecto (2gx72p) sigue en el Día 1. → 9sf6u8 (D9). Duplicados D2 adicionales: uph903, 1zg9sz, lfcc0k (13–15 nov). → 2hgi05 (D10). → tkfnj4 (D11; su commit de Día 2 duplicado queda en el historial pero anulado: el árbol es el de 2hgi05 + Día 11). → ucgjlr (D12, integra tkfnj4 por fast-forward/merge). → sff658 (D13). → b5hizx (D14, fast-forward desde sff658).",
   "prob_500_fase2_v1": {
     "A": 0.222,
     "B": 0.386,
@@ -38,7 +38,7 @@
     "escalera de 4 € en Etsy"
   ],
   "segundo_sector_B": "psicólogos (reserva: fisioterapia)",
-  "rama_mas_avanzada": "claude/confident-tesla-ucgjlr",
+  "rama_mas_avanzada": "claude/confident-tesla-b5hizx",
   "prob_500_fase2_v4": {
     "BB_etsyES": 0.416,
     "BB_hotmart": 0.318,
@@ -86,5 +86,13 @@
     "base_v5": 0.413,
     "oferta_grande_pack_ancla": 0.43,
     "fuente": "simulador/resultados/dia13.md"
+  },
+  "prob_500_fase2_v5_2_dia14": {
+    "ref_oferta_grande": 0.43,
+    "canibal_30": 0.408,
+    "canibal_60": 0.348,
+    "aditivo_30": 0.466,
+    "aditivo_60": 0.482,
+    "fuente": "simulador/resultados/dia14.md"
   }
 }

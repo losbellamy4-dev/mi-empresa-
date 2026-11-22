@@ -51,3 +51,7 @@ Si se lanza en **enero de 2027**, la decisión llega a mediados de marzo, con ti
 ## 5. Fuentes
 - Tiempo hasta la primera venta 1–4 semanas en tiendas bien optimizadas; 10–20 anuncios en los primeros 30 días; 0,20 $ por anuncio y 6,5 % por transacción; las plantillas de Canva necesitan mockups [S, blogs de vendedores, sin datos]: [insightagent](https://www.insightagent.app/guides/start-digital-download-shop-etsy), [listingview](https://listingview.io/blogs/how-to-sell-digital-products-on-etsy-in-2026), [digitalbizplr](https://digitalbizplr.com/blogs/learn/how-to-sell-digital-products-etsy-2026), [growingyourcraft](https://www.growingyourcraft.com/gyc-etsy-academy/roadmap/stage-2).
 - No se encontró ningún dato fiable de "visitas necesarias hasta la primera venta": los blogs se contradicen. Por eso la regla usa visitas (dato propio medible) y no fechas.
+
+## 6. Añadido del Día 14 — oferta v2 y métrica de caníbalización
+- La prueba se hace con la oferta v2 (`producto/ANUNCIOS_PRUEBA.md`): ancla = pack completo 22 $ + 4 sueltos a 4–6 $. **No publicar el ancla sin los 34 diseños montados.**
+- Métrica nueva: **cuota de ventas que son sueltos**. Regla: si en el mes 2 más del 50 % de las ventas son sueltos y hay ≤ 1 venta del pack → retirar los sueltos (o subirlos a 9 $) y dejar el pack solo. Motivo: `simulador/resultados/dia14.md` (caníbal 35–41 % frente a aditivo 47–48 %).

@@ -1,3 +1,5 @@
+> **Nota del Día 14 (2026-11-22) — punto de control de la oferta v2:** ancla = pack completo (34 diseños, ES+EN, calendario de 30 días) a 22 $ + sueltos a 4–6 $. `simulador/resultados/dia14.md`: P(≥ 500 €) **35–48 %** (referencia 43 %), según si los sueltos canibalizan el pack o traen compradores nuevos. El precio del suelto apenas importa. **Veredicto: sigue en NO** (ningún caso llega al 50 %); la prueba de Etsy-EN medirá también la cuota de sueltos (`investigacion/11_PLAN_VALIDACION_ETSY_EN.md` §6).
+
 > **Nota del Día 13 (2026-11-21):** el v5 suponía p_muerto 0,4 para Etsy-EN. Con la oferta de prueba actual (4 diseños a 9 $ frente a packs de 50–1.000+ diseños de la competencia) ese supuesto es optimista: `simulador/resultados/dia13.md` da **≈ 28,5 %** con la oferta actual y **≈ 43 %** si el anuncio ancla es el pack completo. Veredicto: sigue en **NO**, y la prueba de Etsy-EN debe hacerse con el pack completo. Detalle: `investigacion/15_ETSY_NUEVOS_ANUNCIOS.md`.
 
 # VEREDICTO del simulador — v5 (Día 10, 2026-11-17) · PROVISIONAL

@@ -22,7 +22,7 @@
 | 9 | Story de visita / Property tour story | story | 3 | "Desliza para ver el salón →" |
 | 10 | Portadas de destacadas / Highlight covers | portada | 12 iconos | "Venta · Alquiler · Vendidos · Contacto…" |
 
-Total ≈ 38 diseños por idioma. **Pack agencia (29 €)**: el base + 3 paletas extra con la marca de la agencia, 10 posts estacionales (Navidad, verano, vuelta al cole) y una guía PDF de uso.
+Total **34 diseños por idioma** (corregido el Día 14: antes ponía ≈ 38; el carrusel cuenta como 1 diseño de 7 diapositivas) + calendario de 30 días (#11, `producto/calendario/`). **Pack agencia (29 €)**: el base + 3 paletas extra con la marca de la agencia, 10 posts estacionales (Navidad, verano, vuelta al cole) y una guía PDF de uso.
 
 ## Entregables por plantilla (para Etsy y la web)
 - PDF de descarga con los enlaces "Usar como plantilla" de Canva (ES y EN) y una guía de 1 página.

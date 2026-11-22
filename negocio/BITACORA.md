@@ -315,3 +315,31 @@ Diario del proyecto. Una entrada por sesión. Fecha límite de entrega: 15 de ma
 **Bloqueos**: elección de idea (🔴, desde el Día 4). Continuidad (🔴: fusionar el PR de hoy, que incluye todo).
 
 **Primera tarea de mañana**: rehacer `producto/ANUNCIOS_PRUEBA.md` con la oferta nueva (ancla = pack completo) y diseñar el calendario de 30 días.
+
+---
+
+## Día 14 — 2026-11-22 (Fase 2→3: calendario de 30 días · anuncios v2 · punto de control de los sueltos)
+
+**Avances**
+- Continuidad: la sesión volvió a arrancar en el Día 1 (rama `b5hizx`). Lo detecté **antes de trabajar** e hice fast-forward a `sff658` (Día 13). No hay `RESPUESTA_HUMANO.md` en ninguna rama; los PR #1–#6 siguen abiertos sin fusionar.
+- `producto/calendario/` (nuevo): calendario de 30 días en ES y EN (HTML, PDF de 1 página A4 horizontal y CSV). Cada día dice **qué plantilla del pack** usar, el formato, el objetivo y una idea. Usa las 10 plantillas, ninguna dos días seguidos. Revisado con captura.
+- `producto/ANUNCIOS_PRUEBA.md` **v2**: ancla = pack completo a **22 $**; sueltos a 5/5/4/6 $; el 5.º anuncio pasa a ser "calendario + carrusel". Todo indica "English & Spanish".
+- **Corrección:** el pack base tiene **34 diseños** por idioma, no ≈ 38 (el desglose suma 34). Corregido en `12_ESPEC` y vigilado con una aserción.
+- `investigacion/16_CALENDARIO_DIFERENCIADOR.md`: ya se venden calendarios para agentes en Etsy (365 días, anuales) y en Payhip (kit de 30 días ≈ 12 $). El calendario solo **no** diferencia; la combinación "calendario ligado al pack + bilingüe" parece poco común [E].
+- `simulador/dia14.py` → `resultados/dia14.md` (punto de control).
+
+**Resultados (estimaciones, no garantías)**
+- Un suelto a 5 $ deja **2,80 €** netos (frente a ≈ 13,4 € del pack): las comisiones fijas de Etsy pesan mucho.
+- P(≥ 500 €) de `BB+2EN`: referencia 43,0 % → **34,8–48,2 %** con la oferta v2. Si los sueltos **canibalizan** el pack, baja (41 → 35 %); si traen compradores **nuevos**, sube (47–48 %).
+- Subir los sueltos a 7–8 $ cambia ±1 pp: el precio del suelto no es la palanca.
+
+**Decisiones**
+- Mantener los sueltos a 4–6 $, con texto que enseña lo que trae el pack, y **nueva regla en la prueba**: si en el mes 2 más del 50 % de las ventas son sueltos y hay ≤ 1 venta del pack → retirar los sueltos (`11_PLAN_VALIDACION_ETSY_EN.md` §6).
+- Veredicto: **sigue en NO** (ningún caso llega al 50 %). Nota añadida en `modelo/VEREDICTO.md`.
+
+**Aprendizaje honesto**
+- Iba a vender "strategy included" como algo único y no lo es; buscarlo antes de escribir el título evitó una afirmación falsa. Lo mismo con el "38 diseños": los números del anuncio hay que sumarlos, no copiarlos.
+
+**Bloqueos**: elección de idea (🔴, desde el Día 4). Continuidad (🔴: fusionar el PR de hoy, que incluye todo).
+
+**Primera tarea de mañana**: mockups de Etsy del anuncio ancla v2 y maquetas SVG de las plantillas #5 y #7–#10 (las que faltan para que Adrián pueda montar el pack completo).
