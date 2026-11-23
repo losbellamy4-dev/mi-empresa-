@@ -1,12 +1,98 @@
 {
-  "fase": 1,
-  "dia_global": 2,
+  "fase": 2,
+  "dia_global": 16,
   "idea_elegida": null,
   "checkpoints": [],
   "bloqueado_por_humano": false,
-  "decision_pendiente": null,
-  "ultima_sesion": "2026-10-19",
-  "hecho_ultima_sesion": "Día 1: estructura creada; criterios de filtro fijados; investigación de plataformas/comisiones/edad; panorama de 6 modelos; lista larga de 12 ideas con primer filtro (7 pasan, 4 descartadas, 1 dudosa).",
-  "siguiente_tarea": "Validar demanda y competencia en español para L1, L3, L5 (luego L2, L7, L11); revisar EULA Minecraft (L10); verificar edad mínima en términos de Etsy/Payhip/Lemon Squeezy/Gumroad.",
-  "ideas_vivas": ["L1", "L2", "L3", "L5", "L7", "L8", "L11", "L10?"]
+  "decision_pendiente": "Elegir idea A/B/C. Recomendación Día 8: B como catálogo (inmobiliarias + psicólogos, 17/29 €) vendido en web ES (Payhip) + Etsy con anuncios en español E INGLÉS. Ver 🔴_ACCION_REQUERIDA.md. Responder en negocio/RESPUESTA_HUMANO.md.",
+  "ultima_sesion": "2026-11-23",
+  "hecho_ultima_sesion": "Día 15: la sesión volvió a arrancar en el Día 1 (7.ª vez) y rehízo el Día 2 antes de detectarlo. Ese trabajo duplicado se anuló con un merge que da prioridad a b5hizx (lo único nuevo, la política de Etsy para menores [V], ya estaba). No hay RESPUESTA_HUMANO en ninguna de las 36 ramas. Hoy no hubo avance de producto.",
+  "siguiente_tarea": "1) Revisar RESPUESTA_HUMANO en todas las ramas y si se fusionó algún PR. 2) Mockups de Etsy del anuncio ancla v2 (pack completo + calendario + ES/EN) reutilizando producto/mockups. 3) Maquetas SVG que faltan (#5 bajada de precio, #7 testimonio, #8 preséntate, #9 story visita, #10 portadas) para que Adrián pueda montar el pack completo. 4) Página de producto en web/ con la oferta v2.",
+  "finalistas": {
+    "A": "L13+L7 opositores",
+    "B": "L5 inmobiliarias",
+    "C": "L1+L7 estudiantes"
+  },
+  "recomendacion": "B catálogo inmobiliarias + psicólogos; canales: web ES (Payhip) + Etsy ES+EN. Oferta v2 Etsy-EN: ancla = pack completo 34 diseños ES+EN + calendario 30 días a 22 $; sueltos 4–6 $ con regla de retirada si canibalizan.",
+  "preview_prob_500": {
+    "A": 0.42,
+    "B": 0.35,
+    "C": 0.23
+  },
+  "nota_ramas": "Línea principal: 5cc7e21 → lauy9y (D2) → ise0l1 (D3) → fnmjjw (D4) → bb8zsu (D5) → wrrkun (D6) → e2k4ce (D7) → 2loft6 (D8). Todas las demás ramas confident-tesla-* son Días 2 duplicados (descartados). Rama por defecto (2gx72p) sigue en el Día 1. → 9sf6u8 (D9). Duplicados D2 adicionales: uph903, 1zg9sz, lfcc0k (13–15 nov). → 2hgi05 (D10). → tkfnj4 (D11; su commit de Día 2 duplicado queda en el historial pero anulado: el árbol es el de 2hgi05 + Día 11). → ucgjlr (D12, integra tkfnj4 por fast-forward/merge). → sff658 (D13). → b5hizx (D14, fast-forward desde sff658). → rzx5pl (D15: merge de b5hizx; el árbol es igual al de b5hizx más el registro del Día 15).",
+  "prob_500_fase2_v1": {
+    "A": 0.222,
+    "B": 0.386,
+    "C": 0.087
+  },
+  "veredicto_fase2": "v5 (provisional): NO con supuestos conservadores (máx. 42 % BB+2EN). Convertible en SÍ (≈65 %) si la prueba de 5 anuncios Etsy-EN muestra ≥260 visitas en el mes 2.",
+  "prob_500_fase2_v2": {
+    "A_niv": 0.251,
+    "B_niv": 0.43,
+    "AB_cat_correl": 0.615,
+    "BB_cat_correl": 0.584,
+    "BB_cat_indep": 0.689
+  },
+  "ajustes_descartados": [
+    "precio único más alto",
+    "escalera de 4 € en Etsy"
+  ],
+  "segundo_sector_B": "psicólogos (reserva: fisioterapia)",
+  "rama_mas_avanzada": "claude/confident-tesla-rzx5pl",
+  "prob_500_fase2_v4": {
+    "BB_etsyES": 0.416,
+    "BB_hotmart": 0.318,
+    "BB_etsyES+HM": 0.496,
+    "BB+EN": 0.665,
+    "BB_HM+EN": 0.623,
+    "BB_todo": 0.675,
+    "BB+EN_estres": 0.523,
+    "B_EN_solo": 0.387
+  },
+  "umbral_etsy_en": {
+    "V_p50": 75,
+    "V_base500": 150,
+    "obs_mes2_seguir": 130,
+    "obs_mes2_ajustar": 65,
+    "obs_mes2_parar": 25
+  },
+  "riesgo_modelo_pendiente": "Resuelto en parte (v5). Calibración: P(0 ventas) de un producto suelto 24 % vs 44 % Gumroad → quizá aún algo optimista.",
+  "prob_500_fase2_v5": {
+    "B_solo": 0.106,
+    "BB_etsyES": 0.178,
+    "BB+EN": 0.37,
+    "BB_todo": 0.392,
+    "BB+EN_estres": 0.256,
+    "B_EN_solo": 0.226,
+    "BB+2EN": 0.422
+  },
+  "umbral_etsy_en_v5": {
+    "V_p50": 300,
+    "obs_mes2_seguir": 260,
+    "obs_mes2_ajustar": 130,
+    "obs_mes2_repensar": 45
+  },
+  "sensibilidad_p_muerto_dia12": {
+    "BB+2EN_pp_por_0.1": {
+      "etsy_en": 4.4,
+      "etsy_es": 1.4,
+      "seo": 1.3,
+      "red": 0.2
+    },
+    "base_BB+2EN": 0.422
+  },
+  "prob_500_fase2_v5_1": {
+    "oferta_actual_5_anuncios": 0.285,
+    "base_v5": 0.413,
+    "oferta_grande_pack_ancla": 0.43,
+    "fuente": "simulador/resultados/dia13.md"
+  },
+  "prob_500_fase2_v5_2_dia14": {
+    "ref_oferta_grande": 0.43,
+    "canibal_30": 0.408,
+    "canibal_60": 0.348,
+    "aditivo_30": 0.466,
+    "aditivo_60": 0.482,
+    "fuente": "simulador/resultados/dia14.md"
+  }
 }
