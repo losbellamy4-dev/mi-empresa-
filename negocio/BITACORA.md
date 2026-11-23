@@ -343,3 +343,19 @@ Diario del proyecto. Una entrada por sesión. Fecha límite de entrega: 15 de ma
 **Bloqueos**: elección de idea (🔴, desde el Día 4). Continuidad (🔴: fusionar el PR de hoy, que incluye todo).
 
 **Primera tarea de mañana**: mockups de Etsy del anuncio ancla v2 y maquetas SVG de las plantillas #5 y #7–#10 (las que faltan para que Adrián pueda montar el pack completo).
+
+---
+
+## Día 15 — 2026-11-23 (continuidad rota otra vez; sin avance de producto)
+
+**Qué pasó**
+- La sesión volvió a arrancar en el **Día 1** (rama por defecto `2gx72p`). Es la 7.ª vez. Esta vez **no** lo detecté al empezar: rehíce el Día 2 entero (demanda y competencia, TAM de L1, descarte de L10). Lo vi al ir a abrir el PR, porque ya había 7 PR abiertos.
+- Revisé las 36 ramas: **no hay `RESPUESTA_HUMANO.md`** en ninguna. La más avanzada era `b5hizx` (Día 14).
+- Anulé el Día 2 duplicado con un merge de `b5hizx` que da prioridad a esa rama. Lo único nuevo (la política de Etsy para menores, verificada) ya estaba en `02_PLATAFORMAS_Y_COSTES.md`. La rama `rzx5pl` tiene ahora el mismo contenido que `b5hizx` más esta entrada.
+
+**Aprendizaje honesto**
+- El protocolo de inicio tiene que mirar los PR abiertos y las ramas remotas **antes** de leer `ESTADO.json`. No hay que fiarse de la rama por defecto: mientras nadie fusione, cada sesión empieza con el estado del Día 1.
+
+**Bloqueos (🔴)**: 1) fusionar el PR de hoy, o cambiar la rama por defecto; 2) elegir la idea (pendiente desde el Día 4).
+
+**Primera tarea de mañana** (sin cambios desde el Día 14): mockups de Etsy del anuncio ancla v2 y maquetas SVG #5 y #7–#10.

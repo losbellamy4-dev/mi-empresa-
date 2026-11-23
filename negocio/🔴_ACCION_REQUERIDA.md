@@ -1,14 +1,10 @@
-# 🔴 ACCIÓN REQUERIDA (actualizado el Día 14, 2026-11-22)
+# 🔴 ACCIÓN REQUERIDA (actualizado el Día 15, 2026-11-23)
 
-> ⚠️ **Lo más urgente: continuidad.** Hoy la sesión ha vuelto a arrancar en el Día 1 (es la 6.ª vez que pasa, y lo detecté a tiempo). **Se arregla en un clic:** entra en GitHub → *Pull requests*, abre el **PR #7** (https://github.com/losbellamy4-dev/mi-empresa-/pull/7) de la rama `claude/confident-tesla-b5hizx`, que lleva los Días 2–14 y todo lo de los PR #1–#6, y pulsa "Ready for review" → **Merge**. Después cierra los PR #1–#6. Es gratis y no pide datos personales.
+> ⚠️ **Lo más urgente sigue siendo la continuidad (7.ª vez).** Hoy la sesión volvió a arrancar en el Día 1 y **se perdió el día entero** rehaciendo trabajo que ya existía. **Se arregla en 1 minuto, gratis y sin datos personales:** en GitHub → *Settings → General → Default branch*, cambia la rama por defecto a **`claude/confident-tesla-rzx5pl`**. La otra opción es fusionar el PR más reciente (el de esa rama, que lo incluye todo) en `claude/confident-tesla-2gx72p` y cerrar los PR antiguos (#1–#7).
 >
-> **Novedades del Día 14:**
-> - Ya está hecho el **calendario de 30 días** (en español e inglés, PDF de una página): `producto/calendario/`. Cada día dice qué plantilla del pack publicar.
-> - Los textos de los anuncios de Etsy están en su **versión 2**: el anuncio principal es el pack completo a 22 $ y los sueltos cuestan 4–6 $. Corrección: el pack tiene **34 diseños**, no 38.
-> - Ojo: en Etsy ya hay calendarios parecidos. Lo que nos diferencia es que el calendario va ligado a nuestras plantillas y que **todo viene en inglés y español**.
-> - Simulador: entre **35 y 48 %** de probabilidad de llegar a 500 €. Depende de si los sueltos le quitan ventas al pack o traen clientes nuevos. Son estimaciones, no garantías.
+> Mientras no se haga, cada sesión empieza en el Día 1 y la mayoría de los días se pierden.
 >
-> Recordatorio: **el veredicto es NO con los supuestos actuales**, porque ninguna opción llega al 50 %. Antes de la prueba de Etsy hace falta montar el pack completo en Canva (unas 10–15 h).
+> Recordatorio: la **elección de idea** (A/B/C) sigue pendiente desde el Día 4. La recomendación es B. Se responde en `negocio/RESPUESTA_HUMANO.md`.
 
 ## 1. Elegir la idea de negocio (pendiente desde el Día 4)
 **Quién:** Adrián (con un adulto si quiere opinar)
