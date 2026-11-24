@@ -1,12 +1,22 @@
 {
   "fase": 1,
-  "dia_global": 2,
+  "dia_global": 3,
   "idea_elegida": null,
   "checkpoints": [],
   "bloqueado_por_humano": false,
-  "decision_pendiente": null,
-  "ultima_sesion": "2026-10-19",
-  "hecho_ultima_sesion": "Día 1: estructura creada; criterios de filtro fijados; investigación de plataformas/comisiones/edad; panorama de 6 modelos; lista larga de 12 ideas con primer filtro (7 pasan, 4 descartadas, 1 dudosa).",
-  "siguiente_tarea": "Validar demanda y competencia en español para L1, L3, L5 (luego L2, L7, L11); revisar EULA Minecraft (L10); verificar edad mínima en términos de Etsy/Payhip/Lemon Squeezy/Gumroad.",
-  "ideas_vivas": ["L1", "L2", "L3", "L5", "L7", "L8", "L11", "L10?"]
+  "decision_pendiente": "Elegir idea entre las finalistas A (planner de estudio ESO/Bach, recomendada), B (plantillas Canva negocios locales) o C (imprimibles Primaria). Ver investigacion/FINALISTAS.md y 🔴_ACCION_REQUERIDA.md. Responder en RESPUESTA_HUMANO.md.",
+  "ultima_sesion": "2026-11-24",
+  "hecho_ultima_sesion": "Día 2: demanda/competencia de L1,L2,L3,L5,L7,L11; L10 descartada (EULA); edad verificada en Etsy y Gumroad; TAM/SAM/SOM de las 3 mejores; FINALISTAS.md v1 con recomendación A; acción humana registrada.",
+  "siguiente_tarea": "Si hay RESPUESTA_HUMANO.md: registrar elección y pasar a Fase 2 con esa idea. Si no: empezar Fase 2 en paralelo para A/B/C — investigar benchmarks reales (tráfico orgánico Etsy/TikTok, conversión Etsy digital, estacionalidad escolar) y escribir modelo/modelo.md + esqueleto del simulador Python (escenarios, sensibilidad, Monte Carlo).",
+  "ideas_vivas": [
+    "A=L1+L7+L8",
+    "B=L5",
+    "C=L3"
+  ],
+  "finalistas": {
+    "A": "Planner de estudio en español ESO/Bachillerato (+generador web de horarios gratis +guía bonus)",
+    "B": "Plantillas Canva en español para pequeños negocios locales",
+    "C": "Imprimibles educativos en español para Primaria"
+  },
+  "recomendacion": "A"
 }

@@ -18,7 +18,9 @@ Investigado el 2026-10-19. **[V]** = confirmado en fuente oficial; **[S]** = fue
 ## Restricciones de edad (el dueño tiene 14 años)
 - **Stripe** [V]: mínimo 13 años para cuenta Standard; si <18, un tutor legal debe figurar como titular antes de cobrar o transferir fondos. Express/Custom: 18+. ([support.stripe.com](https://support.stripe.com/questions/can-i-use-stripe-if-i-am-under-18))
 - **Fiverr** [V]: 13–17 solo mediante cuenta del padre/madre/tutor.
-- **Etsy, Gumroad, Payhip, Lemon Squeezy**: edad mínima no verificada hoy → asumir 18+ y **cuenta a nombre del adulto**. 🔴 Pendiente de verificar en sus términos oficiales.
+- **Etsy** [V] (verificado día 2): titular 18+; de 13 a 17 solo con cuenta del padre/madre/tutor, datos financieros a su nombre y el adulto como propietario de la tienda ([help.etsy.com](https://help.etsy.com/hc/en-gb/articles/360040983333-Can-Minors-Sell-on-Etsy)).
+- **Gumroad** [V] (día 2): edad legal para contratar ([gumroad.com/terms](https://gumroad.com/terms)) → cuenta del adulto.
+- **Payhip, Lemon Squeezy, Hotmart**: cláusula no localizada → asumir 18+ y **cuenta a nombre del adulto**.
 
 → Implicación de diseño: TODO el cobro va a nombre del adulto responsable. El dueño crea el producto y la web; el adulto es el titular comercial.
 
