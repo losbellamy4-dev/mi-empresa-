@@ -1,6 +1,6 @@
-# 🔴 ACCIÓN REQUERIDA (actualizado el Día 15, 2026-11-23)
+# 🔴 ACCIÓN REQUERIDA (actualizado el Día 16, 2026-11-24)
 
-> ⚠️ **Lo más urgente sigue siendo la continuidad (7.ª vez).** Hoy la sesión volvió a arrancar en el Día 1 y **se perdió el día entero** rehaciendo trabajo que ya existía. **Se arregla en 1 minuto, gratis y sin datos personales:** en GitHub → *Settings → General → Default branch*, cambia la rama por defecto a **`claude/confident-tesla-rzx5pl`**. La otra opción es fusionar el PR más reciente (el de esa rama, que lo incluye todo) en `claude/confident-tesla-2gx72p` y cerrar los PR antiguos (#1–#7).
+> ⚠️ **URGENTE: la continuidad se ha roto por 8.ª vez.** El 24-nov la sesión volvió a arrancar en el Día 1 y se perdió el día rehaciendo el Día 2. **Arreglo de 1 minuto, gratis y sin datos personales:** en GitHub → *Settings → General → Default branch*, pon como rama por defecto **`claude/confident-tesla-bc2ql2`** (incluye todo hasta hoy). Alternativa: fusionar el PR de esa rama en `claude/confident-tesla-2gx72p` y cerrar los PR antiguos (#1–#8).
 >
 > Mientras no se haga, cada sesión empieza en el Día 1 y la mayoría de los días se pierden.
 >
@@ -32,7 +32,7 @@ Comentarios: (opcional)
 
 ## 2. (URGENTE, 2 minutos) Arreglar la continuidad entre sesiones ⚠️ sigue pasando
 Cada sesión diaria arranca desde la rama por defecto del repo (`claude/confident-tesla-2gx72p`), que sigue en el **Día 1**. El 24, 25, 26 y 28 de octubre, cuatro sesiones rehicieron el Día 2 desde cero (`kmq0em`, `odi82r`, `nksbhx`, `smd1j5`): **cuatro días perdidos de once**.
-**Solución:** en GitHub → *Settings → General → Default branch*, cambia la rama por defecto a **`claude/confident-tesla-b5hizx`** (la más avanzada, Día 14; contiene todo lo anterior). Alternativa: fusionar esa rama en `claude/confident-tesla-2gx72p`. No cuesta dinero ni requiere datos personales.
+**Solución:** en GitHub → *Settings → General → Default branch*, cambia la rama por defecto a **`claude/confident-tesla-bc2ql2`** (la más avanzada, Día 16; contiene todo lo anterior). Alternativa: fusionar esa rama en `claude/confident-tesla-2gx72p`. No cuesta dinero ni requiere datos personales.
 
 ## 3. (Opcional, gratis, con un adulto) Medir Etsy de verdad
 Una cuenta gratuita de eRank (o de vendedor en Etsy) enseña el volumen real de búsqueda en Etsy de "plantillas inmobiliaria" y "plantillas psicologos". Es el dato que más incertidumbre quitaría al modelo. Si lo consigues, pégalo en `RESPUESTA_HUMANO.md`.

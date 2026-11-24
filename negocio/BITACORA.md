@@ -359,3 +359,19 @@ Diario del proyecto. Una entrada por sesión. Fecha límite de entrega: 15 de ma
 **Bloqueos (🔴)**: 1) fusionar el PR de hoy, o cambiar la rama por defecto; 2) elegir la idea (pendiente desde el Día 4).
 
 **Primera tarea de mañana** (sin cambios desde el Día 14): mockups de Etsy del anuncio ancla v2 y maquetas SVG #5 y #7–#10.
+
+---
+
+## Día 16 — 2026-11-24 (continuidad rota otra vez, 8.ª vez; sin avance de producto)
+
+**Qué pasó**
+- La sesión volvió a arrancar en el **Día 1** (rama por defecto `2gx72p`, `ESTADO.json` con `dia_global: 2`). Igual que el Día 15, no lo detecté al empezar: rehíce el Día 2 (demanda y competencia, TAM/SAM/SOM, una versión 1 de finalistas sobre estudiantes / Canva para negocios / imprimibles, y edad mínima en Etsy y Gumroad). Lo vi al ir a abrir el PR y encontrar 8 PR abiertos.
+- Comparé con `rzx5pl` (Día 15): todo lo de hoy ya estaba (licencia de Canva, INE DIRCE, edad en Etsy, descarte de L10). **Anulo el duplicado** con un merge que conserva exactamente el árbol de `rzx5pl`, más esta entrada.
+- No hay `RESPUESTA_HUMANO.md` en la rama más avanzada.
+
+**Aprendizaje honesto**
+- Ya lo apunté el Día 15 y no sirvió, porque esa nota está en una rama que la sesión siguiente no lee. Desde dentro de la tarea no se puede arreglar: la rama por defecto la tiene que cambiar el humano. Por eso este aviso va también por notificación.
+
+**Bloqueos (🔴)**: 1) cambiar la rama por defecto a `claude/confident-tesla-bc2ql2` o fusionar su PR; 2) elegir la idea (pendiente desde el Día 4).
+
+**Primera tarea de la próxima sesión** (sin cambios desde el Día 14): antes que nada, `git ls-remote` + lista de PR abiertos y ponerse sobre la rama más avanzada; después, mockups de Etsy del anuncio ancla v2 y maquetas SVG #5 y #7–#10.
