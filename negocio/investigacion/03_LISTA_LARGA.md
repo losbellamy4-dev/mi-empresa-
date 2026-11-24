@@ -13,7 +13,7 @@ Filtros F1–F8 definidos en `00_CRITERIOS.md`. ✅ pasa · ❌ no pasa · ⚠�
 | L7 | Generador web de horarios/planificador de exámenes (herramienta freemium) | ✅ | ✅ | ✅ | ✅ | ⚠️ | ✅ | ✅ | ✅ | **PASA** (encaja como imán de tráfico para L1) |
 | L8 | Ebook "Cómo estudiar en ESO" | ✅ | ✅ | ✅ | ✅ | ⚠️ | ✅ | ✅ | ⚠️ | **PASA (débil)** — mejor como bonus de L1 |
 | L9 | Blog/contenido de afiliación (tecnología, gaming) | ✅ | ✅ | ✅ | ✅ | ❌ | ⚠️ | ✅ | ✅ | **NO PASA** (F5: ingresos por visita demasiado bajos en 7 meses) |
-| L10 | Mapas/servidores/addons de Minecraft o Roblox de pago | ✅ | ✅ | ✅ | ✅ | ⚠️ | ⚠️ (reglas de EULA de Mojang sobre monetización) | ✅ | ✅ | **NO PASA** (día 2): el EULA prohíbe vender mods o ganar dinero con ellos — ver `04_DEMANDA_COMPETENCIA.md` |
+| L10 | Mapas/servidores/addons de Minecraft o Roblox de pago | ✅ | ✅ | ✅ | ✅ | ⚠️ | ⚠️ (reglas de EULA de Mojang sobre monetización) | ✅ | ✅ | **NO PASA** (Día 2): fuentes contradictorias sobre la monetización fuera del Marketplace oficial; descartada por riesgo de licencia. Ver `04_DEMANDA_Y_COMPETENCIA.md` |
 | L11 | Packs de flashcards/Anki de temario de Bachillerato/EBAU | ✅ | ✅ | ✅ | ✅ | ⚠️ | ✅ | ✅ | ⚠️ (calidad de contenido) | **PASA** |
 | L12 | Presets/LUTs fotográficos | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ⚠️ | **NO PASA** (saturado, sin ventaja) |
 
@@ -24,6 +24,11 @@ Filtros F1–F8 definidos en `00_CRITERIOS.md`. ✅ pasa · ❌ no pasa · ⚠�
 4. Revisar EULA de Minecraft para L10 (descartar o mantener).
 5. Verificar edad mínima en términos oficiales de Etsy, Payhip, Lemon Squeezy, Gumroad.
 
+## Actualización Día 2 (2026-10-20)
+Ver `04_DEMANDA_Y_COMPETENCIA.md`. L10 descartada. Prioridad provisional: L5 > L1+L7 > (L11 | L2). L3 baja por competencia gratuita experta. L8 se integra como bonus de L1.
 
-## Actualización día 2 (2026-11-24)
-Demanda, competencia y puntuación en `04_DEMANDA_COMPETENCIA.md`; mercado en `05_TAM_SAM_SOM.md`; resultado en `FINALISTAS.md` (A = L1+L7+L8, B = L5, C = L3). L2 y L11 quedan descartadas por puntuación; L10 por el EULA.
+## Actualización Día 3 (2026-10-21)
+Ver `05_SENALES_BUSQUEDA_Y_TAM.md`.
+- **L13 (nueva): planificador de estudio para opositores** → PASA el filtro (F5 ⚠️). Detectada por el autocompletado: "oposiciones" aparece en 3 de 5 familias de búsqueda de estudio.
+- **L5 se estrecha a un vertical:** las búsquedas por oficio genérico no tienen autocompletado; **inmobiliarias** sí (10 variantes), y estética después.
+- Prioridad provisional: **L13 ≈ L5-inmobiliarias > L1+L7** (L7 como motor común de L1 y L13). L2, L3 y L11 quedan en reserva.

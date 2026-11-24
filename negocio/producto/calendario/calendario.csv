@@ -1,0 +1,31 @@
+dia,plantilla,plantilla_es,plantilla_en,formato,objetivo,idea_es,idea_en
+1,10,Portadas de destacadas,Highlight Covers,story,confianza,"Ordena tu perfil: crea las destacadas Venta, Alquiler, Vendidos y Contacto.","Set up your profile: create the For Sale, Rentals, Sold and Contact highlights."
+2,8,Preséntate,Meet the Agent,post,cercania,"Preséntate: quién eres, en qué zona trabajas y una cosa personal.","Introduce yourself: who you are, the area you serve and one personal detail."
+3,1,Nuevo en cartera,Just Listed,post,inmueble,Publica tu inmueble más reciente con 3 datos clave y el precio.,Post your newest listing with 3 key features and the price.
+4,9,Story de visita,Property Tour Story,story,inmueble,"Enseña ese inmueble en 3 stories: entrada, salón y la mejor vista.","Show that listing in 3 stories: entrance, living room and the best view."
+5,6,Carrusel de consejos,Tips Carousel,carrusel,valor,Carrusel: 5 cosas que revisar antes de visitar una vivienda.,Carousel: 5 things to check before a home viewing.
+6,7,Testimonio,Testimonial,post,confianza,Comparte la opinión de un cliente (con su permiso).,Share a client review (with their permission).
+7,2,Puertas abiertas,Open House,post + story,accion,"Anuncia tu próxima jornada de puertas abiertas: fecha, hora, dirección.","Announce your next open house: date, time, address."
+8,9,Story de visita,Property Tour Story,story,inmueble,Cuenta atrás para la jornada: «mañana os espero» con una foto.,Countdown story for the open house: 'see you tomorrow' with a photo.
+9,1,Nuevo en cartera,Just Listed,post,inmueble,Segundo inmueble: destaca lo que lo hace distinto.,Second listing: highlight what makes it different.
+10,8,Preséntate,Meet the Agent,post,cercania,Un día de trabajo contigo: qué haces antes de una visita.,A day in your work: what you do before a viewing.
+11,6,Carrusel de consejos,Tips Carousel,carrusel,valor,"Carrusel: documentos que suele pedir una compraventa (lista general, sin asesorar).","Carousel: documents usually requested in a sale (general checklist, not advice)."
+12,4,Reservado,Under Contract,post,confianza,Marca como reservado un inmueble que ya tiene comprador.,Mark a listing as under contract.
+13,9,Story de visita,Property Tour Story,story,accion,Pregunta en stories: «¿qué zona buscas?» con una encuesta.,Story poll: 'which neighborhood are you looking in?'
+14,7,Testimonio,Testimonial,post,confianza,"Segundo testimonio, mejor si es de un vendedor.","Second testimonial, ideally from a seller."
+15,5,Bajada de precio,Price Reduced,post,inmueble,"Si un inmueble ha bajado de precio, anúncialo con el precio nuevo.","If a listing's price dropped, announce the new price."
+16,1,Nuevo en cartera,Just Listed,post,inmueble,Tercer inmueble o el mismo con otra foto de portada.,"Third listing, or the same one with a different cover photo."
+17,6,Carrusel de consejos,Tips Carousel,carrusel,valor,Carrusel: cómo preparar tu casa para las fotos de venta.,Carousel: how to get your home ready for listing photos.
+18,8,Preséntate,Meet the Agent,post,cercania,"Tu rincón favorito de la zona (café, parque, mirador).","Your favorite spot in the area (café, park, viewpoint)."
+19,3,Vendido,Just Sold,post,confianza,Celebra una operación cerrada: ¡vendido!,Celebrate a closed deal: just sold!
+20,9,Story de visita,Property Tour Story,story,inmueble,Recorrido en stories de un inmueble que aún no has enseñado.,Story tour of a listing you haven't shown yet.
+21,2,Puertas abiertas,Open House,post + story,accion,Segunda jornada de puertas abiertas (u otra fecha de visitas).,Second open house (or another viewing date).
+22,10,Portadas de destacadas,Highlight Covers,story,confianza,Repasa tus destacadas: añade los vendidos y testimonios nuevos.,Refresh your highlights: add new sold posts and reviews.
+23,6,Carrusel de consejos,Tips Carousel,carrusel,valor,"Carrusel: preguntas frecuentes de tus clientes, con tus respuestas generales.","Carousel: your clients' frequent questions, with general answers."
+24,1,Nuevo en cartera,Just Listed,post,inmueble,Inmueble de la semana.,Listing of the week.
+25,7,Testimonio,Testimonial,post,confianza,Tercer testimonio o una captura de un mensaje de agradecimiento (con permiso).,Third testimonial or a thank-you message screenshot (with permission).
+26,8,Preséntate,Meet the Agent,post,cercania,Detrás de las cámaras: tu equipo o tu herramienta favorita.,Behind the scenes: your team or your favorite tool.
+27,4,Reservado,Under Contract,post,confianza,Otro reservado (o vuelve a usar el diseño con otro inmueble).,Another under contract (or reuse the design with a different home).
+28,9,Story de visita,Property Tour Story,story,accion,Stories: «¿quieres saber cuánto vale tu casa? escríbeme» (sin dar cifras).,Stories: 'curious what your home could list for? message me' (no figures).
+29,3,Vendido,Just Sold,post,confianza,Segundo vendido o repaso de las operaciones del mes.,"Second just sold, or a recap of the month's deals."
+30,6,Carrusel de consejos,Tips Carousel,carrusel,valor,Carrusel resumen: lo mejor del mes y qué viene el mes que viene.,Recap carousel: highlights of the month and what's coming next.
