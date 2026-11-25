@@ -1,12 +1,24 @@
 {
   "fase": 1,
-  "dia_global": 2,
+  "dia_global": 3,
   "idea_elegida": null,
   "checkpoints": [],
   "bloqueado_por_humano": false,
   "decision_pendiente": null,
-  "ultima_sesion": "2026-10-19",
-  "hecho_ultima_sesion": "Día 1: estructura creada; criterios de filtro fijados; investigación de plataformas/comisiones/edad; panorama de 6 modelos; lista larga de 12 ideas con primer filtro (7 pasan, 4 descartadas, 1 dudosa).",
-  "siguiente_tarea": "Validar demanda y competencia en español para L1, L3, L5 (luego L2, L7, L11); revisar EULA Minecraft (L10); verificar edad mínima en términos de Etsy/Payhip/Lemon Squeezy/Gumroad.",
-  "ideas_vivas": ["L1", "L2", "L3", "L5", "L7", "L8", "L11", "L10?"]
+  "ultima_sesion": "2026-11-25",
+  "hecho_ultima_sesion": "Día 2: demanda y competencia (ronda 1) de L1, L2, L3, L5, L11 en 04_DEMANDA_Y_COMPETENCIA.md; poblaciones base (ESO 2,09M, PAU 341.831); L10 descartada (EULA Minecraft); edad mínima de Etsy/Gumroad/Payhip/Lemon Squeezy en 05_EDAD_EN_PLATAFORMAS.md; nuevo riesgo: fricción de pago en público menor.",
+  "siguiente_tarea": "Ronda 2: (a) buscar una fuente gratuita de volumen de búsqueda (Google Trends, autocompletar, AnswerThePublic) para 'planner estudio', 'flashcards PAU', 'plantillas canva negocio'; (b) buscar un dato de conversión/fricción de pago en compradores adolescentes; (c) competidores de L7 (generadores de horarios de estudio en español); (d) empezar TAM/SAM/SOM del kit de estudio.",
+  "ideas_vivas": [
+    "L1+L7+L11 (kit estudio)",
+    "L5",
+    "L2",
+    "L3"
+  ],
+  "ideas_descartadas": [
+    "L4",
+    "L6",
+    "L9",
+    "L10",
+    "L12"
+  ]
 }
