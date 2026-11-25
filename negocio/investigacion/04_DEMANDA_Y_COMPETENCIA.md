@@ -1,69 +1,89 @@
-# Demanda y competencia — ronda 1 (día 2, 2026-11-25)
+# Demanda y competencia: primera pasada (Día 2, 2026-10-20)
 
-Leyenda: **[D]** dato verificado con fuente · **[E]** estimación propia · **[S]** señal cualitativa (no cuantificada).
+**[V]** = fuente oficial · **[S]** = fuente secundaria · **[E]** = estimación mía.
+Limitación de hoy: Etsy (403) y minecraft.net (503) bloquearon el acceso directo, y no hay acceso a Google Trends ni a herramientas de palabras clave. Las señales de demanda salen de buscadores y de páginas de tienda indexadas. **Para Fase 2 hace falta un dato de tráfico mejor** (ver "Huecos de información").
 
-> Limitación honesta: sin acceso a Google Trends / Keyword Planner / estadísticas de Etsy desde la tarea automática, la demanda se mide con señales indirectas (nº de productos y ventas declaradas de competidores, tamaño de la población objetivo). Pendiente: buscar una fuente de volumen de búsqueda gratuita.
+---
 
-## Tamaño de población (base para TAM/SAM/SOM)
+## Hallazgo transversal: el precio de referencia en español es MUY bajo
 
-| Población | Cifra | Tipo | Fuente |
-|---|---|---|---|
-| Alumnado ESO 2024-25 | 2.089.403 | [D] (dato de avance) | [Ministerio de Educación, datos avance 27-6-2025](https://www.educacionfpydeportes.gob.es/prensa/actualidad/2025/06/20250627-datosavance.html) |
-| Bachillerato 2024-25 | creció +12.582 (+1,8 %) vs curso anterior; total ≈ 700.000 | [D] variación / [E] total | [La Moncloa 27-6-2025](https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/educacion-fp-deportes/paginas/2025/270625-educacion-mas-alumnos.aspx) |
-| Matriculados PAU 2024 | 341.831 (95,8 % se presentó; 295.250 aprobados) | [D] | [Ministerio de Ciencia, estadística PAU 2024](https://www.ciencia.gob.es/Noticias/2025/mayo/estadisticas-pruebas-acceso-universidad-2024.html) |
-| Presentados PAU 2025 | ≈ 270.000 | [S] (prensa; no cuadra con el dato oficial de 2024) | [El Debate](https://www.eldebate.com/educacion/20250628/este-porcentaje-estudiantes-espanoles-aprobado-nueva-selectividad_311968.html) |
-| Wuolah (apuntes) | 2,5 M registrados, ~500.000 activos/mes | [S] (cifra de la propia empresa vía prensa) | [descubre.vc](https://www.descubre.vc/noticia/wuolah-vende-tus-apuntes-y-gana-dinero-2024-12-18) |
+| Señal | Precio | Fuente |
+|---|---|---|
+| Agendas en español en Etsy | 0,99 $ – 4,98 $ | [S] [etsy listing](https://www.etsy.com/listing/1651928779) |
+| Orientación Andújar (blog docente muy conocido, recursos gratis desde hace +10 años): dossier de +500 páginas | 4 € | [S] [gumroad](https://orientacionandujar.gumroad.com/l/dossierprimariaal) |
+| Orientación Andújar: dictados de toda Primaria | 5 € | [S] [gumroad](https://orientacionandujar.gumroad.com/l/dictados) |
+| Pack de 50 plantillas Canva Instagram (emprendedores) | 5 $ | [S] [gumroad](https://bylinis.gumroad.com/l/iouwpe) |
+| Pack de +300 plantillas Canva gastronomía | 19 $ (ahora no disponible) | [S] [gumroad](https://juanluis.gumroad.com/l/restaurantes) |
+| Plantilla Excel de presupuesto bilingüe | 5,99 € | [S] [gumroad](https://alvaarosx.gumroad.com/l/wrdsj) |
+| Plantillas gratis: Slidesgo (planners para estudiantes hispanohablantes), Microsoft/Google (presupuestos), Canva (+400.000) | 0 € | [S] [slidesgo](https://slidesgo.com/es/tema/plantilla-trity-de-hoja-del-estudiante-estilo-boho-mi-planner), [microsoft](https://create.microsoft.com/es-es/templates/presupuestos-empresariales), [canva](https://www.canva.com/es_co/pro/plantillas-gratis/) |
 
-## L1 — Planners/plantillas de estudio en español (ESO/Bachillerato)
+**Consecuencia [E]:** con productos de 4–7 €, llegar a 500 € netos exige **~100–200 ventas**. Con conversión conservadora del 1 %, eso son **~10.000–20.000 visitas cualificadas**. Para un recién llegado sin audiencia, es la barrera principal. Ideas con ticket más alto (≥ 12 €) necesitan bastante menos tráfico.
 
-- **Competencia**: Etsy tiene planners de estudio imprimibles a unos 27–107 MXN (≈1,5–6 €); muchas fichas **sin reseñas** → mercado con mucha oferta y poca tracción por ficha [S] ([Etsy ejemplo](https://www.etsy.com/listing/4412661752/study-planner-printable-assignment)). En Hotmart hay agendas escolares y digitales en español (GoodNotes/Notability) orientadas a Latinoamérica, universitarios o docentes; **casi ninguna está hecha para ESO/Bachillerato en España** [S] ([Hotmart agenda escolar 2025-26](https://hotmart.com/es/marketplace/productos/agenda-escolar-2025-2026-organiza-tareas-clases-y-actividades-sin-estres/I104869974L), [Hotmart agenda digital 2026](https://hotmart.com/es/marketplace/productos/agenda-digital-2026-planner-hipervinculada-en-espanol-planner-interactivo-pdf-para-goodnotes-y-notability-planner-anual-y-semanal/B102617959T)).
-- **Sustitutos gratis**: MyStudyLife (app gratuita), plantillas gratuitas de Notion, las agendas que dan los propios institutos [D] ([App Store](https://apps.apple.com/us/app/my-study-life-%ED%95%99%EA%B5%90-%EC%8A%A4%ED%84%B0%EB%94%94-%ED%94%8C%EB%9E%98%EB%84%88/id910639339?l=es-MX)).
-- **Hueco**: adaptado al sistema español (evaluaciones, PAU, calendario escolar por comunidad); hecho por un estudiante de verdad.
-- **⚠️ Riesgo nuevo detectado**: el **usuario** (14–17 años) a menudo **no tiene tarjeta**; paga un padre/madre. Eso baja la conversión respecto a los benchmarks de landing pages. → El simulador debe incluir un factor de "fricción de pago" para este público. [E]
-- **Valoración provisional**: demanda real pero difusa, competencia gratuita fuerte, ticket bajo (3–7 €). Necesita ~100–170 ventas para 500 €. **Mejor como producto puerta de entrada o combinado con L11.**
+### Ventas y visitas necesarias para 500 € netos (cálculo rápido [E])
+Neto = precio × (1 − % comisión) − fijo, sin IVA (21 %). Es una aproximación previa al simulador.
 
-## L3 — Imprimibles educativos en español (Primaria)
+| Escenario | Neto/venta | Ventas para 500 € | Visitas al 1 % | Visitas al 2 % |
+|---|---|---|---|---|
+| L1 planner 7 € en web propia (Payhip) | 5,08 € | 98 | 9.842 | 4.921 |
+| L1 planner 4 € en Etsy | 2,55 € | 196 | 19.579 | 9.790 |
+| L3 fichas 4 € en Etsy | 2,55 € | 196 | 19.579 | 9.790 |
+| L2 hoja de finanzas 9 € en web | 6,60 € | 76 | 7.573 | 3.786 |
+| L11 mazo Anki 6 € en web | 4,32 € | 116 | 11.577 | 5.788 |
+| **L5 pack Canva negocio local 15 € en web** | **11,17 €** | **45** | **4.477** | **2.238** |
 
-- **Competencia**: precios muy bajos (p. ej., 10 fichas por 2 € en [Gumroad](https://fleleprimaria.gumroad.com/l/qgvwmr)) [D]; muchos packs en Hotmart [S]; **enorme oferta gratuita** en blogs españoles (aulapt.org, actividadesdeinfantilyprimaria.com) y en TES [D] ([aulapt](https://www.aulapt.org/tag/fichas-matematicas/page/3)).
-- **Señal a favor**: una vendedora hispanohablante de TpT dice que hay pocos recursos en español fuera de la asignatura "Spanish" [S] ([blog](https://lamisideespanolpr.blogspot.com/2018/06/why-tpt-is-so-great-and-how-to-start.html)), pero es una opinión de 2018 y pensada para EE. UU.
-- **Ventaja del dueño**: baja. A un docente le cuesta comprarle a un chico de 14 años contenido didáctico (criterio F8).
-- **Valoración provisional**: **baja**. Precios a la baja y mucho contenido gratis de calidad. Se queda en la lista solo como plan B.
+---
 
-## L5 — Plantillas Canva para pequeños negocios en español
+## Por idea
 
-- **Hay demanda demostrada**: tiendas de Etsy en español como GraphiCarola declaran 2.571 ventas [D] ([Etsy](https://www.etsy.com/shop/GraphiCarola)); mega-packs en Hotmart [S].
-- **Competencia**: muy saturada; precios con descuentos permanentes del 25–75 % [S]; el propio Canva regala plantillas para pequeños negocios en español [D] ([Canva](https://www.canva.com/es_es/work-kits/small-business/)).
-- **Ventaja del dueño**: baja (no es su mundo); solo tiene a favor el idioma.
-- **Valoración provisional**: **media**. La demanda está probada, pero ganar en un mercado saturado y sin ventaja propia exige mucha calidad de diseño y muchas fichas a la venta.
+### L1: planners/plantillas de estudio en español (ESO/Bachillerato)
+- **Mercado [V]:** 2.089.403 alumnos de ESO y 704.256 de Bachillerato en el curso 2024-25 ([Ministerio, datos avance](https://www.educacionfpydeportes.gob.es/prensa/actualidad/2025/06/20250627-datosavance.html); [La Moncloa](https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/educacion-fp-deportes/paginas/2025/270625-educacion-mas-alumnos.aspx)). Total ≈ 2,8 M solo en España, sin contar Latinoamérica.
+- **Competencia:** planners gratis (Slidesgo), apps gratis (MyStudyLife, Easy Study), agendas en Etsy de 1–5 $. Goodnotes tiene >19 M de usuarios, pero lo que se vende en su marketplace está sobre todo en inglés ([S] [geekflare](https://geekflare.com/es/best-goodnotes-templates/), [goodnotes marketplace](https://marketplace.goodnotes.com/product/685009d10f62b303d267211c-spanish-digital-notebook)). Es una muestra pequeña y no está medida.
+- **Lectura [E]:** el mercado es grande, pero el producto se parece a muchos gratuitos. El hueco **no es "un planner más"**, sino algo adaptado al sistema español (trimestres/evaluaciones, calendario de exámenes de ESO, preparación de la PAU, formato GoodNotes en español). Ventaja del dueño: es el usuario objetivo y puede crear contenido creíble en TikTok/YouTube Shorts (el canal lo publica él; cualquier monetización la gestiona el adulto).
+- **Riesgo:** el precio de referencia es bajo (≤ 5 €) y el público adolescente tiene poco dinero y depende de que paguen los padres.
 
-## L11 — Mazos de flashcards (Anki/imprimibles) para la PAU
+### L2: plantillas Sheets/Excel de finanzas personales
+- **Competencia:** muy fuerte en gratuito (Microsoft, Google, bancos como N26, ClickUp, Clockify). Hay alguna oferta de pago a 6 €.
+- **Lectura [E]:** el valor tendría que estar en la automatización (panel, categorías y gráficos listos), y la credibilidad de un menor en temas de dinero es baja (F8). **Baja en prioridad.**
 
-- **Competencia**: no aparecen mazos de pago en español para la PAU [S] (búsqueda sin resultados). Hay sustitutos gratis: GoConqr, mazos compartidos de Anki, exámenes anteriores ([Uniscopio](https://uniscopio.com/acceso/examenes-anteriores-selectividad/)) y Wuolah.
-- **Matiz importante**: la nueva PAU es **más competencial** (menos memoria, más razonamiento) [S] ([hola.com](https://www.hola.com/padres/20260530904344/como-sacar-las-notas-mas-altas-en-la-pau/)). Además, Historia de España **cambia según la comunidad autónoma**, así que conviene empezar por una sola comunidad o por asignaturas más homogéneas (Biología, Química).
-- **Estacionalidad**: picos fuertes en marzo–junio. El plazo del proyecto termina el 15-5-2027, en plena temporada alta. [E]
-- **Ventaja del dueño**: media. Con 14 años todavía no ha hecho la PAU (problema de credibilidad), aunque conoce el público.
-- **Valoración provisional**: **media-alta en hueco y baja en credibilidad**. Habría que basarla en temarios oficiales públicos y citar las fuentes.
+### L3: imprimibles educativos de Primaria en español
+- **Competencia:** muy fuerte y muy barata. Orientación Andújar regala la mayoría de su material (CC BY-NC-SA) y vende dossiers de 500 páginas a 4 €. TpT tiene millones de recursos y un precio medio por recurso < 5 $ ([S] [The 74](https://www.the74million.org/article/meet-the-etsy-of-education-online-marketplace-lets-teachers-buy-and-sell-millions-of-classroom-materials-and-lessons/)). Una tienda de Etsy de imprimibles en español (SpanishTree) muestra 733 ventas acumuladas desde 2023 [S].
+- **Lectura [E]:** existe demanda y hay quien paga, pero la competencia es experta (docentes) y casi gratuita, y el dueño no es docente (credibilidad, F8). **Baja en prioridad.**
 
-## L10 — Contenido de pago para Minecraft → **DESCARTADA**
+### L5: plantillas Canva para redes de pequeños negocios locales
+- **Mercado [V]:** 3.310.824 empresas activas en España a 1-ene-2025; 1.800.443 sin asalariados y 1.348.909 con 1–9 asalariados; Comercio es el sector mayor con 625.664 ([INE DIRCE 2025](https://www.ine.es/dyngs/Prensa/es/DIRCE2025.htm)). Comprador adulto y con presupuesto.
+- **Competencia:** Canva gratis con +400.000 plantillas genéricas, más packs en Gumroad (5–19 $). Pocas ofertas **verticales en español** (por oficio: peluquería, bar, fisio, academia…) y con calendario español (fiestas locales, rebajas, Black Friday, vuelta al cole).
+- **Lectura [E]:** el ticket es el mejor (12–19 €) y hace falta poco tráfico (~2.000–4.500 visitas). Riesgo: el dueño no es el cliente; hace falta un canal (SEO de cola larga tipo "plantillas instagram peluquería", Pinterest, Etsy). Se puede combinar con un microservicio de personalización hecho por el adulto, opcional.
 
-- La EULA de Minecraft permite distribuir mods propios "siempre que no los vendas por dinero / intentes ganar dinero con ellos". La venta de mapas, mods y add-ons fuera del Marketplace oficial no está permitida, y el Marketplace es solo para socios aprobados [D] ([EULA](https://minecraft.net/en-us/eula); resumen de terceros en [ConductAtlas](https://conductatlas.com/platform/minecraft/minecraft-usage-guidelines/prohibition-on-selling-mods/)). Esto choca con F6/F7 → **NO PASA**.
+### L7: generador web de horario de estudio/exámenes
+- **Competencia:** muchas apps gratis (MyStudyLife, Easy Study, Planificador de Exámenes iOS, Creative Fabrica). Monetizar directamente es difícil.
+- **Lectura [E]:** **no como negocio independiente**, sino como imán de tráfico gratuito para L1 (SEO "generador horario de estudio"). Se mantiene como componente.
 
-## Conclusiones de la ronda 1
+### L11: flashcards/Anki para la PAU
+- **Competencia:** mazos compartidos de Anki gratis y academias (Didactys) con exámenes resueltos; Uniscopio recopila exámenes oficiales gratis ([S] [uniscopio](https://uniscopio.com/acceso/examenes-anteriores-selectividad/)). No encontré mazos de pago en español.
+- **Lectura [E]:** el hueco existe, pero exige contenido de temario de 2.º de Bachillerato con calidad experta, y el dueño tiene 14 años: alto riesgo de errores (F8). Además, la PAU cambia por comunidad. **Baja en prioridad**; podría ser un add-on futuro de L1.
 
-1. Ninguna idea por sí sola tiene un canal de tráfico claro. **El canal manda más que el producto.**
-2. La combinación más coherente con la ventaja del dueño es **L1 + L7 + L11**: un "kit de estudio para ESO/Bachillerato en España", con una herramienta web gratuita (L7) que atrae tráfico y productos de pago (L1/L11).
-3. Sigue viva una alternativa sin relación con el estudio: L2 (finanzas personales en Sheets) o L5. Hay que investigarla para que haya **3 finalistas diversas** y no tres variantes de lo mismo.
-4. Nuevo supuesto para el simulador: **fricción de pago en público menor de edad** (conversión × 0,5 como caso conservador [E], pendiente de buscar un dato).
+### L10: contenido de Minecraft/Roblox de pago → **DESCARTADA**
+- Las fuentes secundarias se contradicen sobre si Mojang permite vender mapas o contenido fuera del Marketplace oficial ([S] [gameserverkings](https://www.gameserverkings.com/knowledge-base/minecraft/monetising-your-server/), [conductatlas](https://conductatlas.com/platform/minecraft/minecraft-usage-guidelines/commercial-use-and-monetization-restrictions/)); el Marketplace oficial exige ser partner empresarial. minecraft.net no respondió (503).
+- Decisión conservadora: **descartada por riesgo de licencia (F6/P6)**. Si el dueño tiene mucho interés, se puede reabrir leyendo el texto oficial de las Usage Guidelines.
 
-## L2 — Plantillas de finanzas personales en Google Sheets (español) — primera mirada
+---
 
-- **Competencia**: hay muchas en Etsy, con precios de 1,83 $ a 8,52 $ por plantilla y de hasta 49,99 $ por bundle de 10 [D] ([Etsy 1](https://www.etsy.com/listing/1804668124), [Etsy bundle](https://www.etsy.com/listing/4606032169)); varias en Hotmart [S]; gratis en Clockify [D] ([Clockify](https://clockify.me/es/plantillas-presupuesto)).
-- **Ventaja del dueño**: baja (con 14 años no gestiona un hogar) y riesgo F8 (no puede parecer asesoría). El público adulto **sí tiene tarjeta**, así que la fricción de pago es menor.
-- **Valoración provisional**: **media-baja**. La mantengo como candidata "diversa" junto a L5 hasta la ronda 2.
+## Edad mínima en plataformas (pendiente del Día 1)
+- **Etsy [V]:** el titular de la cuenta debe tener 18+. Los menores de 13–17 pueden vender **con permiso y supervisión directa** de un progenitor/tutor, que registra la cuenta con sus datos, figura como dueño y tiene la información financiera a su nombre; la sección "Acerca de" debe listar a todos los miembros de la tienda ([help.etsy.com](https://help.etsy.com/hc/en-gb/articles/360040983333-Can-Minors-Sell-on-Etsy)).
+- **Gumroad [S]:** las fuentes se contradicen (13+ con mayoría de edad contractual frente a 18+). La vía con tutor parece limitada a EE. UU. ([S] [bigideasdb](https://bigideasdb.com/how-to-accept-payments-under-18)) → asumir **cuenta del adulto**.
+- **Lemon Squeezy [S]:** hace KYC/KYB de cada tienda → cuenta e identidad del adulto.
+- **Payhip:** no encontré requisito de edad → asumir 18+ (cuenta del adulto).
+- Conclusión: se confirma el diseño del Día 1. **Toda cuenta de cobro va a nombre del adulto responsable.**
 
-## Ranking provisional tras la ronda 1
-1. **Kit de estudio ES (L1+L7+L11)**: el que más encaja con la ventaja del dueño; el riesgo es la fricción de pago y la credibilidad.
-2. **L5 Canva negocios**: demanda probada y saturada.
-3. **L2 Finanzas Sheets**: demanda probada, saturada y con poca ventaja.
-4. L3 Imprimibles Primaria: mucha oferta gratuita.
-(L10 descartada. L8 queda absorbida como bonus de L1.)
+---
+
+## Ranking provisional (antes de puntuar formalmente)
+1. **L5** (Canva vertical para negocios locales): mejor economía unitaria y comprador con dinero.
+2. **L1 + L7** (planner de estudio español + generador gratis como imán): mejor ventaja del dueño y canal propio posible (contenido de estudiante).
+3. Tercera plaza abierta entre **L11** (como add-on) y **L2**. L3 cae por competencia gratuita experta.
+
+## Huecos de información (siguientes sesiones)
+1. **Volumen de búsqueda real** de palabras clave ("plantillas instagram peluquería", "planner estudiante pdf", "horario de estudio"). Probar fuentes alternativas: Google Trends vía WebFetch, autocompletado, páginas de SEO con volúmenes publicados.
+2. **Verticales de L5:** ¿qué oficios compran plantillas? Buscar packs verticales en inglés que venden mucho (estética, inmobiliarias, fitness) como prueba de concepto trasladable al español.
+3. **Datos de Latinoamérica** (México, Colombia, Argentina) para ampliar el SAM de L1 y L5, con cuidado con el poder adquisitivo.
+4. **TAM/SAM/SOM** formales para las 3 finalistas.
