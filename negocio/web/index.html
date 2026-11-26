@@ -1,14 +1,15 @@
 <!doctype html>
-<!-- SIGUIENTE: esqueleto v0 (Día 9). Faltan: imágenes reales de mockups (assets/), enlaces de Payhip (🔴 adulto), textos legales revisados por un adulto. -->
+<!-- SIGUIENTE: v1 (Día 18) con maquetas reales en assets/. Faltan: capturas de las plantillas ya montadas en Canva (sustituir los SVG), enlaces de Payhip (🔴 adulto), textos legales revisados por un adulto, contenido del Pack Agencia. -->
 <html lang="es">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Plantillas Canva para Inmobiliarias | Pack listo para Instagram</title>
-<meta name="description" content="Más de 38 plantillas de Canva para agencias inmobiliarias: nuevo en cartera, vendido, puertas abiertas, carruseles y stories. Edita en 5 minutos.">
+<meta name="description" content="34 plantillas de Canva para agencias inmobiliarias + calendario de 30 días: nuevo en cartera, vendido, puertas abiertas, carruseles y stories. En español e inglés.">
 <style>
 :root{--bg:#fbf8f3;--txt:#1d1d1f;--sub:#5b5b60;--acc:#1f3a5f;--acc2:#c9a96e;--card:#fff;--line:#e7e1d6}
-@media (prefers-color-scheme:dark){:root{--bg:#141416;--txt:#f2f2f2;--sub:#b3b3b8;--acc:#8fb3e0;--acc2:#d9bb84;--card:#1e1e22;--line:#2c2c31}}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#141416;--txt:#f2f2f2;--sub:#b3b3b8;--acc:#8fb3e0;--acc2:#d9bb84;--card:#1e1e22;--line:#2c2c31}}
+:root[data-theme="dark"]{--bg:#141416;--txt:#f2f2f2;--sub:#b3b3b8;--acc:#8fb3e0;--acc2:#d9bb84;--card:#1e1e22;--line:#2c2c31}
 *{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--txt);line-height:1.55}
 .w{max-width:1040px;margin:0 auto;padding:0 16px}
 header{padding:20px 0;border-bottom:1px solid var(--line)}header .w{display:flex;justify-content:space-between;align-items:center}
@@ -22,7 +23,9 @@ nav a{color:var(--sub);text-decoration:none;margin-left:16px;font-size:.95rem}
 .btn.alt{background:transparent;color:var(--acc);border:2px solid var(--acc)}
 .grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
 .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px}
-.mock{aspect-ratio:4/5;border-radius:10px;background:linear-gradient(135deg,var(--acc) 0 55%,var(--acc2) 55%);display:flex;align-items:flex-end;padding:14px;color:#fff;font-weight:700;font-family:Georgia,serif}
+.mock{width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:10px;border:1px solid var(--line);display:block;background:#fff}
+.gal{display:grid;gap:10px;grid-template-columns:repeat(auto-fill,minmax(140px,1fr))}.gal img{width:100%;border-radius:8px;border:1px solid var(--line);display:block;background:#fff}
+.nota{font-size:.85rem;color:var(--sub);text-align:center}
 section{padding:48px 0}h2{font-family:Georgia,serif;font-size:1.9rem;margin:0 0 20px;text-align:center}
 .precio{font-size:2.4rem;font-weight:700;margin:8px 0}.precio small{font-size:1rem;color:var(--sub);font-weight:400}
 ul.check{padding:0;list-style:none}ul.check li{padding:6px 0 6px 26px;position:relative}ul.check li:before{content:"✓";position:absolute;left:0;color:var(--acc2);font-weight:700}
@@ -45,19 +48,30 @@ footer{border-top:1px solid var(--line);padding:28px 0;color:var(--sub);font-siz
 <section id="incluye" class="w">
 <h2>Qué incluye el pack</h2>
 <div class="grid">
-<div class="card"><div class="mock">NUEVO EN CARTERA</div><h3>Nuevo en cartera</h3><p>4 diseños para anunciar inmuebles con foto, precio y características.</p></div>
-<div class="card"><div class="mock">¡VENDIDO!</div><h3>Vendido y reservado</h3><p>Celebra cada operación y genera confianza.</p></div>
-<div class="card"><div class="mock">PUERTAS ABIERTAS</div><h3>Puertas abiertas</h3><p>Posts y stories con fecha, hora y dirección.</p></div>
-<div class="card"><div class="mock">5 CONSEJOS</div><h3>Carrusel de consejos</h3><p>7 diapositivas editables para aportar valor a tus seguidores.</p></div>
+<div class="card"><img class="mock" src="assets/p1a_navy_es.svg" alt="Plantilla Nuevo en cartera" loading="lazy"><h3>Nuevo en cartera</h3><p>4 diseños para anunciar inmuebles con foto, precio y características.</p></div>
+<div class="card"><img class="mock" src="assets/p3_beige_es.svg" alt="Plantilla Vendido" loading="lazy"><h3>Vendido y reservado</h3><p>Celebra cada operación y genera confianza.</p></div>
+<div class="card"><img class="mock" src="assets/p2post_salvia_es.svg" alt="Plantilla Puertas abiertas" loading="lazy"><h3>Puertas abiertas</h3><p>Posts y stories con fecha, hora y dirección.</p></div>
+<div class="card"><img class="mock" src="assets/p6_1_navy_es.svg" alt="Portada del carrusel de consejos" loading="lazy"><h3>Carrusel de consejos</h3><p>7 diapositivas editables para aportar valor a tus seguidores.</p></div>
 </div>
-<p style="text-align:center;color:var(--sub);margin-top:18px">Además: bajada de precio, testimonios, preséntate, stories de visita y 12 portadas de destacadas. <strong>Más de 38 diseños</strong>, en español y en inglés.</p>
+<p style="text-align:center;color:var(--sub);margin-top:18px">Además: bajada de precio, testimonios, preséntate, stories de visita y 12 portadas de destacadas. <strong>34 diseños × 3 paletas</strong>, en español y en inglés, y un <strong>calendario de 30 días</strong> que te dice qué publicar cada día.</p>
+<div class="gal" style="margin-top:20px">
+<img src="assets/p1c_beige_es.svg" alt="Nuevo en cartera, diseño C" loading="lazy">
+<img src="assets/p5b_beige_es.svg" alt="Bajada de precio" loading="lazy">
+<img src="assets/p4b_salvia_es.svg" alt="Reservado, diseño B" loading="lazy">
+<img src="assets/p7a_salvia_es.svg" alt="Testimonio de cliente" loading="lazy">
+<img src="assets/p8b_navy_es.svg" alt="Preséntate" loading="lazy">
+<img src="assets/p6_3_beige_es.svg" alt="Diapositiva del carrusel" loading="lazy">
+<img src="assets/p9_1_beige_es.svg" alt="Story de visita" loading="lazy">
+<img src="assets/p10_salvia_es.svg" alt="Portadas de destacadas" loading="lazy">
+</div>
+<p class="nota">Vista previa de las maquetas. Las fotos rayadas son huecos para tus fotos; las fotos no se incluyen.</p>
 </section>
 
 <section id="precios" class="w">
 <h2>Elige tu pack</h2>
 <div class="grid">
 <div class="card"><h3>Pack Agente</h3><div class="precio">17 €<small> pago único</small></div>
-<ul class="check"><li>38+ plantillas editables en Canva (gratis o Pro)</li><li>3 paletas de color</li><li>Versiones en español e inglés</li><li>Guía de uso en PDF</li><li>Descarga inmediata</li></ul>
+<ul class="check"><li>34 plantillas editables en Canva (gratis o Pro)</li><li>Calendario de 30 días (PDF)</li><li>3 paletas de color</li><li>Versiones en español e inglés</li><li>Guía de uso en PDF</li><li>Descarga inmediata</li></ul>
 <!-- 🔴 REQUIERE HUMANO: sustituir href por el enlace de compra de Payhip (cuenta a nombre del adulto) -->
 <a class="btn alt" href="#" aria-disabled="true">Comprar (próximamente)</a></div>
 <div class="card dest"><h3>Pack Agencia</h3><div class="precio">29 €<small> pago único</small></div>

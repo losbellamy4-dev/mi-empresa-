@@ -388,3 +388,24 @@ Diario del proyecto. Una entrada por sesión. Fecha límite de entrega: 15 de ma
 **Bloqueos (🔴)**: 1) cambiar la rama por defecto a `claude/confident-tesla-dcbtqp` o fusionar su PR (y cerrar los #1–#9); 2) elegir la idea (pendiente desde el Día 4).
 
 **Primera tarea de la próxima sesión** (sin cambios desde el Día 14): mockups de Etsy del anuncio ancla v2 y maquetas SVG #5 y #7–#10.
+
+---
+
+## Día 18 — 2026-11-26 (Fase 2, preparando Fase 3: pack completo en maquetas)
+
+**Qué pasó con la continuidad**
+- La sesión volvió a arrancar en el **Día 1** (10.ª vez, rama `lilbm4`). Esta vez lo detecté **al inicio** con `git fetch`: hice fast-forward a `dcbtqp` (Día 17) sin rehacer nada.
+- No hay `RESPUESTA_HUMANO.md` en ninguna rama, así que la elección de idea sigue pendiente. Seguí con trabajo para B que no depende de esa decisión.
+
+**Avances**
+- `producto/maquetas/maquetas.py`: nuevas maquetas **#5 Bajada de precio (A, B), #7 Testimonio (A, B), #8 Preséntate (A, B), #9 Story de visita (3), #10 Portadas de destacadas (hoja de 12 iconos)**, y los segundos diseños que faltaban: **#2 post B, #2 story B, #3 B y #4 B**. Con esto están las **34 maquetas** que promete la especificación y el anuncio ancla de Etsy (216 SVG: 3 paletas × ES/EN). Las revisé renderizadas: corregí la línea del tachado de #5A y el texto cortado de #8B.
+- `producto/maquetas/README.md`: tabla con las 34 maquetas y sus archivos. Aviso: los testimonios son de relleno y no se pueden publicar como reales.
+- `web/` v1: las tarjetas usan las maquetas reales (`web/assets/`) y hay una galería de 8 diseños. La oferta dice ahora "34 diseños + calendario de 30 días", como en Etsy (antes decía "38+", que no cuadraba). Corregido el modo oscuro. Comprobada en 390 px de ancho, sin scroll horizontal.
+
+**Aprendizaje / riesgo detectado**
+- El **Pack Agencia (29 €)** de la web promete 10 posts de temporada y 3 paletas extra que no existen. No se puede vender así: hay que crearlos o quitar la tarjeta (anotado en `web/README.md`). El simulador usa el nivel de 29 € en los escenarios "niv"/catálogo, así que conviene decidirlo antes de la Fase 3.
+- El simulador no se ha vuelto a correr: hoy no ha cambiado ningún parámetro (las maquetas no son el producto final de Canva).
+
+**Bloqueos (🔴)**: 1) cambiar la rama por defecto a `claude/confident-tesla-lilbm4` (o fusionar su PR); 2) elegir la idea (pendiente desde el Día 4).
+
+**Primera tarea de la próxima sesión**: `git fetch` y ponerse sobre la rama más avanzada. Después, mockups de Etsy del anuncio ancla v2 y guía de uso en PDF para el comprador.
