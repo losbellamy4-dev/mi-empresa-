@@ -18,7 +18,10 @@ Investigado el 2026-10-19. **[V]** = confirmado en fuente oficial; **[S]** = fue
 ## Restricciones de edad (el dueño tiene 14 años)
 - **Stripe** [V]: mínimo 13 años para cuenta Standard; si <18, un tutor legal debe figurar como titular antes de cobrar o transferir fondos. Express/Custom: 18+. ([support.stripe.com](https://support.stripe.com/questions/can-i-use-stripe-if-i-am-under-18))
 - **Fiverr** [V]: 13–17 solo mediante cuenta del padre/madre/tutor.
-- **Etsy, Gumroad, Payhip, Lemon Squeezy**: edad mínima no verificada hoy → asumir 18+ y **cuenta a nombre del adulto**. 🔴 Pendiente de verificar en sus términos oficiales.
+- **Etsy** [V] (Día 2): titular de 18+; los menores de 13–17 pueden vender con permiso y supervisión directa del tutor, que es el dueño de la cuenta y tiene los datos financieros a su nombre ([help.etsy.com](https://help.etsy.com/hc/en-gb/articles/360040983333-Can-Minors-Sell-on-Etsy)).
+- **Gumroad** [S]: fuentes contradictorias (13+ o 18+); la vía con tutor parece solo para EE. UU. → cuenta del adulto.
+- **Lemon Squeezy** [V] (Día 17, términos leídos): no fija edad explícita; el cliente garantiza tener "right, power and authority" (§9.1a) y pasa KYC/KYB → cuenta del adulto ([lemonsqueezy.com/terms](https://lemonsqueezy.com/terms)).
+- **Payhip** [V] (Día 17, términos leídos): no fija edad explícita; el vendedor garantiza "full power and authority" y necesita PayPal o Stripe activos (PayPal exige 18+) → cuenta del adulto ([payhip.com/terms](https://payhip.com/terms)).
 
 → Implicación de diseño: TODO el cobro va a nombre del adulto responsable. El dueño crea el producto y la web; el adulto es el titular comercial.
 
@@ -31,3 +34,7 @@ Investigado el 2026-10-19. **[V]** = confirmado en fuente oficial; **[S]** = fue
 - Gumroad 2020 (dato oficial vía prensa): mediana del creador activo = **70 $ en todo el año**. [S] [siliconflorist](https://siliconflorist.com/2021/01/12/what-happened-in-the-gumroad-creator-community-in-2020/)
 - InsightRaider 2026 (146.271 productos, estimaciones modeladas, no datos de Gumroad): mediana ~72 $/mes; 44 % de productos con 0 $; el 1 % superior concentra 77 % de los ingresos. [S] [insightraider](https://insightraider.com/en/state-of-gumroad-2026)
 - **Lectura honesta:** 500 € está muy por encima de la mediana. El éxito depende de nicho con demanda + canal de tráfico, no de "poner un producto en una tienda". Esto debe reflejarse en el simulador (distribución muy sesgada, probabilidad alta de 0 ventas si no hay canal de tráfico).
+
+## Licencia de Canva para vender plantillas (Día 3, afecta a L5)
+- Según el centro de ayuda de Canva [V]: **se pueden vender plantillas propias** hechas en Canva, pero **no** vender contenido de Canva suelto (clipart, fotos). **Si la plantilla usa elementos Pro, solo se puede vender como enlace de plantilla de Canva** (no como archivo exportado). ([canva help](https://www.canva.com/help/licenses-copyright-legal-commercial-use/), [productos para vender](https://www.canva.com/help/using-canva-to-create-products-for-sale/))
+- Implicación de diseño: usar **solo elementos gratuitos o propios** y entregar como enlace de plantilla, así sirve a compradores con Canva gratis. Pendiente: leer la sección 5 del Content License Agreement completo antes de la Fase 3.
