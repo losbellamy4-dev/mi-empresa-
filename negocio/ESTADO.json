@@ -1,13 +1,13 @@
 {
   "fase": 2,
-  "dia_global": 19,
+  "dia_global": 20,
   "idea_elegida": null,
   "checkpoints": [],
   "bloqueado_por_humano": false,
   "decision_pendiente": "Elegir idea A/B/C. Recomendación Día 8: B como catálogo (inmobiliarias + psicólogos, 17/29 €) vendido en web ES (Payhip) + Etsy con anuncios en español E INGLÉS. Ver 🔴_ACCION_REQUERIDA.md. Responder en negocio/RESPUESTA_HUMANO.md.",
-  "ultima_sesion": "2026-11-26",
-  "hecho_ultima_sesion": "Día 18: la sesión arrancó en el Día 1 (10.ª vez), pero se detectó al inicio y se hizo fast-forward a dcbtqp (sin rehacer nada). Maquetas SVG completas: #5 (2), #7 (2), #8 (2), #9 (3), #10 (12 iconos), más #2 post/story B y #3/#4 B → 34 maquetas del pack (216 SVG). Web v1: maquetas reales en web/assets, oferta alineada con Etsy (34 diseños + calendario), modo oscuro corregido.",
-  "siguiente_tarea": "1) git fetch + ponerse sobre la rama más avanzada y revisar RESPUESTA_HUMANO. 2) Mockups de Etsy del anuncio ancla v2 (pack completo + calendario + ES/EN) con producto/mockups. 3) Guía de uso en PDF para el comprador (cómo abrir el enlace de plantilla en Canva, cambiar fotos/colores). 4) Decidir el contenido del Pack Agencia (10 posts de temporada) o quitarlo de la web.",
+  "ultima_sesion": "2026-11-27",
+  "hecho_ultima_sesion": "Día 19: la sesión arrancó en el Día 1 (11.ª vez); se detectó al inicio y se hizo fast-forward a lilbm4. Mockups del anuncio ancla v2 (pack completo, 7 imágenes × ES/EN) en producto/mockups/png/pack_*. Guía del comprador en PDF ES/EN (producto/guia/) con enlaces de Canva pendientes. Tarjeta Pack Agencia ocultada en la web (no existe su contenido).",
+  "siguiente_tarea": "1) git fetch y ponerse sobre la rama más avanzada; revisar RESPUESTA_HUMANO. 2) Volver a correr el simulador con oferta de un solo nivel en la web (sin Pack Agencia 29 €) y registrar el efecto. 3) Paquete de lanzamiento de Etsy (carpeta con textos + 7 imágenes + guía + calendario) para el primer anuncio. 4) Empezar el segundo sector (psicólogos): especificación del pack.",
   "finalistas": {
     "A": "L13+L7 opositores",
     "B": "L5 inmobiliarias",
@@ -19,7 +19,7 @@
     "B": 0.35,
     "C": 0.23
   },
-  "nota_ramas": "Línea principal: 5cc7e21 → lauy9y (D2) → ise0l1 (D3) → fnmjjw (D4) → bb8zsu (D5) → wrrkun (D6) → e2k4ce (D7) → 2loft6 (D8). Todas las demás ramas confident-tesla-* son Días 2 duplicados (descartados). Rama por defecto (2gx72p) sigue en el Día 1. → 9sf6u8 (D9). Duplicados D2 adicionales: uph903, 1zg9sz, lfcc0k (13–15 nov). → 2hgi05 (D10). → tkfnj4 (D11; su commit de Día 2 duplicado queda en el historial pero anulado: el árbol es el de 2hgi05 + Día 11). → ucgjlr (D12, integra tkfnj4 por fast-forward/merge). → sff658 (D13). → b5hizx (D14, fast-forward desde sff658). → rzx5pl (D15: merge de b5hizx; el árbol es igual al de b5hizx más el registro del Día 15). → bc2ql2 (D16: merge de rzx5pl que conserva su árbol + registro; su Día 2 duplicado queda anulado). → dcbtqp (D17: merge de bc2ql2 que conserva su árbol; su Día 2 duplicado queda anulado). → lilbm4 (D18: fast-forward desde dcbtqp, sin duplicado).",
+  "nota_ramas": "Línea principal: 5cc7e21 → lauy9y (D2) → ise0l1 (D3) → fnmjjw (D4) → bb8zsu (D5) → wrrkun (D6) → e2k4ce (D7) → 2loft6 (D8). Todas las demás ramas confident-tesla-* son Días 2 duplicados (descartados). Rama por defecto (2gx72p) sigue en el Día 1. → 9sf6u8 (D9). Duplicados D2 adicionales: uph903, 1zg9sz, lfcc0k (13–15 nov). → 2hgi05 (D10). → tkfnj4 (D11; su commit de Día 2 duplicado queda en el historial pero anulado: el árbol es el de 2hgi05 + Día 11). → ucgjlr (D12, integra tkfnj4 por fast-forward/merge). → sff658 (D13). → b5hizx (D14, fast-forward desde sff658). → rzx5pl (D15: merge de b5hizx; el árbol es igual al de b5hizx más el registro del Día 15). → bc2ql2 (D16: merge de rzx5pl que conserva su árbol + registro; su Día 2 duplicado queda anulado). → dcbtqp (D17: merge de bc2ql2 que conserva su árbol; su Día 2 duplicado queda anulado). → lilbm4 (D18: fast-forward desde dcbtqp, sin duplicado). → ivpvmb (D19: fast-forward desde lilbm4, sin duplicado).",
   "prob_500_fase2_v1": {
     "A": 0.222,
     "B": 0.386,
@@ -38,7 +38,7 @@
     "escalera de 4 € en Etsy"
   ],
   "segundo_sector_B": "psicólogos (reserva: fisioterapia)",
-  "rama_mas_avanzada": "claude/confident-tesla-lilbm4",
+  "rama_mas_avanzada": "claude/confident-tesla-ivpvmb",
   "prob_500_fase2_v4": {
     "BB_etsyES": 0.416,
     "BB_hotmart": 0.318,
@@ -94,5 +94,6 @@
     "aditivo_30": 0.466,
     "aditivo_60": 0.482,
     "fuente": "simulador/resultados/dia14.md"
-  }
+  },
+  "pack_agencia": "oculto en la web desde el Día 19; el simulador aún usa el nivel de 29 € en los escenarios niv/catálogo"
 }

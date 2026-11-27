@@ -409,3 +409,24 @@ Diario del proyecto. Una entrada por sesión. Fecha límite de entrega: 15 de ma
 **Bloqueos (🔴)**: 1) cambiar la rama por defecto a `claude/confident-tesla-lilbm4` (o fusionar su PR); 2) elegir la idea (pendiente desde el Día 4).
 
 **Primera tarea de la próxima sesión**: `git fetch` y ponerse sobre la rama más avanzada. Después, mockups de Etsy del anuncio ancla v2 y guía de uso en PDF para el comprador.
+
+---
+
+## Día 19 — 2026-11-27 (Fase 2, preparando Fase 3: anuncio ancla y guía del comprador)
+
+**Continuidad**
+- La sesión volvió a arrancar en el **Día 1** (11.ª vez, rama `ivpvmb`). Lo detecté **al inicio** con `git fetch` e hice fast-forward a `lilbm4` (Día 18) sin rehacer nada.
+- No hay `RESPUESTA_HUMANO.md` en ninguna rama. La elección de idea sigue pendiente, así que seguí con trabajo para B que no depende de esa decisión.
+
+**Avances**
+- `producto/mockups/mockups_pack.py`: **7 imágenes del anuncio ancla v2** (pack completo de 22 $), en ES y EN: portada, todo lo que incluye, calendario de 30 días, bilingüe, stories y destacadas, tres paletas y qué recibes. Las revisé renderizadas y recoloqué la portada, el calendario y las stories, que quedaban descentrados.
+- `producto/guia/`: **guía del comprador en PDF (ES/EN, A4, 2 páginas)**. Lleva 5 pasos para editar en Canva, una tabla con los 10 grupos de plantillas (comprueba que suman 34) y sus enlaces, trucos, aviso de responsabilidad y licencia. Los enlaces de Canva salen como "[enlace pendiente]" hasta que Adrián monte las plantillas (🔴).
+- `web/index.html`: **oculta la tarjeta del Pack Agencia (29 €)**. Prometía 10 posts de temporada y 3 paletas extra que no existen. La web queda con un solo pack (17 €), coherente con Etsy.
+
+**Riesgo / aprendizaje**
+- Al ocultar el nivel de 29 €, la web ya no es la del escenario "niv" del simulador. Los escenarios de catálogo (BB+2EN, 42 %) usaban ese nivel como empuje de ticket medio. Mañana hay que volver a correr el simulador con un solo nivel para no arrastrar una probabilidad que la oferta real ya no respalda.
+- El simulador no se ha corrido hoy: los mockups y la guía no cambian ningún parámetro.
+
+**Bloqueos (🔴)**: 1) cambiar la rama por defecto a `claude/confident-tesla-ivpvmb` (o fusionar su PR); 2) elegir la idea (pendiente desde el Día 4); 3) cuando se elija B: enlaces de Canva en la guía.
+
+**Primera tarea de la próxima sesión**: `git fetch` y ponerse sobre la rama más avanzada. Después, volver a correr el simulador sin el Pack Agencia y anotar cuánto cambia P(≥500 €).
