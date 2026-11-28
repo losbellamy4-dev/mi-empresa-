@@ -1,0 +1,54 @@
+{
+ "n": 8000,
+ "semilla": 42,
+ "ref_dia13": {
+  "desc": "Referencia Día 13/14: 17/29 € en todos los canales",
+  "mediana": 368.6848829398514,
+  "p10": -18.227528290521484,
+  "p90": 2370.7434740244375,
+  "prob_500": 0.42975,
+  "prob_0_ventas": 0.06975,
+  "ventas_mediana": 31.0,
+  "media": 1031.0090932991393
+ },
+ "un_nivel_17": {
+  "desc": "Un nivel: 17 € web/Etsy-ES, Etsy-EN también 17 €",
+  "mediana": 325.0980487603305,
+  "p10": -20.479041322314053,
+  "p90": 2075.079954876033,
+  "prob_500": 0.39125,
+  "prob_0_ventas": 0.07125,
+  "ventas_mediana": 32.0,
+  "media": 873.6558400326423
+ },
+ "un_nivel_ancla": {
+  "desc": "Un nivel: 17 € web/Etsy-ES, ancla 22 $ en Etsy-EN",
+  "mediana": 362.109320661157,
+  "p10": -20.479041322314053,
+  "p90": 2365.262589586777,
+  "prob_500": 0.420125,
+  "prob_0_ventas": 0.07125,
+  "ventas_mediana": 32.0,
+  "media": 998.2273364188002
+ },
+ "ancla+sueltos_canibal": {
+  "desc": "Igual + 30 % sueltos 5 $ que sustituyen ventas del pack",
+  "mediana": 305.5560680165289,
+  "p10": -20.479041322314053,
+  "p90": 1936.60376014876,
+  "prob_500": 0.377125,
+  "prob_0_ventas": 0.07125,
+  "ventas_mediana": 32.0,
+  "media": 817.8293546151402
+ },
+ "ancla+sueltos_aditivo": {
+  "desc": "Igual + 30 % sueltos 5 $ como ventas extra",
+  "mediana": 379.7425017355372,
+  "p10": -20.479041322314053,
+  "p90": 2512.8593175371902,
+  "prob_500": 0.434,
+  "prob_0_ventas": 0.067875,
+  "ventas_mediana": 39.0,
+  "media": 1091.802115904464
+ }
+}
