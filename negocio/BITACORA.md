@@ -430,3 +430,34 @@ Diario del proyecto. Una entrada por sesión. Fecha límite de entrega: 15 de ma
 **Bloqueos (🔴)**: 1) cambiar la rama por defecto a `claude/confident-tesla-ivpvmb` (o fusionar su PR); 2) elegir la idea (pendiente desde el Día 4); 3) cuando se elija B: enlaces de Canva en la guía.
 
 **Primera tarea de la próxima sesión**: `git fetch` y ponerse sobre la rama más avanzada. Después, volver a correr el simulador sin el Pack Agencia y anotar cuánto cambia P(≥500 €).
+
+---
+
+## Día 20 — 2026-11-28 (Fase 2, preparando Fase 3: oferta real en el simulador y paquete de Etsy)
+
+**Continuidad**
+- La sesión volvió a arrancar en el **Día 1** (12.ª vez, rama `npcn86`). Lo detecté al inicio con `git fetch` e hice fast-forward a `ivpvmb` (Día 19). No hay `RESPUESTA_HUMANO.md` en ninguna rama.
+
+**Avances**
+- **Punto de control del simulador** (`simulador/dia20.py` → `resultados/dia20.md`): quité el Pack Agencia (29 €) de todas las piezas, porque la web ya no lo vende. Resultados para el catálogo `BB+2EN` en el escenario `oferta_grande`:
+  - con Pack Agencia (referencia del Día 13): **43,0 %**;
+  - un solo nivel a 17 € en todos los canales: 39,1 %;
+  - **un solo nivel con el ancla de 22 $ en Etsy-EN (la oferta real): 42,0 %**, es decir, −1,0 pp;
+  - con un 30 % de ventas sueltas a 5 $: 37,7 % si sustituyen al pack y 43,4 % si son ventas extra.
+- **Paquete de lanzamiento del anuncio ancla** en `entregables/paquete_etsy_anuncio1/`. Lo genera `producto/paquete_etsy.py`, que además comprueba los límites: título de 140 caracteres como máximo, 13 etiquetas de hasta 20 y hasta 5 archivos digitales de 20 MB, límite verificado en la ayuda de Etsy. Incluye:
+  - textos en texto plano, en inglés y en español, para copiar y pegar;
+  - `LEEME.md`, una lista de 9 pasos en orden con los 🔴 marcados;
+  - `MANIFIESTO.json` con las imágenes y los PDF;
+  - un `--zip` opcional (10 MB, fuera de git).
+- **Incoherencia corregida**: los anuncios prometían una "guía de 1 página" y la guía tiene 2. He corregido `anuncios_prueba.py` y regenerado `ANUNCIOS_PRUEBA.md`.
+
+**Aprendizaje**
+- Que el Pack Agencia desapareciera casi no cambia la probabilidad: su efecto lo compensa el ancla de 22 $, que deja más neto por venta (13,98 € frente a 11,66 € a 17 €). El riesgo principal sigue siendo que el canal Etsy-EN arranque o no. El nivel de precios importa mucho menos.
+- El veredicto sigue en **NO** con supuestos conservadores. La nueva cifra de referencia es el 42,0 %.
+
+**Bloqueos (🔴)**:
+1. Cambiar la rama por defecto a `claude/confident-tesla-npcn86`, o fusionar su PR.
+2. Elegir la idea (pendiente desde el Día 4).
+3. Para publicar: cuenta de Canva, enlaces en la guía, fotos de stock con licencia y cuenta de Etsy del adulto (ver la lista del paquete).
+
+**Primera tarea de la próxima sesión**: `git fetch` y ponerse sobre la rama más avanzada. Después, especificación del pack del segundo sector (psicólogos).

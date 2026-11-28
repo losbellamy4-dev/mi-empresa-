@@ -1,0 +1,80 @@
+{
+ "imagenes_en": [
+  {
+   "ruta": "producto/mockups/png/pack_1_portada_en.png",
+   "kb": 1007
+  },
+  {
+   "ruta": "producto/mockups/png/pack_2_todo_en.png",
+   "kb": 1086
+  },
+  {
+   "ruta": "producto/mockups/png/pack_3_calendario_en.png",
+   "kb": 322
+  },
+  {
+   "ruta": "producto/mockups/png/pack_4_bilingue_en.png",
+   "kb": 1029
+  },
+  {
+   "ruta": "producto/mockups/png/pack_5_stories_en.png",
+   "kb": 1008
+  },
+  {
+   "ruta": "producto/mockups/png/pack_6_paletas_en.png",
+   "kb": 406
+  },
+  {
+   "ruta": "producto/mockups/png/pack_7_incluye_en.png",
+   "kb": 311
+  }
+ ],
+ "imagenes_es": [
+  {
+   "ruta": "producto/mockups/png/pack_1_portada_es.png",
+   "kb": 1045
+  },
+  {
+   "ruta": "producto/mockups/png/pack_2_todo_es.png",
+   "kb": 1102
+  },
+  {
+   "ruta": "producto/mockups/png/pack_3_calendario_es.png",
+   "kb": 327
+  },
+  {
+   "ruta": "producto/mockups/png/pack_4_bilingue_es.png",
+   "kb": 1031
+  },
+  {
+   "ruta": "producto/mockups/png/pack_5_stories_es.png",
+   "kb": 1026
+  },
+  {
+   "ruta": "producto/mockups/png/pack_6_paletas_es.png",
+   "kb": 432
+  },
+  {
+   "ruta": "producto/mockups/png/pack_7_incluye_es.png",
+   "kb": 326
+  }
+ ],
+ "archivos_comprador": [
+  {
+   "ruta": "producto/guia/guia_en.pdf",
+   "kb": 160
+  },
+  {
+   "ruta": "producto/guia/guia_es.pdf",
+   "kb": 163
+  },
+  {
+   "ruta": "producto/calendario/calendario_en.pdf",
+   "kb": 66
+  },
+  {
+   "ruta": "producto/calendario/calendario_es.pdf",
+   "kb": 66
+  }
+ ]
+}

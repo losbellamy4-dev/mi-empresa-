@@ -4,7 +4,7 @@ Uso: python3 anuncios_prueba.py  → escribe ANUNCIOS_PRUEBA.md
 """
 from pathlib import Path
 
-COMUN_EN = ("**What you get:** a PDF with your Canva template link(s) and a 1-page how-to guide. "
+COMUN_EN = ("**What you get:** a 2-page PDF guide with your Canva template link(s) and step-by-step instructions. "
             "Click the link, the template opens in your own Canva account (a FREE Canva account works), "
             "then change photos, colors, fonts and text in minutes.\n\n"
             "**Sizes:** Instagram post 1080×1350 px (4:5){extra}.\n\n"
@@ -12,7 +12,7 @@ COMUN_EN = ("**What you get:** a PDF with your Canva template link(s) and a 1-pa
             "placeholders and are NOT included. Templates contain example text only; you are responsible for the "
             "accuracy of your listings and for following your local advertising rules.\n\n"
             "{upsell}")
-COMUN_ES = ("**Qué recibes:** un PDF con el enlace a tu plantilla de Canva y una guía de 1 página. "
+COMUN_ES = ("**Qué recibes:** una guía en PDF de 2 páginas con el enlace a tus plantillas de Canva y los pasos para editarlas. "
             "Abres el enlace, la plantilla se copia en tu cuenta de Canva (vale la GRATUITA) y cambias fotos, colores, "
             "tipografías y textos en minutos.\n\n"
             "**Formatos:** post de Instagram 1080×1350 px (4:5){extra}.\n\n"

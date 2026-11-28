@@ -18,7 +18,7 @@ A complete, matching Instagram kit for real estate agents, plus a 30-day calenda
 
 **Included:** Just Listed (4) · Open House post + story (4) · Just Sold (2) · Under Contract (2) · Price Reduced (2) · Tips carousel, 7 slides (1) · Testimonial (2) · Meet the Agent (2) · Property tour stories (3) · Highlight covers (12 icons) · 30-Day Posting Calendar (PDF, EN + ES).
 
-**What you get:** a PDF with your Canva template link(s) and a 1-page how-to guide. Click the link, the template opens in your own Canva account (a FREE Canva account works), then change photos, colors, fonts and text in minutes.
+**What you get:** a 2-page PDF guide with your Canva template link(s) and step-by-step instructions. Click the link, the template opens in your own Canva account (a FREE Canva account works), then change photos, colors, fonts and text in minutes.
 
 **Sizes:** Instagram post 1080×1350 px (4:5), Instagram story 1080×1920 px, highlight covers 1080×1080 px and a 7-slide carousel.
 
@@ -32,7 +32,7 @@ Un kit completo y a juego para inmobiliarias, con un calendario de 30 días que 
 
 **Incluye:** Nuevo en cartera (4) · Puertas abiertas post + story (4) · Vendido (2) · Reservado (2) · Bajada de precio (2) · Carrusel de consejos, 7 diapositivas (1) · Testimonio (2) · Preséntate (2) · Stories de visita (3) · Portadas de destacadas (12 iconos) · Calendario de 30 días (PDF, ES + EN).
 
-**Qué recibes:** un PDF con el enlace a tu plantilla de Canva y una guía de 1 página. Abres el enlace, la plantilla se copia en tu cuenta de Canva (vale la GRATUITA) y cambias fotos, colores, tipografías y textos en minutos.
+**Qué recibes:** una guía en PDF de 2 páginas con el enlace a tus plantillas de Canva y los pasos para editarlas. Abres el enlace, la plantilla se copia en tu cuenta de Canva (vale la GRATUITA) y cambias fotos, colores, tipografías y textos en minutos.
 
 **Formatos:** post de Instagram 1080×1350 px (4:5), story 1080×1920 px, portadas 1080×1080 px y un carrusel de 7 diapositivas.
 
@@ -52,7 +52,7 @@ Un kit completo y a juego para inmobiliarias, con un calendario de 30 días que 
 
 Announce every new listing with a clean, professional post. 4 designs × 3 color palettes, in English and Spanish.
 
-**What you get:** a PDF with your Canva template link(s) and a 1-page how-to guide. Click the link, the template opens in your own Canva account (a FREE Canva account works), then change photos, colors, fonts and text in minutes.
+**What you get:** a 2-page PDF guide with your Canva template link(s) and step-by-step instructions. Click the link, the template opens in your own Canva account (a FREE Canva account works), then change photos, colors, fonts and text in minutes.
 
 **Sizes:** Instagram post 1080×1350 px (4:5).
 
@@ -64,7 +64,7 @@ Announce every new listing with a clean, professional post. 4 designs × 3 color
 
 Anuncia cada inmueble nuevo con un post limpio y profesional. 4 diseños × 3 paletas, en español e inglés.
 
-**Qué recibes:** un PDF con el enlace a tu plantilla de Canva y una guía de 1 página. Abres el enlace, la plantilla se copia en tu cuenta de Canva (vale la GRATUITA) y cambias fotos, colores, tipografías y textos en minutos.
+**Qué recibes:** una guía en PDF de 2 páginas con el enlace a tus plantillas de Canva y los pasos para editarlas. Abres el enlace, la plantilla se copia en tu cuenta de Canva (vale la GRATUITA) y cambias fotos, colores, tipografías y textos en minutos.
 
 **Formatos:** post de Instagram 1080×1350 px (4:5).
 
@@ -84,7 +84,7 @@ Anuncia cada inmueble nuevo con un post limpio y profesional. 4 diseños × 3 pa
 
 Fill your open house: 2 posts + 2 matching stories with date, time and address placeholders, in English and Spanish.
 
-**What you get:** a PDF with your Canva template link(s) and a 1-page how-to guide. Click the link, the template opens in your own Canva account (a FREE Canva account works), then change photos, colors, fonts and text in minutes.
+**What you get:** a 2-page PDF guide with your Canva template link(s) and step-by-step instructions. Click the link, the template opens in your own Canva account (a FREE Canva account works), then change photos, colors, fonts and text in minutes.
 
 **Sizes:** Instagram post 1080×1350 px (4:5) and Instagram story 1080×1920 px.
 
@@ -96,7 +96,7 @@ Fill your open house: 2 posts + 2 matching stories with date, time and address p
 
 Llena tu jornada de puertas abiertas: 2 posts + 2 stories a juego con huecos para fecha, hora y dirección, en español e inglés.
 
-**Qué recibes:** un PDF con el enlace a tu plantilla de Canva y una guía de 1 página. Abres el enlace, la plantilla se copia en tu cuenta de Canva (vale la GRATUITA) y cambias fotos, colores, tipografías y textos en minutos.
+**Qué recibes:** una guía en PDF de 2 páginas con el enlace a tus plantillas de Canva y los pasos para editarlas. Abres el enlace, la plantilla se copia en tu cuenta de Canva (vale la GRATUITA) y cambias fotos, colores, tipografías y textos en minutos.
 
 **Formatos:** post de Instagram 1080×1350 px (4:5) y story 1080×1920 px.
 
@@ -116,7 +116,7 @@ Llena tu jornada de puertas abiertas: 2 posts + 2 stories a juego con huecos par
 
 Celebrate every closing: 2 'Just Sold' + 2 'Under Contract' designs, in English and Spanish.
 
-**What you get:** a PDF with your Canva template link(s) and a 1-page how-to guide. Click the link, the template opens in your own Canva account (a FREE Canva account works), then change photos, colors, fonts and text in minutes.
+**What you get:** a 2-page PDF guide with your Canva template link(s) and step-by-step instructions. Click the link, the template opens in your own Canva account (a FREE Canva account works), then change photos, colors, fonts and text in minutes.
 
 **Sizes:** Instagram post 1080×1350 px (4:5).
 
@@ -128,7 +128,7 @@ Celebrate every closing: 2 'Just Sold' + 2 'Under Contract' designs, in English 
 
 Celebra cada operación: 2 diseños 'Vendido' + 2 'Reservado', en español e inglés.
 
-**Qué recibes:** un PDF con el enlace a tu plantilla de Canva y una guía de 1 página. Abres el enlace, la plantilla se copia en tu cuenta de Canva (vale la GRATUITA) y cambias fotos, colores, tipografías y textos en minutos.
+**Qué recibes:** una guía en PDF de 2 páginas con el enlace a tus plantillas de Canva y los pasos para editarlas. Abres el enlace, la plantilla se copia en tu cuenta de Canva (vale la GRATUITA) y cambias fotos, colores, tipografías y textos en minutos.
 
 **Formatos:** post de Instagram 1080×1350 px (4:5).
 
@@ -148,7 +148,7 @@ Celebra cada operación: 2 diseños 'Vendido' + 2 'Reservado', en español e ing
 
 Never wonder what to post: a 30-day calendar with a post idea and goal for each day, plus a 7-slide tips carousel template. The calendar refers to the templates in our full bundle, but works with any designs you already have.
 
-**What you get:** a PDF with your Canva template link(s) and a 1-page how-to guide. Click the link, the template opens in your own Canva account (a FREE Canva account works), then change photos, colors, fonts and text in minutes.
+**What you get:** a 2-page PDF guide with your Canva template link(s) and step-by-step instructions. Click the link, the template opens in your own Canva account (a FREE Canva account works), then change photos, colors, fonts and text in minutes.
 
 **Sizes:** Instagram post 1080×1350 px (4:5), 7-slide carousel; calendar as printable PDF (A4/Letter landscape).
 
@@ -160,7 +160,7 @@ Never wonder what to post: a 30-day calendar with a post idea and goal for each 
 
 Deja de pensar qué publicar: un calendario de 30 días con una idea y un objetivo para cada día, más una plantilla de carrusel de 7 diapositivas. El calendario se refiere a las plantillas de nuestro pack completo, pero sirve con cualquier diseño que ya tengas.
 
-**Qué recibes:** un PDF con el enlace a tu plantilla de Canva y una guía de 1 página. Abres el enlace, la plantilla se copia en tu cuenta de Canva (vale la GRATUITA) y cambias fotos, colores, tipografías y textos en minutos.
+**Qué recibes:** una guía en PDF de 2 páginas con el enlace a tus plantillas de Canva y los pasos para editarlas. Abres el enlace, la plantilla se copia en tu cuenta de Canva (vale la GRATUITA) y cambias fotos, colores, tipografías y textos en minutos.
 
 **Formatos:** post de Instagram 1080×1350 px (4:5), carrusel de 7 diapositivas; calendario en PDF imprimible (A4 horizontal).
 
